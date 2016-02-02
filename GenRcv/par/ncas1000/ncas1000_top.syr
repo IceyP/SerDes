@@ -1,0 +1,2027 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: ncas1000_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ncas1000_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ncas1000_top"
+Output Format                      : NGC
+Target Device                      : xc7k160t-2-ffg676
+
+---- Source Options
+Top Module Name                    : ncas1000_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" into library work
+Parsing module <aurora_8b10b_gtx1_gt>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_tx_ll_datapath.v" into library work
+Parsing module <aurora_8b10b_gtx1_TX_LL_DATAPATH>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_tx_ll_control.v" into library work
+Parsing module <aurora_8b10b_gtx1_TX_LL_CONTROL>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_sym_gen.v" into library work
+Parsing module <aurora_8b10b_gtx1_SYM_GEN>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_sym_dec.v" into library work
+Parsing module <aurora_8b10b_gtx1_SYM_DEC>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_rx_ll_pdu_datapath.v" into library work
+Parsing module <aurora_8b10b_gtx1_RX_LL_PDU_DATAPATH>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_lane_init_sm.v" into library work
+Parsing module <aurora_8b10b_gtx1_LANE_INIT_SM>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_idle_and_ver_gen.v" into library work
+Parsing module <aurora_8b10b_gtx1_IDLE_AND_VER_GEN>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_hotplug.v" into library work
+Parsing module <aurora_8b10b_gtx1_hotplug>.
+Parsing module <aurora_8b10b_gtx1_cir_fifo>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_err_detect.v" into library work
+Parsing module <aurora_8b10b_gtx1_ERR_DETECT>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_chbond_count_dec.v" into library work
+Parsing module <aurora_8b10b_gtx1_CHBOND_COUNT_DEC>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_channel_init_sm.v" into library work
+Parsing module <aurora_8b10b_gtx1_CHANNEL_INIT_SM>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_channel_err_detect.v" into library work
+Parsing module <aurora_8b10b_gtx1_CHANNEL_ERR_DETECT>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" into library work
+Parsing module <aurora_8b10b_gtx1_multi_gt>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_tx_ll.v" into library work
+Parsing module <aurora_8b10b_gtx1_TX_LL>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_rx_ll.v" into library work
+Parsing module <aurora_8b10b_gtx1_RX_LL>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_ll_to_axi.v" into library work
+Parsing module <aurora_8b10b_gtx1_LL_TO_AXI>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_global_logic.v" into library work
+Parsing module <aurora_8b10b_gtx1_GLOBAL_LOGIC>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_axi_to_ll.v" into library work
+Parsing module <aurora_8b10b_gtx1_AXI_TO_LL>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_aurora_lane.v" into library work
+Parsing module <aurora_8b10b_gtx1_AURORA_LANE>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" into library work
+Parsing module <aurora_8b10b_gtx1_GT_WRAPPER>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\example_design\clock_module\aurora_8b10b_gtx1_clock_module.v" into library work
+Parsing module <aurora_8b10b_gtx1_CLOCK_MODULE>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\example_design\cc_manager\aurora_8b10b_gtx1_standard_cc_module.v" into library work
+Parsing module <aurora_8b10b_gtx1_STANDARD_CC_MODULE>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_reset_logic.v" into library work
+Parsing module <aurora_8b10b_gtx1_RESET_LOGIC>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" into library work
+Parsing module <aurora_8b10b_gtx1>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" into library work
+Parsing module <aurora_8b10b_gtx1_exdes>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" into library work
+Parsing module <s6_pll_27m>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" into library work
+Parsing module <gtx_rxtx>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\common_block.v" into library work
+Parsing module <common_block>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" into library work
+Parsing module <aurora_8b10b_v8_3_FRAME_GEN>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\clk_rst\gen_rst.v" into library work
+Parsing module <gen_rst>.
+Analyzing Verilog file "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" into library work
+Parsing module <ncas1000_top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <ncas1000_top>.
+WARNING:HDLCompiler:413 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 129: Result of 29-bit expression is truncated to fit in 28-bit target.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 145: Assignment to serdes_rst ignored, since the identifier is never used
+
+Elaborating module <IBUFG>.
+
+Elaborating module <gen_rst>.
+WARNING:HDLCompiler:413 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\clk_rst\gen_rst.v" Line 46: Result of 29-bit expression is truncated to fit in 28-bit target.
+
+Elaborating module <s6_pll_27m>.
+
+Elaborating module <MMCME2_ADV(BANDWIDTH="OPTIMIZED",CLKOUT4_CASCADE="FALSE",COMPENSATION="ZHOLD",STARTUP_WAIT="FALSE",DIVCLK_DIVIDE=1,CLKFBOUT_MULT_F=51.375,CLKFBOUT_PHASE=0.0,CLKFBOUT_USE_FINE_PS="FALSE",CLKOUT0_DIVIDE_F=13.875,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT0_USE_FINE_PS="FALSE",CLKOUT1_DIVIDE=11,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT1_USE_FINE_PS="FALSE",CLKIN1_PERIOD=37.037,REF_JITTER1=0.01)>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 132: Assignment to clkfboutb_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 134: Assignment to clkout0b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 136: Assignment to clkout1b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 137: Assignment to clkout2_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 138: Assignment to clkout2b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 139: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 140: Assignment to clkout3b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 141: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 142: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 143: Assignment to clkout6_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 155: Assignment to do_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 156: Assignment to drdy_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 162: Assignment to psdone_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 165: Assignment to clkinstopped_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 166: Assignment to clkfbstopped_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <IBUFDS_GTE2>.
+
+Elaborating module <common_block>.
+
+Elaborating module <GTXE2_COMMON(SIM_RESET_SPEEDUP="TRUE",SIM_QPLLREFCLK_SEL=3'b01,SIM_VERSION="4.0",BIAS_CFG=64'b01000000000000000000000000000001000000000000,COMMON_CFG=32'b0,QPLL_CFG=27'b011010000000000111000001,QPLL_CLKOUT_CFG=4'b0,QPLL_COARSE_FREQ_OVRD=6'b010000,QPLL_COARSE_FREQ_OVRD_EN=1'b0,QPLL_CP=10'b011111,QPLL_CP_MONITOR_EN=1'b0,QPLL_DMONITOR_SEL=1'b0,QPLL_FBDIV=10'b010000000,QPLL_FBDIV_MONITOR_EN=1'b0,QPLL_FBDIV_RATIO=1'b1,QPLL_INIT_CFG=24'b0110,QPLL_LOCK_CFG=16'b010000111101000,QPLL_LPF=4'b1111,QPLL_REFCLK_DIV=1)>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\common_block.v" Line 129: Assignment to GT0_QPLLLOCK_OUT ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 209: Assignment to gt1_qpllclk_quad2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 210: Assignment to gt1_qpllrefclk_quad2 ignored, since the identifier is never used
+
+Elaborating module <gtx_rxtx>.
+
+Elaborating module <aurora_8b10b_gtx1_exdes>.
+
+Elaborating module <aurora_8b10b_gtx1_CLOCK_MODULE>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" Line 250: Assignment to tied_to_gnd_vec_i ignored, since the identifier is never used
+
+Elaborating module <aurora_8b10b_gtx1(SIM_GTRESET_SPEEDUP="TRUE")>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" Line 288: Assignment to tied_to_gnd_vec_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" Line 290: Assignment to tied_to_ground_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" Line 291: Assignment to tied_to_vcc_i ignored, since the identifier is never used
+
+Elaborating module <aurora_8b10b_gtx1_AURORA_LANE>.
+
+Elaborating module <aurora_8b10b_gtx1_LANE_INIT_SM>.
+
+Elaborating module <FDR>.
+
+Elaborating module <aurora_8b10b_gtx1_CHBOND_COUNT_DEC>.
+
+Elaborating module <aurora_8b10b_gtx1_SYM_GEN>.
+
+Elaborating module <aurora_8b10b_gtx1_SYM_DEC>.
+
+Elaborating module <aurora_8b10b_gtx1_ERR_DETECT>.
+
+Elaborating module <aurora_8b10b_gtx1_hotplug>.
+
+Elaborating module <aurora_8b10b_gtx1_cir_fifo>.
+
+Elaborating module <aurora_8b10b_gtx1_GT_WRAPPER(SIM_GTRESET_SPEEDUP="TRUE")>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 224: Assignment to tied_to_ground_vec_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 225: Assignment to tied_to_vcc_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 226: Assignment to tied_to_vcc_vec_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 230: Assignment to chbondi ignored, since the identifier is never used
+WARNING:HDLCompiler:1016 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 164: Port RXDFEAGCHOLD_IN is not connected to this instance
+
+Elaborating module <aurora_8b10b_gtx1_multi_gt(WRAPPER_SIM_GTRESET_SPEEDUP="TRUE")>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 153: Assignment to tied_to_ground_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 154: Assignment to tied_to_ground_vec_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 155: Assignment to tied_to_vcc_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 156: Assignment to tied_to_vcc_vec_i ignored, since the identifier is never used
+
+Elaborating module <aurora_8b10b_gtx1_gt(GT_SIM_GTRESET_SPEEDUP="TRUE",RX_DFE_KL_CFG2_IN=32'b0110000000100001101100100001100,PCS_RSVD_ATTR_IN=48'b0,PMA_RSV_IN=32'b011000010010000000)>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 201: Assignment to tied_to_vcc_vec_i ignored, since the identifier is never used
+
+Elaborating module
+<GTXE2_CHANNEL(SIM_RECEIVER_DETECT_PASS="TRUE",SIM_TX_EIDLE_DRIVE_LEVEL="X",SIM_RESET_SPEEDUP="TRUE",SIM_CPLLREFCLK_SEL=3'b01,SIM_VERSION="4.0",ALIGN_COMMA_DOUBLE="FALSE",ALIGN_COMMA_ENABLE=10'b1111111111,ALIGN_COMMA_WORD=2,ALIGN_MCOMMA_DET="TRUE",ALIGN_MCOMMA_VALUE=10'b1010000011,ALIGN_PCOMMA_DET="TRUE",ALIGN_PCOMMA_VALUE=10'b0101111100,SHOW_REALIGN_COMMA="TRUE",RXSLIDE_AUTO_WAIT=7,RXSLIDE_MODE="OFF",RX_SIG_VALID_DLY=10,RX_DISPERR_SEQ_MATCH="TRUE",DEC_MCOMMA_DETECT="TRUE",DEC_PCOMMA_DETECT="TRUE",DEC_VALID_COMMA_ONLY="FALSE",CBCC_DATA_SOURCE_SEL="DECODED",CLK_COR_SEQ_2_USE="FALSE",CLK_COR_KEEP_IDLE="FALSE",CLK_COR_MAX_LAT=15,CLK_COR_MIN_LAT=12,CLK_COR_PRECEDENCE="TRUE",CLK_COR_REPEAT_WAIT=0,CLK_COR_SEQ_LEN=2,CLK_COR_SEQ_1_ENABLE=4'b1111,CLK_COR_SEQ_1_1=10'b0111110111,CLK_COR_SEQ_1_2=10'b0111110111,CLK_COR_SEQ_1_3=10'b0100000000,CLK_COR_SEQ_1_4=10'b0100000000,CLK_CORRECT_USE="TRUE",CLK_COR_SEQ_2_ENABLE=4'b1111,CLK_COR_SEQ_2_1=10'b0,CLK_COR_SEQ_2_2=10'b0,CLK_COR_SEQ_2_3=10'b0,CLK_COR_SEQ_2_4=10'b0,CHAN_BOND_KE
+EP_ALIGN="FALSE",CHAN_BOND_MAX_SKEW=1,CHAN_BOND_SEQ_LEN=1,CHAN_BOND_SEQ_1_1=10'b0,CHAN_BOND_SEQ_1_2=10'b0,CHAN_BOND_SEQ_1_3=10'b0,CHAN_BOND_SEQ_1_4=10'b0,CHAN_BOND_SEQ_1_ENABLE=4'b1111,CHAN_BOND_SEQ_2_1=10'b0,CHAN_BOND_SEQ_2_2=10'b0,CHAN_BOND_SEQ_2_3=10'b0,CHAN_BOND_SEQ_2_4=10'b0,CHAN_BOND_SEQ_2_ENABLE=4'b1111,CHAN_BOND_SEQ_2_USE="FALSE",FTS_DESKEW_SEQ_ENABLE=4'b1111,FTS_LANE_DESKEW_CFG=4'b1111,FTS_LANE_DESKEW_EN="FALSE",ES_CONTROL=6'b0,ES_ERRDET_EN="FALSE",ES_EYE_SCAN_EN="TRUE",ES_HORZ_OFFSET=12'b0,ES_PMA_CFG=10'b0,ES_PRESCALE=5'b0,ES_QUALIFIER=80'b0,ES_QUAL_MASK=80'b0,ES_SDATA_MASK=80'b0,ES_VERT_OFFSET=9'b0,RX_DATA_WIDTH=20,OUTREFCLK_SEL_INV=2'b11,PMA_RSV=32'b011000010010000000,PMA_RSV2=16'b010000001010000,PMA_RSV3=2'b0,PMA_RSV4=32'b0,RX_BIAS_CFG=12'b0100,DMONITOR_CFG=24'b0101000000000,RX_CM_SEL=2'b11,RX_CM_TRIM=3'b010,RX_DEBUG_CFG=12'b0,RX_OS_CFG=13'b010000000,TERM_RCAL_CFG=5'b10000,TERM_RCAL_OVRD=1'b0,TST_RSV=32'b0,RX_CLK25_DIV=5,TX_CLK25_DIV=5,UCODEER_CLR=1'b0,PCS_PCIE_EN="FALSE",PCS_RSVD_ATTR=48'b0,RXBU
+F_ADDR_MODE="FULL",RXBUF_EIDLE_HI_CNT=4'b1000,RXBUF_EIDLE_LO_CNT=4'b0,RXBUF_EN="TRUE",RX_BUFFER_CFG=6'b0,RXBUF_RESET_ON_CB_CHANGE="TRUE",RXBUF_RESET_ON_COMMAALIGN="FALSE",RXBUF_RESET_ON_EIDLE="FALSE",RXBUF_RESET_ON_RATE_CHANGE="TRUE",RXBUFRESET_TIME=5'b01,RXBUF_THRESH_OVFLW=61,RXBUF_THRESH_OVRD="FALSE",RXBUF_THRESH_UNDFLW=4,RXDLY_CFG=16'b011111,RXDLY_LCFG=9'b0110000,RXDLY_TAP_CFG=16'b0,RXPH_CFG=24'b0,RXPHDLY_CFG=24'b010000100000000100000,RXPH_MONITOR_SEL=5'b0,RX_XCLK_SEL="RXREC",RX_DDI_SEL=6'b0,RX_DEFER_RESET_BUF_EN="TRUE",RXCDR_CFG=72'b0110000000000000000001000111111111100100000010000000000000000100000,RXCDR_FR_RESET_ON_EIDLE=1'b0,RXCDR_HOLD_DURING_EIDLE=1'b0,RXCDR_PH_RESET_ON_EIDLE=1'b0,RXCDR_LOCK_CFG=6'b010101,RXCDRFREQRESET_TIME=5'b01,RXCDRPHRESET_TIME=5'b01,RXISCANRESET_TIME=5'b01,RXPCSRESET_TIME=5'b01,RXPMARESET_TIME=5'b011,RXOOB_CFG=7'b0110,RXGEARBOX_EN="FALSE",GEARBOX_MODE=3'b0,RXPRBS_ERR_LOOPBACK=1'b0,PD_TRANS_TIME_FROM_P2=12'b0111100,PD_TRANS_TIME_NONE_P2=8'b011001,PD_TRANS_TIME_TO_P2=8'b01100100,SA
+S_MAX_COM=64,SAS_MIN_COM=36,SATA_BURST_SEQ_LEN=4'b1111,SATA_BURST_VAL=3'b100,SATA_EIDLE_VAL=3'b100,SATA_MAX_BURST=8,SATA_MAX_INIT=21,SATA_MAX_WAKE=7,SATA_MIN_BURST=4,SATA_MIN_INIT=12,SATA_MIN_WAKE=4,TRANS_TIME_RATE=8'b01110,TXBUF_EN="TRUE",TXBUF_RESET_ON_RATE_CHANGE="TRUE",TXDLY_CFG=16'b011111,TXDLY_LCFG=9'b0110000,TXDLY_TAP_CFG=16'b0,TXPH_CFG=16'b011110000000,TXPHDLY_CFG=24'b010000100000000100000,TXPH_MONITOR_SEL=5'b0,TX_XCLK_SEL="TXOUT",TX_DATA_WIDTH=20,TX_DEEMPH0=5'b0,TX_DEEMPH1=5'b0,TX_EIDLE_ASSERT_DELAY=3'b110,TX_EIDLE_DEASSERT_DELAY=3'b100,TX_LOOPBACK_DRIVE_HIZ="FALSE",TX_MAINCURSOR_SEL=1'b0,TX_DRIVE_MODE="DIRECT",TX_MARGIN_FULL_0=7'b1001110,TX_MARGIN_FULL_1=7'b1001001,TX_MARGIN_FULL_2=7'b1000101,TX_MARGIN_FULL_3=7'b1000010,TX_MARGIN_FULL_4=7'b1000000,TX_MARGIN_LOW_0=7'b1000110,TX_MARGIN_LOW_1=7'b1000100,TX_MARGIN_LOW_2=7'b1000010,TX_MARGIN_LOW_3=7'b1000000,TX_MARGIN_LOW_4=7'b1000000,TXGEARBOX_EN="FALSE",TXPCSRESET_TIME=5'b01,TXPMARESET_TIME=5'b01,TX_RXDETECT_CFG=14'b01100000110010,TX_RXDETECT_REF=3'b10
+0,CPLL_CFG=24'b101111000000011111011100,CPLL_FBDIV=5,CPLL_FBDIV_45=5,CPLL_INIT_CFG=24'b011110,CPLL_LOCK_CFG=16'b0111101000,CPLL_REFCLK_DIV=1,RXOUT_DIV=1,TXOUT_DIV=1,SATA_CPLL_CFG="VCO_3000MHZ",RXDFELPMRESET_TIME=7'b01111,RXLPM_HF_CFG=14'b011110000,RXLPM_LF_CFG=14'b011110000,RX_DFE_GAIN_CFG=23'b0100000111111101010,RX_DFE_H2_CFG=12'b0,RX_DFE_H3_CFG=12'b01000000,RX_DFE_H4_CFG=11'b011110000,RX_DFE_H5_CFG=11'b011100000,RX_DFE_KL_CFG=13'b011111110,RX_DFE_LPM_CFG=16'b0100101010100,RX_DFE_LPM_HOLD_DURING_EIDLE=1'b0,RX_DFE_UT_CFG=17'b10001111000000000,RX_DFE_VP_CFG=17'b011111100000011,RX_CLKMUX_PD=1'b1,TX_CLKMUX_PD=1'b1,RX_INT_DATAWIDTH=0,TX_INT_DATAWIDTH=0,TX_QPI_STATUS_EN=1'b0,RX_DFE_KL_CFG2=32'b0110000000100001101100100001100,RX_DFE_XYD_CFG=13'b0,TX_PREDRIVER_MODE=1'b0>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 581: Assignment to rxdisperr_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 582: Assignment to rxnotintable_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 685: Assignment to rxchariscomma_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 686: Assignment to rxcharisk_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:552 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 173: Input port RXDFEAGCHOLD_IN is not connected on this instance
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 355: Assignment to open_rxbufstatus_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 363: Assignment to open_txbufstatus_i ignored, since the identifier is never used
+
+Elaborating module <aurora_8b10b_gtx1_GLOBAL_LOGIC>.
+
+Elaborating module <aurora_8b10b_gtx1_CHANNEL_INIT_SM>.
+
+Elaborating module <FD(INIT=1'b1)>.
+
+Elaborating module <aurora_8b10b_gtx1_IDLE_AND_VER_GEN>.
+
+Elaborating module <FDR(INIT=1'b0)>.
+
+Elaborating module <SRL16(INIT=16'b0)>.
+
+Elaborating module <FD(INIT=1'b0)>.
+
+Elaborating module <aurora_8b10b_gtx1_CHANNEL_ERR_DETECT>.
+
+Elaborating module <aurora_8b10b_gtx1_AXI_TO_LL(DATA_WIDTH=16,STRB_WIDTH=2,REM_WIDTH=1)>.
+
+Elaborating module <aurora_8b10b_gtx1_TX_LL>.
+
+Elaborating module <aurora_8b10b_gtx1_TX_LL_DATAPATH>.
+
+Elaborating module <aurora_8b10b_gtx1_TX_LL_CONTROL>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_tx_ll_control.v" Line 390: Assignment to channel_full_c ignored, since the identifier is never used
+
+Elaborating module <aurora_8b10b_gtx1_LL_TO_AXI(DATA_WIDTH=16,STRB_WIDTH=2,REM_WIDTH=1)>.
+
+Elaborating module <aurora_8b10b_gtx1_RX_LL>.
+
+Elaborating module <aurora_8b10b_gtx1_RX_LL_PDU_DATAPATH>.
+WARNING:HDLCompiler:552 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" Line 543: Input port AXI4_S_IP_TREADY is not connected on this instance
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" Line 316: Assignment to drdy_out_unused_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" Line 317: Assignment to drpdo_out_unused_i ignored, since the identifier is never used
+
+Elaborating module <aurora_8b10b_gtx1_STANDARD_CC_MODULE>.
+
+Elaborating module <aurora_8b10b_gtx1_RESET_LOGIC>.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 89: Assignment to hard_err ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 90: Assignment to soft_err ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 91: Assignment to frame_err ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 108: Assignment to gtx_rx_rem ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 101: Net <gtx_tx_rem> does not have a driver.
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 228: Assignment to gtp0_rx_sof_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 229: Assignment to gtp0_rx_eof_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 230: Assignment to gtp0_rx_dvalid_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 259: Assignment to gtp1_rx_sof_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 260: Assignment to gtp1_rx_eof_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 261: Assignment to gtp1_rx_dvalid_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 267: Assignment to gtp1_tx_dst_rdy_n_buf ignored, since the identifier is never used
+
+Elaborating module <aurora_8b10b_v8_3_FRAME_GEN>.
+WARNING:HDLCompiler:413 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 84: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 97: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 118: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 127: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 128: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 363: Result of 27-bit expression is truncated to fit in 26-bit target.
+WARNING:HDLCompiler:634 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 96: Net <gtp1_tx_data_buf[15]> does not have a driver.
+WARNING:HDLCompiler:634 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 97: Net <gtp1_tx_sof_n_buf> does not have a driver.
+WARNING:HDLCompiler:634 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 98: Net <gtp1_tx_eof_n_buf> does not have a driver.
+WARNING:HDLCompiler:634 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 99: Net <gtp1_tx_src_rdy_n_buf> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ncas1000_top>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v".
+    Set property "KEEP = TRUE" for signal <link_reset_gtx<1>>.
+    Set property "KEEP = TRUE" for signal <link_reset_gtx<0>>.
+    Set property "KEEP = TRUE" for signal <gtp0_rx_data>.
+    Set property "KEEP = TRUE" for signal <gtp1_rx_data>.
+    Set property "KEEP = TRUE" for signal <gtp0_tx_data_buf>.
+    Set property "KEEP = TRUE" for signal <clk_cfg>.
+    Set property "KEEP = TRUE" for signal <clk_125m>.
+    Set property "KEEP = TRUE" for signal <gtp0_tx_sof_n_buf>.
+    Set property "KEEP = TRUE" for signal <gtp0_tx_eof_n_buf>.
+    Set property "KEEP = TRUE" for signal <gtp0_tx_src_rdy_n_buf>.
+    Set property "KEEP = TRUE" for signal <gtp0_tx_dst_rdy_n_buf>.
+    Set property "KEEP = TRUE" for signal <gt0_gtrefclk0_common>.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 197: Output port <GT0_QPLLLOCK> of the instance <u0_common_block> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 197: Output port <GT0_QPLLREFCLKLOST> of the instance <u0_common_block> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 197: Output port <GT1_QPLLLOCK> of the instance <u0_common_block> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 197: Output port <GT1_QPLLCLK_QUAD2> of the instance <u0_common_block> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 197: Output port <GT1_QPLLREFCLK_QUAD2> of the instance <u0_common_block> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 197: Output port <GT1_QPLLREFCLKLOST> of the instance <u0_common_block> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 217: Output port <gtx_rx_data> of the instance <u0_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 217: Output port <lane_up> of the instance <u0_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 217: Output port <gtx_rx_sof_n> of the instance <u0_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 217: Output port <gtx_rx_eof_n> of the instance <u0_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 217: Output port <gtx_rx_dvalid_n> of the instance <u0_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 248: Output port <gtx_rx_data> of the instance <u1_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 248: Output port <lane_up> of the instance <u1_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 248: Output port <gtx_rx_sof_n> of the instance <u1_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 248: Output port <gtx_rx_eof_n> of the instance <u1_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 248: Output port <gtx_rx_dvalid_n> of the instance <u1_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 248: Output port <gtx_tx_dst_rdy_n> of the instance <u1_gtx_rxtx> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" line 280: Output port <TX_REM> of the instance <frame_gen_i> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <gtp1_tx_data_buf> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <gtp1_tx_sof_n_buf> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <gtp1_tx_eof_n_buf> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <gtp1_tx_src_rdy_n_buf> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 24-bit register for signal <channel_up0_cnt>.
+    Found 24-bit register for signal <channel_up1_cnt>.
+    Found 26-bit register for signal <led_cnt>.
+    Found 4-bit register for signal <debounce_gt_rst_r>.
+    Found 24-bit adder for signal <channel_up0_cnt[23]_GND_1_o_add_17_OUT> created at line 321.
+    Found 24-bit adder for signal <channel_up1_cnt[23]_GND_1_o_add_22_OUT> created at line 333.
+    Found 26-bit adder for signal <led_cnt[25]_GND_1_o_add_29_OUT> created at line 363.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal clk_125m may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal link_reset_gtx<1> may hinder XST clustering optimizations.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  78 D-type flip-flop(s).
+Unit <ncas1000_top> synthesized.
+
+Synthesizing Unit <gen_rst>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\clk_rst\gen_rst.v".
+        TIME_RESET = 8100000
+    Found 1-bit register for signal <rst_o>.
+    Found 28-bit register for signal <counter>.
+    Found 28-bit adder for signal <counter[27]_GND_3_o_add_2_OUT> created at line 46.
+    Found 28-bit comparator greater for signal <counter[27]_GND_3_o_LessThan_7_o> created at line 57
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <gen_rst> synthesized.
+
+Synthesizing Unit <s6_pll_27m>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v".
+    Summary:
+	no macro.
+Unit <s6_pll_27m> synthesized.
+
+Synthesizing Unit <common_block>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\common_block.v".
+        QPLL_FBDIV_TOP = 40
+        QPLL_FBDIV_IN = 10'b0010000000
+        QPLL_FBDIV_RATIO = 1'b1
+WARNING:Xst:653 - Signal <GT0_QPLLLOCK> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <common_block> synthesized.
+
+Synthesizing Unit <gtx_rxtx>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v".
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" line 85: Output port <HARD_ERR> of the instance <u0_aurora_8b10b_gtx1_exdes> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" line 85: Output port <SOFT_ERR> of the instance <u0_aurora_8b10b_gtx1_exdes> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" line 85: Output port <FRAME_ERR> of the instance <u0_aurora_8b10b_gtx1_exdes> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" line 85: Output port <RX_REM> of the instance <u0_aurora_8b10b_gtx1_exdes> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <gtx_tx_rem> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <gtx_rxtx> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_exdes>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v".
+        USE_CHIPSCOPE = 0
+        SIM_GTRESET_SPEEDUP = "TRUE"
+    Set property "KEEP = TRUE" for signal <init_clk_i>.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" line 264: Output port <DRPDO_OUT> of the instance <aurora_module_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" line 264: Output port <DRPRDY_OUT> of the instance <aurora_module_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" line 382: Output port <AXI4_S_IP_TX_TREADY> of the instance <frame_chk_axi_to_ll_pdu_i> is unconnected or connected to loadless signal.
+    Register <lane_up_r> equivalent to <LANE_UP> has been removed
+    Found 1-bit register for signal <lane_up_r2>.
+    Found 1-bit register for signal <HARD_ERR>.
+    Found 1-bit register for signal <SOFT_ERR>.
+    Found 1-bit register for signal <FRAME_ERR>.
+    Found 1-bit register for signal <LANE_UP>.
+    Found 1-bit register for signal <CHANNEL_UP>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <aurora_8b10b_gtx1_exdes> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_CLOCK_MODULE>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\example_design\clock_module\aurora_8b10b_gtx1_clock_module.v".
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_CLOCK_MODULE> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v".
+        SIM_GTRESET_SPEEDUP = "TRUE"
+WARNING:Xst:2898 - Port 'AXI4_S_IP_TREADY', unconnected in block instance 'll_to_axi_pdu_i', is tied to GND.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" line 311: Output port <CHANNEL_BOND_LOAD> of the instance <aurora_lane_0_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" line 543: Output port <LL_OP_DST_RDY_N> of the instance <ll_to_axi_pdu_i> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_AURORA_LANE>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_aurora_lane.v".
+WARNING:Xst:647 - Input <CHANNEL_UP> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_AURORA_LANE> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_LANE_INIT_SM>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_lane_init_sm.v".
+    Found 1-bit register for signal <ack_r>.
+    Found 1-bit register for signal <polarity_r>.
+    Found 1-bit register for signal <realign_r>.
+    Found 1-bit register for signal <align_r>.
+    Found 1-bit register for signal <rst_r>.
+    Found 1-bit register for signal <begin_r>.
+    Found 1-bit register for signal <ENABLE_ERR_DETECT>.
+    Found 1-bit register for signal <odd_word_r>.
+    Found 8-bit register for signal <counter1_r>.
+    Found 1-bit register for signal <reset_count_r>.
+    Found 2-bit register for signal <RX_CHAR_IS_COMMA_R>.
+    Found 1-bit register for signal <prev_char_was_comma_r>.
+    Found 1-bit register for signal <comma_over_two_cycles_r>.
+    Found 16-bit register for signal <counter2_r>.
+    Found 4-bit register for signal <counter3_r>.
+    Found 16-bit register for signal <counter4_r>.
+    Found 16-bit register for signal <counter5_r>.
+    Found 1-bit register for signal <prev_count_128d_done_r>.
+    Found 1-bit register for signal <do_watchdog_count_r>.
+    Found 1-bit register for signal <rx_polarity_r>.
+    Found 1-bit register for signal <ready_r>.
+    Found 8-bit adder for signal <counter1_r[0]_GND_16_o_add_4_OUT> created at line 353.
+    Found 1-bit comparator not equal for signal <n0083> created at line 376
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  77 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <aurora_8b10b_gtx1_LANE_INIT_SM> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_CHBOND_COUNT_DEC>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_chbond_count_dec.v".
+        CHANNEL_BOND_LOAD_CODE = 6'b100111
+    WARNING:Xst:2404 -  FFs/Latches <CHANNEL_BOND_LOAD<0:0>> (without init value) have a constant value of 0 in block <aurora_8b10b_gtx1_CHBOND_COUNT_DEC>.
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_CHBOND_COUNT_DEC> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_SYM_GEN>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_sym_gen.v".
+WARNING:Xst:647 - Input <RESET> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <gen_ecp_r>.
+    Found 1-bit register for signal <gen_pad_r>.
+    Found 16-bit register for signal <tx_pe_data_r>.
+    Found 1-bit register for signal <tx_pe_data_v_r>.
+    Found 1-bit register for signal <gen_cc_r>.
+    Found 1-bit register for signal <gen_a_r>.
+    Found 2-bit register for signal <gen_k_r>.
+    Found 2-bit register for signal <gen_r_r>.
+    Found 2-bit register for signal <gen_v_r>.
+    Found 1-bit register for signal <gen_k_fsm_r>.
+    Found 2-bit register for signal <gen_sp_data_r>.
+    Found 2-bit register for signal <gen_spa_data_r>.
+    Found 1-bit register for signal <TX_DATA<15>>.
+    Found 1-bit register for signal <TX_DATA<14>>.
+    Found 1-bit register for signal <TX_DATA<13>>.
+    Found 1-bit register for signal <TX_DATA<12>>.
+    Found 1-bit register for signal <TX_DATA<11>>.
+    Found 1-bit register for signal <TX_DATA<10>>.
+    Found 1-bit register for signal <TX_DATA<9>>.
+    Found 1-bit register for signal <TX_DATA<8>>.
+    Found 1-bit register for signal <TX_CHAR_IS_K<1>>.
+    Found 1-bit register for signal <TX_DATA<7>>.
+    Found 1-bit register for signal <TX_DATA<6>>.
+    Found 1-bit register for signal <TX_DATA<5>>.
+    Found 1-bit register for signal <TX_DATA<4>>.
+    Found 1-bit register for signal <TX_DATA<3>>.
+    Found 1-bit register for signal <TX_DATA<2>>.
+    Found 1-bit register for signal <TX_DATA<1>>.
+    Found 1-bit register for signal <TX_DATA<0>>.
+    Found 1-bit register for signal <TX_CHAR_IS_K<0>>.
+    Found 1-bit register for signal <gen_scp_r>.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred  90 Multiplexer(s).
+Unit <aurora_8b10b_gtx1_SYM_GEN> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_SYM_DEC>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_sym_dec.v".
+        K_CHAR_0 = 4'b1011
+        K_CHAR_1 = 4'b1100
+        SP_DATA_0 = 4'b0100
+        SP_DATA_1 = 4'b1010
+        SPA_DATA_0 = 4'b0010
+        SPA_DATA_1 = 4'b1100
+        SP_NEG_DATA_0 = 4'b1011
+        SP_NEG_DATA_1 = 4'b0101
+        SPA_NEG_DATA_0 = 4'b1101
+        SPA_NEG_DATA_1 = 4'b0011
+        PAD_0 = 4'b1001
+        PAD_1 = 4'b1100
+        SCP_0 = 4'b0101
+        SCP_1 = 4'b1100
+        SCP_2 = 4'b1111
+        SCP_3 = 4'b1011
+        ECP_0 = 4'b1111
+        ECP_1 = 4'b1101
+        ECP_2 = 4'b1111
+        ECP_3 = 4'b1110
+        A_CHAR_0 = 4'b0111
+        A_CHAR_1 = 4'b1100
+        VER_DATA_0 = 4'b1110
+        VER_DATA_1 = 4'b1000
+        CC_CHAR_0 = 4'b1111
+        CC_CHAR_1 = 4'b0111
+    Found 1-bit register for signal <word_aligned_data_r<0>>.
+    Found 1-bit register for signal <word_aligned_data_r<1>>.
+    Found 1-bit register for signal <word_aligned_data_r<2>>.
+    Found 1-bit register for signal <word_aligned_data_r<3>>.
+    Found 1-bit register for signal <word_aligned_data_r<4>>.
+    Found 1-bit register for signal <word_aligned_data_r<5>>.
+    Found 1-bit register for signal <word_aligned_data_r<6>>.
+    Found 1-bit register for signal <word_aligned_data_r<7>>.
+    Found 1-bit register for signal <word_aligned_data_r<8>>.
+    Found 1-bit register for signal <word_aligned_data_r<9>>.
+    Found 1-bit register for signal <word_aligned_data_r<10>>.
+    Found 1-bit register for signal <word_aligned_data_r<11>>.
+    Found 1-bit register for signal <word_aligned_data_r<12>>.
+    Found 1-bit register for signal <word_aligned_data_r<13>>.
+    Found 1-bit register for signal <word_aligned_data_r<14>>.
+    Found 1-bit register for signal <word_aligned_data_r<15>>.
+    Found 1-bit register for signal <word_aligned_control_bits_r<0>>.
+    Found 1-bit register for signal <word_aligned_control_bits_r<1>>.
+    Found 16-bit register for signal <rx_pe_data_r>.
+    Found 16-bit register for signal <RX_PE_DATA>.
+    Found 2-bit register for signal <rx_pe_control_r>.
+    Found 2-bit register for signal <rx_pad_d_r>.
+    Found 1-bit register for signal <RX_PAD>.
+    Found 1-bit register for signal <RX_PE_DATA_V>.
+    Found 4-bit register for signal <rx_scp_d_r>.
+    Found 1-bit register for signal <RX_SCP>.
+    Found 4-bit register for signal <rx_ecp_d_r>.
+    Found 1-bit register for signal <RX_ECP>.
+    Found 4-bit register for signal <prev_beat_sp_d_r>.
+    Found 1-bit register for signal <prev_beat_sp_r>.
+    Found 4-bit register for signal <prev_beat_spa_d_r>.
+    Found 1-bit register for signal <prev_beat_spa_r>.
+    Found 4-bit register for signal <rx_sp_d_r>.
+    Found 1-bit register for signal <RX_SP>.
+    Found 4-bit register for signal <rx_spa_d_r>.
+    Found 1-bit register for signal <RX_SPA>.
+    Found 2-bit register for signal <rx_sp_neg_d_r>.
+    Found 2-bit register for signal <rx_spa_neg_d_r>.
+    Found 1-bit register for signal <RX_NEG>.
+    Found 4-bit register for signal <got_a_d_r>.
+    Found 2-bit register for signal <GOT_A>.
+    Found 4-bit register for signal <prev_beat_v_d_r>.
+    Found 1-bit register for signal <prev_beat_v_r>.
+    Found 4-bit register for signal <rx_v_d_r>.
+    Found 1-bit register for signal <GOT_V>.
+    Found 1-bit register for signal <first_v_received_r>.
+    Found 4-bit register for signal <rx_cc_r>.
+    Found 1-bit register for signal <RX_CC>.
+    Found 1-bit register for signal <left_aligned_r>.
+    Summary:
+	inferred 114 D-type flip-flop(s).
+	inferred  18 Multiplexer(s).
+Unit <aurora_8b10b_gtx1_SYM_DEC> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_ERR_DETECT>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_err_detect.v".
+    Found 1-bit register for signal <soft_err_flop_r>.
+    Found 1-bit register for signal <SOFT_ERR>.
+    Found 1-bit register for signal <hard_err_flop_r>.
+    Found 1-bit register for signal <HARD_ERR>.
+    Found 2-bit register for signal <good_count_r>.
+    Found 2-bit register for signal <count_r>.
+    Found 1-bit register for signal <bucket_full_r>.
+    Found 2-bit register for signal <soft_err_r>.
+    Found finite state machine <FSM_0> for signal <count_r>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 108                                            |
+    | Inputs             | 15                                             |
+    | Outputs            | 2                                              |
+    | Clock              | USER_CLK (rising_edge)                         |
+    | Reset              | ENABLE_ERR_DETECT_INV_50_o (positive)          |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <aurora_8b10b_gtx1_ERR_DETECT> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_hotplug>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_hotplug.v".
+        ENABLE_HOTPLUG = 1
+    Found 1-bit register for signal <link_reset_0>.
+    Found 1-bit register for signal <link_reset_r>.
+    Found 20-bit register for signal <count_for_reset_r>.
+    Found 20-bit adder for signal <count_for_reset_r[19]_GND_22_o_add_1_OUT> created at line 133.
+    Found 20-bit comparator greater for signal <PWR_21_o_count_for_reset_r[19]_LessThan_6_o> created at line 139
+    Found 20-bit comparator greater for signal <count_for_reset_r[19]_PWR_21_o_LessThan_7_o> created at line 139
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <aurora_8b10b_gtx1_hotplug> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_cir_fifo>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_hotplug.v".
+    Found 3-bit register for signal <wr_ptr>.
+    Found 3-bit register for signal <rd_ptr>.
+    Found 1-bit register for signal <mem<6>>.
+    Found 1-bit register for signal <mem<5>>.
+    Found 1-bit register for signal <mem<4>>.
+    Found 1-bit register for signal <mem<3>>.
+    Found 1-bit register for signal <mem<2>>.
+    Found 1-bit register for signal <mem<1>>.
+    Found 1-bit register for signal <mem<0>>.
+    Found 1-bit register for signal <dout>.
+    Found 1-bit register for signal <mem<7>>.
+    Found 3-bit adder for signal <wr_ptr[2]_GND_23_o_add_1_OUT> created at line 183.
+    Found 3-bit adder for signal <rd_ptr[2]_GND_23_o_add_3_OUT> created at line 196.
+    Found 1-bit 8-to-1 multiplexer for signal <rd_ptr[2]_mem[7]_Mux_4_o> created at line 197.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  15 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <aurora_8b10b_gtx1_cir_fifo> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_GT_WRAPPER>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v".
+        SIM_GTRESET_SPEEDUP = "TRUE"
+WARNING:Xst:647 - Input <ENCHANSYNC_IN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RXRESET_IN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <TXRESET_IN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_RXCLKCORCNT_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_CPLLFBCLKLOST_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_CPLLREFCLKLOST_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_EYESCANDATAERROR_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_RXOUTCLK_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_RXCDRLOCK_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_RXELECIDLE_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_TXOUTCLKFABRIC_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" line 302: Output port <GT0_TXOUTCLKPCS_OUT> of the instance <aurora_8b10b_gtx1_multi_gt_i> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <link_reset_r2>.
+    Found 1-bit register for signal <gt_userrdy_r>.
+    Found 8-bit register for signal <reset_counter>.
+    Found 1-bit register for signal <gt0_txresetdone_r>.
+    Found 1-bit register for signal <gt0_txresetdone_r2>.
+    Found 1-bit register for signal <gt0_txresetdone_r3>.
+    Found 1-bit register for signal <gt0_rxresetdone_r>.
+    Found 1-bit register for signal <gt0_rxresetdone_r2>.
+    Found 1-bit register for signal <gt0_rxresetdone_r3>.
+    Found 1-bit register for signal <link_reset_r>.
+    Found 8-bit adder for signal <reset_counter[7]_GND_25_o_add_7_OUT> created at line 271.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <aurora_8b10b_gtx1_GT_WRAPPER> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_multi_gt>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v".
+        WRAPPER_SIM_GTRESET_SPEEDUP = "TRUE"
+        RX_DFE_KL_CFG2_IN = 32'b00110000000100001101100100001100
+        PMA_RSV_IN = 32'b00000000000000011000010010000000
+        SIM_VERSION = "3.0"
+WARNING:Xst:653 - Signal <GT0_RXELECIDLE_OUT> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_multi_gt> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_gt>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v".
+        GT_SIM_GTRESET_SPEEDUP = "TRUE"
+        RX_DFE_KL_CFG2_IN = 32'b00110000000100001101100100001100
+        PMA_RSV_IN = 32'b00000000000000011000010010000000
+        PCS_RSVD_ATTR_IN = 48'b000000000000000000000000000000000000000000000000
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_gt> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_GLOBAL_LOGIC>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_global_logic.v".
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_GLOBAL_LOGIC> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_CHANNEL_INIT_SM>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_channel_init_sm.v".
+WARNING:Xst:647 - Input <GOT_A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <CH_BOND_DONE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <CHANNEL_BOND_LOAD> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <verify_r>.
+    Found 1-bit register for signal <ready_r>.
+    Found 1-bit register for signal <ready_r2>.
+    Found 1-bit register for signal <CHANNEL_UP>.
+    Found 1-bit register for signal <START_RX>.
+    Found 8-bit register for signal <free_count_r>.
+    Found 16-bit register for signal <verify_watchdog_r>.
+    Found 1-bit register for signal <all_lanes_v_r>.
+    Found 1-bit register for signal <got_first_v_r>.
+    Found 32-bit register for signal <v_count_r>.
+    Found 1-bit register for signal <bad_v_r>.
+    Found 3-bit register for signal <rxver_count_r>.
+    Found 8-bit register for signal <txver_count_r>.
+    Found 1-bit register for signal <wait_for_lane_up_r>.
+    Found 8-bit adder for signal <free_count_r[0]_GND_30_o_add_5_OUT> created at line 273.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  76 D-type flip-flop(s).
+Unit <aurora_8b10b_gtx1_CHANNEL_INIT_SM> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_IDLE_AND_VER_GEN>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_idle_and_ver_gen.v".
+    Found 4-bit register for signal <downcounter_r>.
+    Found 1-bit register for signal <prev_cycle_gen_ver_r>.
+    Found 1-bit register for signal <gen_ver_word_2_r>.
+    Found 4-bit register for signal <lfsr_shift_register_r>.
+    Found 4-bit subtractor for signal <downcounter_r[0]_GND_32_o_sub_5_OUT> created at line 183.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <aurora_8b10b_gtx1_IDLE_AND_VER_GEN> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_CHANNEL_ERR_DETECT>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_channel_err_detect.v".
+    Found 1-bit register for signal <hard_err_r>.
+    Found 1-bit register for signal <CHANNEL_SOFT_ERR>.
+    Found 1-bit register for signal <CHANNEL_HARD_ERR>.
+    Found 1-bit register for signal <lane_up_r>.
+    Found 1-bit register for signal <RESET_CHANNEL>.
+    Found 1-bit register for signal <soft_err_r>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <aurora_8b10b_gtx1_CHANNEL_ERR_DETECT> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_AXI_TO_LL>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_axi_to_ll.v".
+        DATA_WIDTH = 16
+        STRB_WIDTH = 2
+        REM_WIDTH = 1
+    Found 1-bit register for signal <new_pkt_r>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <aurora_8b10b_gtx1_AXI_TO_LL> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_TX_LL>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_tx_ll.v".
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_TX_LL> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_TX_LL_DATAPATH>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_tx_ll_datapath.v".
+    Found 16-bit register for signal <storage_r>.
+    Found 16-bit register for signal <tx_pe_data_r>.
+    Found 1-bit register for signal <storage_v_r>.
+    Found 1-bit register for signal <tx_pe_data_v_r>.
+    Found 1-bit register for signal <storage_pad_r>.
+    Found 1-bit register for signal <gen_pad_r>.
+    Found 16-bit register for signal <TX_PE_DATA>.
+    Found 1-bit register for signal <TX_PE_DATA_V>.
+    Found 1-bit register for signal <GEN_PAD>.
+    Found 1-bit register for signal <in_frame_r>.
+    Summary:
+	inferred  55 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <aurora_8b10b_gtx1_TX_LL_DATAPATH> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_TX_LL_CONTROL>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_tx_ll_control.v".
+WARNING:Xst:647 - Input <TX_REM> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <WARN_CC> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <idle_r>.
+    Found 1-bit register for signal <sof_r>.
+    Found 1-bit register for signal <sof_data_eof_1_r>.
+    Found 1-bit register for signal <sof_data_eof_2_r>.
+    Found 1-bit register for signal <sof_data_eof_3_r>.
+    Found 1-bit register for signal <data_r>.
+    Found 1-bit register for signal <data_eof_1_r>.
+    Found 1-bit register for signal <data_eof_2_r>.
+    Found 1-bit register for signal <data_eof_3_r>.
+    Found 1-bit register for signal <GEN_SCP>.
+    Found 1-bit register for signal <GEN_ECP>.
+    Found 1-bit register for signal <TX_DST_RDY_N>.
+    Found 1-bit register for signal <do_cc_r>.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+Unit <aurora_8b10b_gtx1_TX_LL_CONTROL> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_LL_TO_AXI>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_ll_to_axi.v".
+        DATA_WIDTH = 16
+        STRB_WIDTH = 2
+        USE_UFC_REM = 0
+        REM_WIDTH = 1
+WARNING:Xst:647 - Input <LL_IP_SOF_N> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_LL_TO_AXI> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_RX_LL>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_rx_ll.v".
+    Summary:
+	no macro.
+Unit <aurora_8b10b_gtx1_RX_LL> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_RX_LL_PDU_DATAPATH>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_rx_ll_pdu_datapath.v".
+    Found 1-bit register for signal <storage_v_r>.
+    Found 16-bit register for signal <RX_D>.
+    Found 1-bit register for signal <RX_SRC_RDY_N>.
+    Found 1-bit register for signal <in_frame_r>.
+    Found 1-bit register for signal <sof_in_storage_r>.
+    Found 1-bit register for signal <RX_SOF_N>.
+    Found 1-bit register for signal <RX_EOF_N>.
+    Found 1-bit register for signal <pad_in_storage_r>.
+    Found 1-bit register for signal <RX_REM>.
+    Found 1-bit register for signal <FRAME_ERR>.
+    Found 16-bit register for signal <storage_r>.
+    Summary:
+	inferred  41 D-type flip-flop(s).
+Unit <aurora_8b10b_gtx1_RX_LL_PDU_DATAPATH> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_STANDARD_CC_MODULE>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\example_design\cc_manager\aurora_8b10b_gtx1_standard_cc_module.v".
+WARNING:Xst:647 - Input <PLL_NOT_LOCKED> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <count_13d_flop_r>.
+    Found 15-bit register for signal <count_16d_srl_r>.
+    Found 1-bit register for signal <count_16d_flop_r>.
+    Found 23-bit register for signal <count_24d_srl_r>.
+    Found 1-bit register for signal <count_24d_flop_r>.
+    Found 10-bit register for signal <prepare_count_r>.
+    Found 1-bit register for signal <WARN_CC>.
+    Found 1-bit register for signal <reset_r>.
+    Found 6-bit register for signal <cc_count_r>.
+    Found 1-bit register for signal <DO_CC>.
+    Found 12-bit register for signal <count_13d_srl_r>.
+    Summary:
+	inferred  72 D-type flip-flop(s).
+Unit <aurora_8b10b_gtx1_STANDARD_CC_MODULE> synthesized.
+
+Synthesizing Unit <aurora_8b10b_gtx1_RESET_LOGIC>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_reset_logic.v".
+WARNING:Xst:647 - Input <PLL_NOT_LOCKED> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <gt_rxresetdone_r>.
+    Found 1-bit register for signal <gt_rxresetdone_r2>.
+    Found 1-bit register for signal <gt_txresetdone_r>.
+    Found 1-bit register for signal <gt_txresetdone_r2>.
+    Found 4-bit register for signal <reset_debounce_r>.
+    Found 1-bit register for signal <reset_debounce_r2>.
+    Found 1-bit register for signal <reset_debounce_r3>.
+    Found 1-bit register for signal <reset_debounce_r4>.
+    Found 1-bit register for signal <gt_rxresetdone_r3>.
+    Found 1-bit register for signal <gt_txresetdone_r3>.
+    Found 1-bit register for signal <link_reset_r>.
+    Found 1-bit register for signal <link_reset_r2>.
+    Found 4-bit register for signal <debounce_gt_rst_r>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+Unit <aurora_8b10b_gtx1_RESET_LOGIC> synthesized.
+
+Synthesizing Unit <aurora_8b10b_v8_3_FRAME_GEN>.
+    Related source file is "E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v".
+    Set property "KEEP = TRUE" for signal <word_cnt>.
+    Found 4-bit register for signal <ts_cc>.
+    Found 3-bit register for signal <dst_slot>.
+    Found 7-bit register for signal <word_cnt>.
+    Found 4-bit adder for signal <ts_cc[3]_GND_47_o_add_12_OUT> created at line 97.
+    Found 3-bit adder for signal <dst_slot[2]_GND_47_o_add_23_OUT> created at line 118.
+    Found 7-bit adder for signal <word_cnt_buf> created at line 127.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TX_D_i<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 7-bit comparator lessequal for signal <n0002> created at line 77
+    Found 7-bit comparator greater for signal <word_cnt[6]_PWR_46_o_LessThan_29_o> created at line 124
+    Found 7-bit comparator lessequal for signal <n0036> created at line 128
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  14 D-type flip-flop(s).
+	inferred  16 Latch(s).
+	inferred   3 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <aurora_8b10b_v8_3_FRAME_GEN> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 29
+ 20-bit adder                                          : 2
+ 24-bit adder                                          : 2
+ 26-bit adder                                          : 1
+ 28-bit adder                                          : 1
+ 3-bit adder                                           : 13
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 2
+ 7-bit adder                                           : 1
+ 8-bit adder                                           : 6
+# Registers                                            : 461
+ 1-bit register                                        : 333
+ 10-bit register                                       : 2
+ 12-bit register                                       : 2
+ 15-bit register                                       : 2
+ 16-bit register                                       : 26
+ 2-bit register                                        : 28
+ 20-bit register                                       : 2
+ 23-bit register                                       : 2
+ 24-bit register                                       : 2
+ 26-bit register                                       : 1
+ 28-bit register                                       : 1
+ 3-bit register                                        : 15
+ 32-bit register                                       : 2
+ 4-bit register                                        : 30
+ 6-bit register                                        : 4
+ 7-bit register                                        : 1
+ 8-bit register                                        : 8
+# Latches                                              : 16
+ 1-bit latch                                           : 16
+# Comparators                                          : 10
+ 1-bit comparator not equal                            : 2
+ 20-bit comparator greater                             : 4
+ 28-bit comparator greater                             : 1
+ 7-bit comparator greater                              : 1
+ 7-bit comparator lessequal                            : 2
+# Multiplexers                                         : 242
+ 1-bit 2-to-1 multiplexer                              : 232
+ 1-bit 8-to-1 multiplexer                              : 6
+ 16-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 2
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <chbond_count_dec_i> is unconnected in block <aurora_lane_0_i>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <chbond_count_dec_i> is unconnected in block <aurora_lane_0_i>.
+   It will be removed from the design.
+INFO:Xst:2261 - The FF/Latch <prev_beat_spa_d_r_3> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_spa_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_0> in Unit <sym_dec_i> is equivalent to the following 2 FFs/Latches, which will be removed : <prev_beat_spa_d_r_0> <prev_beat_v_d_r_0> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_spa_d_r_2> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_spa_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_3> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_sp_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_v_d_r_3> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_v_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_2> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_sp_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <rx_ecp_d_r_2> in Unit <sym_dec_i> is equivalent to the following 2 FFs/Latches, which will be removed : <rx_cc_r_2> <rx_scp_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_1> in Unit <sym_dec_i> is equivalent to the following 4 FFs/Latches, which will be removed : <prev_beat_spa_d_r_1> <rx_spa_d_r_1> <prev_beat_v_d_r_1> <rx_scp_d_r_1> 
+INFO:Xst:2261 - The FF/Latch <rx_ecp_d_r_0> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_cc_r_0> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_v_d_r_2> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_v_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_spa_d_r_3> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_spa_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_0> in Unit <sym_dec_i> is equivalent to the following 2 FFs/Latches, which will be removed : <prev_beat_spa_d_r_0> <prev_beat_v_d_r_0> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_spa_d_r_2> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_spa_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_3> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_sp_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_v_d_r_3> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_v_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_2> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_sp_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <rx_ecp_d_r_2> in Unit <sym_dec_i> is equivalent to the following 2 FFs/Latches, which will be removed : <rx_cc_r_2> <rx_scp_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_1> in Unit <sym_dec_i> is equivalent to the following 4 FFs/Latches, which will be removed : <prev_beat_spa_d_r_1> <rx_spa_d_r_1> <prev_beat_v_d_r_1> <rx_scp_d_r_1> 
+INFO:Xst:2261 - The FF/Latch <rx_ecp_d_r_0> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_cc_r_0> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_v_d_r_2> in Unit <sym_dec_i> is equivalent to the following FF/Latch, which will be removed : <rx_v_d_r_2> 
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_0> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_1> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_2> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_3> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_4> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_5> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_6> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_7> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_8> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_9> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_10> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_11> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_12> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_13> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_14> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_pe_data_r_15> (without init value) has a constant value of 0 in block <sym_gen_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_15> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_14> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_13> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_12> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_11> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_10> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_9> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_8> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_7> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_6> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_5> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_4> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_3> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_2> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_1> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <storage_r_0> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <in_frame_r> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_15> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_14> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_13> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_12> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_11> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_10> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_9> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_8> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_7> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_6> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_5> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_4> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_3> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_2> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_1> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tx_pe_data_r_0> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_15> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_14> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_13> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_12> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_11> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_10> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_9> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_8> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_7> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_6> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_5> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_4> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_3> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_2> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_1> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <TX_PE_DATA_0> (without init value) has a constant value of 0 in block <tx_ll_datapath_i>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1290 - Hierarchical block <frame_gen_ll_to_axi_pdu_i> is unconnected in block <u0_aurora_8b10b_gtx1_exdes>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <aurora_8b10b_gtx1_CHANNEL_INIT_SM>.
+The following registers are absorbed into counter <free_count_r>: 1 register on signal <free_count_r>.
+Unit <aurora_8b10b_gtx1_CHANNEL_INIT_SM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <aurora_8b10b_gtx1_GT_WRAPPER>.
+The following registers are absorbed into counter <reset_counter>: 1 register on signal <reset_counter>.
+Unit <aurora_8b10b_gtx1_GT_WRAPPER> synthesized (advanced).
+
+Synthesizing (advanced) Unit <aurora_8b10b_gtx1_IDLE_AND_VER_GEN>.
+The following registers are absorbed into counter <downcounter_r>: 1 register on signal <downcounter_r>.
+Unit <aurora_8b10b_gtx1_IDLE_AND_VER_GEN> synthesized (advanced).
+
+Synthesizing (advanced) Unit <aurora_8b10b_gtx1_LANE_INIT_SM>.
+The following registers are absorbed into counter <counter1_r>: 1 register on signal <counter1_r>.
+Unit <aurora_8b10b_gtx1_LANE_INIT_SM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <aurora_8b10b_gtx1_cir_fifo>.
+The following registers are absorbed into counter <rd_ptr>: 1 register on signal <rd_ptr>.
+The following registers are absorbed into counter <wr_ptr>: 1 register on signal <wr_ptr>.
+Unit <aurora_8b10b_gtx1_cir_fifo> synthesized (advanced).
+
+Synthesizing (advanced) Unit <aurora_8b10b_gtx1_hotplug>.
+The following registers are absorbed into counter <count_for_reset_r>: 1 register on signal <count_for_reset_r>.
+Unit <aurora_8b10b_gtx1_hotplug> synthesized (advanced).
+
+Synthesizing (advanced) Unit <aurora_8b10b_v8_3_FRAME_GEN>.
+The following registers are absorbed into counter <ts_cc>: 1 register on signal <ts_cc>.
+The following registers are absorbed into counter <dst_slot>: 1 register on signal <dst_slot>.
+Unit <aurora_8b10b_v8_3_FRAME_GEN> synthesized (advanced).
+
+Synthesizing (advanced) Unit <gen_rst>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <gen_rst> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ncas1000_top>.
+The following registers are absorbed into counter <channel_up0_cnt>: 1 register on signal <channel_up0_cnt>.
+The following registers are absorbed into counter <led_cnt>: 1 register on signal <led_cnt>.
+The following registers are absorbed into counter <channel_up1_cnt>: 1 register on signal <channel_up1_cnt>.
+Unit <ncas1000_top> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 7-bit adder                                           : 1
+# Counters                                             : 28
+ 20-bit up counter                                     : 2
+ 24-bit up counter                                     : 2
+ 26-bit up counter                                     : 1
+ 28-bit up counter                                     : 1
+ 3-bit up counter                                      : 13
+ 4-bit down counter                                    : 2
+ 4-bit up counter                                      : 1
+ 8-bit up counter                                      : 6
+# Registers                                            : 1174
+ Flip-Flops                                            : 1174
+# Comparators                                          : 10
+ 1-bit comparator not equal                            : 2
+ 20-bit comparator greater                             : 4
+ 28-bit comparator greater                             : 1
+ 7-bit comparator greater                              : 1
+ 7-bit comparator lessequal                            : 2
+# Multiplexers                                         : 238
+ 1-bit 2-to-1 multiplexer                              : 230
+ 1-bit 8-to-1 multiplexer                              : 6
+ 16-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+# FSMs                                                 : 2
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <rx_pad_d_r_1> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following 3 FFs/Latches, which will be removed : <prev_beat_spa_d_r_3> <rx_spa_d_r_3> <got_a_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_0> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following 2 FFs/Latches, which will be removed : <prev_beat_spa_d_r_0> <prev_beat_v_d_r_0> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_spa_d_r_2> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following FF/Latch, which will be removed : <rx_spa_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_3> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following FF/Latch, which will be removed : <rx_sp_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_v_d_r_3> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following FF/Latch, which will be removed : <rx_v_d_r_3> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_2> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following FF/Latch, which will be removed : <rx_sp_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <rx_ecp_d_r_2> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following 2 FFs/Latches, which will be removed : <rx_cc_r_2> <rx_scp_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_sp_d_r_1> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following 5 FFs/Latches, which will be removed : <prev_beat_spa_d_r_1> <rx_spa_d_r_1> <got_a_d_r_1> <prev_beat_v_d_r_1> <rx_scp_d_r_1> 
+INFO:Xst:2261 - The FF/Latch <rx_ecp_d_r_0> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following FF/Latch, which will be removed : <rx_cc_r_0> 
+INFO:Xst:2261 - The FF/Latch <prev_beat_v_d_r_2> in Unit <aurora_8b10b_gtx1_SYM_DEC> is equivalent to the following FF/Latch, which will be removed : <rx_v_d_r_2> 
+INFO:Xst:2261 - The FF/Latch <LANE_UP> in Unit <aurora_8b10b_gtx1_exdes> is equivalent to the following FF/Latch, which will be removed : <aurora_module_i/global_logic_i/channel_err_detect_i/lane_up_r> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/FSM_0> on signal <count_r[1:2]> with gray encoding.
+Optimizing FSM <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/FSM_0> on signal <count_r[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+
+Optimizing unit <ncas1000_top> ...
+
+Optimizing unit <aurora_8b10b_gtx1_exdes> ...
+
+Optimizing unit <aurora_8b10b_gtx1_RESET_LOGIC> ...
+
+Optimizing unit <aurora_8b10b_gtx1_AXI_TO_LL> ...
+
+Optimizing unit <aurora_8b10b_gtx1_GT_WRAPPER> ...
+
+Optimizing unit <aurora_8b10b_gtx1_TX_LL_DATAPATH> ...
+
+Optimizing unit <aurora_8b10b_gtx1_TX_LL_CONTROL> ...
+
+Optimizing unit <aurora_8b10b_gtx1_LANE_INIT_SM> ...
+
+Optimizing unit <aurora_8b10b_gtx1_SYM_GEN> ...
+
+Optimizing unit <aurora_8b10b_gtx1_ERR_DETECT> ...
+
+Optimizing unit <aurora_8b10b_gtx1_hotplug> ...
+
+Optimizing unit <aurora_8b10b_gtx1_cir_fifo> ...
+
+Optimizing unit <aurora_8b10b_gtx1_SYM_DEC> ...
+
+Optimizing unit <aurora_8b10b_gtx1_CHANNEL_INIT_SM> ...
+
+Optimizing unit <aurora_8b10b_gtx1_IDLE_AND_VER_GEN> ...
+
+Optimizing unit <aurora_8b10b_gtx1_RX_LL_PDU_DATAPATH> ...
+
+Optimizing unit <aurora_8b10b_gtx1_STANDARD_CC_MODULE> ...
+
+Optimizing unit <aurora_8b10b_v8_3_FRAME_GEN> ...
+WARNING:Xst:2716 - In unit ncas1000_top, both signals clk_cfg and u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/init_clk_i have a KEEP attribute, signal u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/init_clk_i will be lost.
+WARNING:Xst:2716 - In unit ncas1000_top, both signals clk_cfg and u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/init_clk_i have a KEEP attribute, signal u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/init_clk_i will be lost.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/in_frame_r> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_0> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_1> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_2> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_3> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_4> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_5> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_6> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_7> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_8> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_9> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_10> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_11> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_12> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_13> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_14> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_15> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/data_eof_1_r> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/data_r> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/sof_r> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/axi_to_ll_pdu_i/new_pkt_r> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/data_eof_2_r> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_0> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_1> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_2> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_15> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_14> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_13> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_12> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_11> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_10> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_9> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_8> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_7> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_6> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_5> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_4> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_3> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_0> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_1> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/data_eof_3_r> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_2> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_3> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_4> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_5> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_15> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_14> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_13> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_12> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_11> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_10> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_9> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_8> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_7> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_6> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_15> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_14> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_13> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_12> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_11> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_10> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_9> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_8> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_7> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_6> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_5> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_4> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_3> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_2> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_1> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_0> (without init value) has a constant value of 0 in block <ncas1000_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/soft_err_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/hard_err_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/CHANNEL_SOFT_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/CHANNEL_HARD_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/FRAME_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/HARD_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/SOFT_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/soft_err_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/hard_err_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/CHANNEL_SOFT_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/CHANNEL_HARD_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/FRAME_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/HARD_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/SOFT_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/frame_chk_axi_to_ll_pdu_i/new_pkt_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/frame_chk_axi_to_ll_pdu_i/new_pkt_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/SOFT_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/HARD_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/soft_err_flop_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/SOFT_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/HARD_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/soft_err_flop_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PAD> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/got_a_d_r_0> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/got_a_d_r_2> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/GOT_A_0> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/GOT_A_1> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/rx_pad_d_r_0> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PAD> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/got_a_d_r_0> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/got_a_d_r_2> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/GOT_A_0> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/GOT_A_1> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/rx_pad_d_r_0> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_REM_0> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_SOF_N> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_EOF_N> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/storage_v_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_SRC_RDY_N> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/FRAME_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/pad_in_storage_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/sof_in_storage_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_REM_0> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_SOF_N> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_EOF_N> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/storage_v_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_SRC_RDY_N> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/FRAME_ERR> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/pad_in_storage_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/sof_in_storage_r> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/WARN_CC> of sequential type is unconnected in block <ncas1000_top>.
+WARNING:Xst:2677 - Node <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/WARN_CC> of sequential type is unconnected in block <ncas1000_top>.
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/gen_pad_r> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_v_r> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_pad_r> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_v_r> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_v_r> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_pad_r> 
+INFO:Xst:2261 - The FF/Latch <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_0> in Unit <ncas1000_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_0> <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_0> 
+INFO:Xst:2261 - The FF/Latch <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_1> in Unit <ncas1000_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_1> <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_1> 
+INFO:Xst:2261 - The FF/Latch <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_2> in Unit <ncas1000_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_2> <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_2> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter2_r_0> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_spa_data_r_1> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_0> in Unit <ncas1000_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_0> <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_0> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_1> in Unit <ncas1000_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_1> <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_1> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_2> in Unit <ncas1000_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_2> <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_2> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_0> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_0> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_1> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_1> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_2> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_2> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_3> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_3> 
+INFO:Xst:2261 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/GEN_PAD> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_V> 
+INFO:Xst:2261 - The FF/Latch <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter2_r_0> in Unit <ncas1000_top> is equivalent to the following FF/Latch, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_spa_data_r_1> 
+INFO:Xst:3203 - The FF/Latch <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/RESET_CHANNEL> in Unit <ncas1000_top> is the opposite to the following FF/Latch, which will be removed : <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/lane_up_r2> 
+INFO:Xst:3203 - The FF/Latch <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/RESET_CHANNEL> in Unit <ncas1000_top> is the opposite to the following FF/Latch, which will be removed : <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/lane_up_r2> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ncas1000_top, actual ratio is 1.
+WARNING:Xst:387 - The KEEP property attached to the net <gtp0_tx_eof_n_buf> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <gtp0_tx_src_rdy_n_buf> may hinder timing optimization.
+   You may achieve better results by removing this property
+FlipFlop u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/TX_DST_RDY_N has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <ncas1000_top> :
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/link_reset_r2>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/link_reset_r2>.
+	Found 3-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/gt0_txresetdone_r3>.
+	Found 3-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/gt0_rxresetdone_r3>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/link_reset_r2>.
+	Found 3-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/gt0_txresetdone_r3>.
+	Found 3-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/gt0_rxresetdone_r3>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/link_reset_r2>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/gen_pad_r>.
+	Found 16-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter5_r_15>.
+	Found 4-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter3_r_3>.
+	Found 16-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter4_r_15>.
+	Found 15-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter2_r_15>.
+	Found 16-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter5_r_15>.
+	Found 4-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter3_r_3>.
+	Found 16-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter4_r_15>.
+	Found 15-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter2_r_15>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_0>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_1>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_2>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_3>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_4>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_5>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_6>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_7>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_8>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_9>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_10>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_11>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_12>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_13>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_14>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_15>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_0>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_1>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_2>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_3>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_4>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_5>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_6>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_7>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_8>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_9>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_10>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_11>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_12>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_13>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_14>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_15>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_0>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_1>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_2>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_3>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_4>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_5>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_6>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_7>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_8>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_9>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_10>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_11>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_12>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_13>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_14>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PE_DATA_15>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/CHANNEL_UP>.
+	Found 8-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/txver_count_r_7>.
+	Found 3-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/rxver_count_r_2>.
+	Found 16-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/verify_watchdog_r_15>.
+	Found 31-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/v_count_r_31>.
+	Found 2-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/all_lanes_v_r>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/CHANNEL_UP>.
+	Found 8-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/txver_count_r_7>.
+	Found 3-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/rxver_count_r_2>.
+	Found 16-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/verify_watchdog_r_15>.
+	Found 31-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/v_count_r_31>.
+	Found 2-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_init_sm_i/all_lanes_v_r>.
+	Found 4-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/idle_and_ver_gen_i/lfsr_shift_register_r_3>.
+	Found 4-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/idle_and_ver_gen_i/lfsr_shift_register_r_3>.
+	Found 12-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_13d_srl_r_11>.
+	Found 9-bit shift register for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/prepare_count_r_9>.
+	Found 12-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_13d_srl_r_11>.
+	Found 9-bit shift register for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/prepare_count_r_9>.
+INFO:Xst:741 - HDL ADVISOR - A 15-bit shift register was found for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_16d_srl_r_14> and currently occupies 15 logic cells (7 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:741 - HDL ADVISOR - A 23-bit shift register was found for signal <u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_24d_srl_r_22> and currently occupies 23 logic cells (11 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:741 - HDL ADVISOR - A 15-bit shift register was found for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_16d_srl_r_14> and currently occupies 15 logic cells (7 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:741 - HDL ADVISOR - A 23-bit shift register was found for signal <u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_24d_srl_r_22> and currently occupies 23 logic cells (11 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <ncas1000_top> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 841
+ Flip-Flops                                            : 841
+# Shift Registers                                      : 83
+ 12-bit shift register                                 : 2
+ 15-bit shift register                                 : 2
+ 16-bit shift register                                 : 6
+ 2-bit shift register                                  : 57
+ 3-bit shift register                                  : 6
+ 31-bit shift register                                 : 2
+ 4-bit shift register                                  : 4
+ 8-bit shift register                                  : 2
+ 9-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ncas1000_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1197
+#      GND                         : 1
+#      INV                         : 46
+#      LUT1                        : 178
+#      LUT2                        : 113
+#      LUT3                        : 121
+#      LUT4                        : 131
+#      LUT5                        : 66
+#      LUT6                        : 159
+#      MUXCY                       : 184
+#      MUXF7                       : 7
+#      VCC                         : 1
+#      XORCY                       : 190
+# FlipFlops/Latches                : 934
+#      FD                          : 274
+#      FDC                         : 63
+#      FDCE                        : 119
+#      FDE                         : 135
+#      FDP                         : 15
+#      FDR                         : 151
+#      FDRE                        : 131
+#      FDS                         : 26
+#      FDSE                        : 4
+#      LDE_1                       : 16
+# Shift Registers                  : 87
+#      SRL16                       : 4
+#      SRLC16E                     : 81
+#      SRLC32E                     : 2
+# Clock Buffers                    : 6
+#      BUFG                        : 6
+# IO Buffers                       : 18
+#      IBUF                        : 7
+#      IBUFDS_GTE2                 : 1
+#      IBUFG                       : 1
+#      OBUF                        : 9
+# GigabitIOs                       : 4
+#      GTXE2_CHANNEL               : 2
+#      GTXE2_COMMON                : 2
+# Others                           : 1
+#      MMCME2_ADV                  : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k160tffg676-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             934  out of  202800     0%  
+ Number of Slice LUTs:                  901  out of  101400     0%  
+    Number used as Logic:               814  out of  101400     0%  
+    Number used as Memory:               87  out of  35000     0%  
+       Number used as SRL:               87
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1148
+   Number with an unused Flip Flop:     214  out of   1148    18%  
+   Number with an unused LUT:           247  out of   1148    21%  
+   Number of fully used LUT-FF pairs:   687  out of   1148    59%  
+   Number of unique control sets:        91
+
+IO Utilization: 
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    400     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRL/BUFHCEs:         6  out of    152     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------------------+---------------------------+-------+
+Clock Signal                                       | Clock buffer(FF name)     | Load  |
+---------------------------------------------------+---------------------------+-------+
+u0_pll_27m/clkout1                                 | BUFG                      | 4     |
+clk_27m                                            | IBUFG+BUFG                | 29    |
+u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i| BUFG                      | 497   |
+u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i| BUFG                      | 381   |
+u0_pll_27m/clkout0                                 | BUFG                      | 94    |
+gtp0_tx_dst_rdy_n_buf                              | NONE(frame_gen_i/TX_D_i_0)| 16    |
+---------------------------------------------------+---------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 2.024ns (Maximum Frequency: 494.120MHz)
+   Minimum input arrival time before clock: 1.125ns
+   Maximum output required time after clock: 1.802ns
+   Maximum combinational path delay: 0.000ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0_pll_27m/clkout1'
+  Clock period: 0.580ns (frequency: 1723.395MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               0.580ns (Levels of Logic = 0)
+  Source:            debounce_gt_rst_r_0 (FF)
+  Destination:       debounce_gt_rst_r_1 (FF)
+  Source Clock:      u0_pll_27m/clkout1 rising
+  Destination Clock: u0_pll_27m/clkout1 rising
+
+  Data Path: debounce_gt_rst_r_0 to debounce_gt_rst_r_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.236   0.344  debounce_gt_rst_r_0 (debounce_gt_rst_r_0)
+     FD:D                     -0.000          debounce_gt_rst_r_1
+    ----------------------------------------
+    Total                      0.580ns (0.236ns logic, 0.344ns route)
+                                       (40.7% logic, 59.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_27m'
+  Clock period: 1.976ns (frequency: 506.124MHz)
+  Total number of paths / destination ports: 1542 / 52
+-------------------------------------------------------------------------
+Delay:               1.976ns (Levels of Logic = 7)
+  Source:            u0_genrst/counter_6 (FF)
+  Destination:       u0_genrst/counter_5 (FF)
+  Source Clock:      clk_27m rising
+  Destination Clock: clk_27m rising
+
+  Data Path: u0_genrst/counter_6 to u0_genrst/counter_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.236   0.615  u0_genrst/counter_6 (u0_genrst/counter_6)
+     LUT5:I0->O            1   0.043   0.000  u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_lut<0> (u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_lut<0>)
+     MUXCY:S->O            1   0.238   0.000  u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<0> (u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<1> (u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<2> (u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<3> (u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<3>)
+     MUXCY:CI->O           6   0.013   0.000  u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<4> (u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<4>)
+     MUXCY:CI->O          24   0.165   0.463  u0_genrst/Mcompar_counter[27]_GND_3_o_LessThan_7_o_cy<4>_inv1_cy (u0_genrst/counter[27]_GND_3_o_LessThan_7_o)
+     FDCE:CE                   0.161          u0_genrst/counter_5
+    ----------------------------------------
+    Total                      1.976ns (0.898ns logic, 1.078ns route)
+                                       (45.4% logic, 54.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i'
+  Clock period: 2.024ns (frequency: 494.120MHz)
+  Total number of paths / destination ports: 3171 / 881
+-------------------------------------------------------------------------
+Delay:               2.024ns (Levels of Logic = 3)
+  Source:            frame_gen_i/word_cnt_4 (FF)
+  Destination:       frame_gen_i/word_cnt_3 (FF)
+  Source Clock:      u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i rising
+  Destination Clock: u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i rising
+
+  Data Path: frame_gen_i/word_cnt_4 to frame_gen_i/word_cnt_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              12   0.236   0.556  frame_gen_i/word_cnt_4 (frame_gen_i/word_cnt<4>)
+     LUT3:I0->O           10   0.043   0.455  frame_gen_i/Mcount_dst_slot_val11 (frame_gen_i/Mcount_dst_slot_val1)
+     LUT6:I4->O            7   0.043   0.647  frame_gen_i/Reset_OR_DriverANDClockEnable (frame_gen_i/Reset_OR_DriverANDClockEnable)
+     LUT6:I0->O            1   0.043   0.000  frame_gen_i/word_cnt_3_rstpot (frame_gen_i/word_cnt_3_rstpot)
+     FD:D                     -0.000          frame_gen_i/word_cnt_3
+    ----------------------------------------
+    Total                      2.024ns (0.365ns logic, 1.659ns route)
+                                       (18.0% logic, 82.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i'
+  Clock period: 1.821ns (frequency: 549.269MHz)
+  Total number of paths / destination ports: 1980 / 684
+-------------------------------------------------------------------------
+Delay:               1.821ns (Levels of Logic = 3)
+  Source:            u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_r_r_0 (FF)
+  Destination:       u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/TX_DATA_14 (FF)
+  Source Clock:      u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i rising
+  Destination Clock: u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i rising
+
+  Data Path: u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_r_r_0 to u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/TX_DATA_14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.236   0.550  u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_r_r_0 (u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_r_r_0)
+     LUT4:I0->O            2   0.043   0.410  u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/Mmux_TX_DATA[14]_PWR_18_o_MUX_169_o111 (u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/Mmux_TX_DATA[14]_PWR_18_o_MUX_169_o11)
+     LUT6:I4->O            1   0.043   0.495  u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/Mmux_TX_DATA[14]_PWR_18_o_MUX_169_o12 (u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/TX_DATA[14]_PWR_18_o_MUX_169_o)
+     LUT4:I1->O            1   0.043   0.000  u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/TX_DATA_14_glue_rst (u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/TX_DATA_14_glue_rst)
+     FDS:D                    -0.000          u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/TX_DATA_14
+    ----------------------------------------
+    Total                      1.821ns (0.365ns logic, 1.456ns route)
+                                       (20.0% logic, 80.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0_pll_27m/clkout0'
+  Clock period: 1.745ns (frequency: 572.951MHz)
+  Total number of paths / destination ports: 791 / 151
+-------------------------------------------------------------------------
+Delay:               1.745ns (Levels of Logic = 3)
+  Source:            u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/count_for_reset_r_19 (FF)
+  Destination:       u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/link_reset_0 (FF)
+  Source Clock:      u0_pll_27m/clkout0 rising
+  Destination Clock: u0_pll_27m/clkout0 rising
+
+  Data Path: u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/count_for_reset_r_19 to u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/link_reset_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.236   0.625  u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/count_for_reset_r_19 (u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/count_for_reset_r_19)
+     LUT6:I0->O            1   0.043   0.405  u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/PWR_21_o_count_for_reset_r[19]_LessThan_6_o_inv2 (u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/PWR_21_o_count_for_reset_r[19]_LessThan_6_o_inv2)
+     LUT4:I2->O            1   0.043   0.350  u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/link_reset_0_rstpot_SW0 (N129)
+     LUT6:I5->O            1   0.043   0.000  u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/link_reset_0_rstpot (u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/link_reset_0_rstpot)
+     FD:D                     -0.000          u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/link_reset_0
+    ----------------------------------------
+    Total                      1.745ns (0.365ns logic, 1.380ns route)
+                                       (20.9% logic, 79.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0_pll_27m/clkout1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.448ns (Levels of Logic = 1)
+  Source:            u0_pll_27m/mmcm_adv_inst:LOCKED (PAD)
+  Destination:       debounce_gt_rst_r_0 (FF)
+  Destination Clock: u0_pll_27m/clkout1 rising
+
+  Data Path: u0_pll_27m/mmcm_adv_inst:LOCKED to debounce_gt_rst_r_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    MMCME2_ADV:LOCKED      1   0.000   0.405  u0_pll_27m/mmcm_adv_inst (pll_27m_locked)
+     LUT2:I0->O            4   0.043   0.000  rst1 (rst)
+     FD:D                     -0.000          debounce_gt_rst_r_0
+    ----------------------------------------
+    Total                      0.448ns (0.043ns logic, 0.405ns route)
+                                       (9.6% logic, 90.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_27m'
+  Total number of paths / destination ports: 29 / 29
+-------------------------------------------------------------------------
+Offset:              1.125ns (Levels of Logic = 2)
+  Source:            rst_n (PAD)
+  Destination:       u0_genrst/rst_o (FF)
+  Destination Clock: clk_27m rising
+
+  Data Path: rst_n to u0_genrst/rst_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.000   0.339  rst_n_IBUF (rst_n_IBUF)
+     INV:I->O             29   0.054   0.468  rst_n_inv1_INV_0 (rst_n_inv)
+     FDCE:CLR                  0.264          u0_genrst/counter_5
+    ----------------------------------------
+    Total                      1.125ns (0.318ns logic, 0.807ns route)
+                                       (28.3% logic, 71.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0_pll_27m/clkout0'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.448ns (Levels of Logic = 1)
+  Source:            u0_pll_27m/mmcm_adv_inst:LOCKED (PAD)
+  Destination:       u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_0 (FF)
+  Destination Clock: u0_pll_27m/clkout0 rising
+
+  Data Path: u0_pll_27m/mmcm_adv_inst:LOCKED to u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    MMCME2_ADV:LOCKED      1   0.000   0.405  u0_pll_27m/mmcm_adv_inst (pll_27m_locked)
+     LUT2:I0->O            4   0.043   0.000  rst1 (rst)
+     FD:D                     -0.000          u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_0
+    ----------------------------------------
+    Total                      0.448ns (0.043ns logic, 0.405ns route)
+                                       (9.6% logic, 90.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.448ns (Levels of Logic = 1)
+  Source:            u0_pll_27m/mmcm_adv_inst:LOCKED (PAD)
+  Destination:       u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/reset_debounce_r_0 (FF)
+  Destination Clock: u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i rising
+
+  Data Path: u0_pll_27m/mmcm_adv_inst:LOCKED to u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/reset_debounce_r_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    MMCME2_ADV:LOCKED      1   0.000   0.405  u0_pll_27m/mmcm_adv_inst (pll_27m_locked)
+     LUT2:I0->O            4   0.043   0.000  rst1 (rst)
+     FDP:D                    -0.000          u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/reset_debounce_r_0
+    ----------------------------------------
+    Total                      0.448ns (0.043ns logic, 0.405ns route)
+                                       (9.6% logic, 90.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.448ns (Levels of Logic = 1)
+  Source:            u0_pll_27m/mmcm_adv_inst:LOCKED (PAD)
+  Destination:       u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/reset_debounce_r_0 (FF)
+  Destination Clock: u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i rising
+
+  Data Path: u0_pll_27m/mmcm_adv_inst:LOCKED to u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/reset_debounce_r_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    MMCME2_ADV:LOCKED      1   0.000   0.405  u0_pll_27m/mmcm_adv_inst (pll_27m_locked)
+     LUT2:I0->O            4   0.043   0.000  rst1 (rst)
+     FDP:D                    -0.000          u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/reset_debounce_r_0
+    ----------------------------------------
+    Total                      0.448ns (0.043ns logic, 0.405ns route)
+                                       (9.6% logic, 90.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i'
+  Total number of paths / destination ports: 25 / 2
+-------------------------------------------------------------------------
+Offset:              1.802ns (Levels of Logic = 3)
+  Source:            channel_up1_cnt_3 (FF)
+  Destination:       gpio_led<1> (PAD)
+  Source Clock:      u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i rising
+
+  Data Path: channel_up1_cnt_3 to gpio_led<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.236   0.618  channel_up1_cnt_3 (channel_up1_cnt_3)
+     LUT6:I0->O            1   0.043   0.522  out21 (out21)
+     LUT4:I0->O            1   0.043   0.339  out25 (gpio_led_1_OBUF)
+     OBUF:I->O                 0.000          gpio_led_1_OBUF (gpio_led<1>)
+    ----------------------------------------
+    Total                      1.802ns (0.322ns logic, 1.480ns route)
+                                       (17.9% logic, 82.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i'
+  Total number of paths / destination ports: 26 / 3
+-------------------------------------------------------------------------
+Offset:              1.802ns (Levels of Logic = 3)
+  Source:            channel_up0_cnt_3 (FF)
+  Destination:       gpio_led<0> (PAD)
+  Source Clock:      u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i rising
+
+  Data Path: channel_up0_cnt_3 to gpio_led<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.236   0.618  channel_up0_cnt_3 (channel_up0_cnt_3)
+     LUT6:I0->O            1   0.043   0.522  out1 (out)
+     LUT4:I0->O            1   0.043   0.339  out6 (gpio_led_0_OBUF)
+     OBUF:I->O                 0.000          gpio_led_0_OBUF (gpio_led<0>)
+    ----------------------------------------
+    Total                      1.802ns (0.322ns logic, 1.480ns route)
+                                       (17.9% logic, 82.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_27m'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.575ns (Levels of Logic = 0)
+  Source:            u0_genrst/rst_o (FF)
+  Destination:       u0_pll_27m/mmcm_adv_inst:RST (PAD)
+  Source Clock:      clk_27m rising
+
+  Data Path: u0_genrst/rst_o to u0_pll_27m/mmcm_adv_inst:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.236   0.339  u0_genrst/rst_o (u0_genrst/rst_o)
+    MMCME2_ADV:RST             0.000          u0_pll_27m/mmcm_adv_inst
+    ----------------------------------------
+    Total                      0.575ns (0.236ns logic, 0.339ns route)
+                                       (41.0% logic, 59.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               0.000ns (Levels of Logic = 1)
+  Source:            clk_27m (PAD)
+  Destination:       u0_pll_27m/mmcm_adv_inst:CLKIN1 (PAD)
+
+  Data Path: clk_27m to u0_pll_27m/mmcm_adv_inst:CLKIN1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFG:I->O            0   0.000   0.000  u0_clk27m_bufg (clk27m_bufg)
+    MMCME2_ADV:CLKIN1          0.000          u0_pll_27m/mmcm_adv_inst
+    ----------------------------------------
+    Total                      0.000ns (0.000ns logic, 0.000ns route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk_27m
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_27m        |    1.976|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock gtp0_tx_dst_rdy_n_buf
+---------------------------------------------------+---------+---------+---------+---------+
+                                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------------------------+---------+---------+---------+---------+
+u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i|    2.085|         |         |         |
+---------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i
+---------------------------------------------------+---------+---------+---------+---------+
+                                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------------------------+---------+---------+---------+---------+
+clk_27m                                            |    0.629|         |         |         |
+gtp0_tx_dst_rdy_n_buf                              |    0.782|         |         |         |
+u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i|    2.024|         |         |         |
+u0_pll_27m/clkout0                                 |    1.471|         |         |         |
+---------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0_pll_27m/clkout0
+---------------------------------------------------+---------+---------+---------+---------+
+                                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------------------------+---------+---------+---------+---------+
+clk_27m                                            |    0.629|         |         |         |
+u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i|    0.979|         |         |         |
+u0_pll_27m/clkout0                                 |    1.745|         |         |         |
+u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i|    0.979|         |         |         |
+---------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0_pll_27m/clkout1
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+clk_27m           |    0.629|         |         |         |
+u0_pll_27m/clkout1|    0.580|         |         |         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i
+---------------------------------------------------+---------+---------+---------+---------+
+                                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------------------------+---------+---------+---------+---------+
+clk_27m                                            |    0.629|         |         |         |
+u0_pll_27m/clkout0                                 |    1.471|         |         |         |
+u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i|    1.821|         |         |         |
+---------------------------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.31 secs
+ 
+--> 
+
+Total memory usage is 459876 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  301 (   0 filtered)
+Number of infos    :   92 (   0 filtered)
+

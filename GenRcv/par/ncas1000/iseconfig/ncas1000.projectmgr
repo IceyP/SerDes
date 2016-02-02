@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="ncas1000" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/clk_rst E:|MyProjects|STV|1000x|in_board|src|clk_rst|clk_rst.v</ClosedNode>
+         <ClosedNode>/clk_rst E:|MyProjects|STV|test_0420|in_board|src|clk_rst|clk_rst.v</ClosedNode>
+         <ClosedNode>/clk_rst E:|MyProjects|STV|test_0420|loop|GenRcv|src|clk_rst|clk_rst.v</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|1000x|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|1000x|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/aurora_lane_0_i - aurora_8b10b_gtx1_AURORA_LANE</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|1000x|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/global_logic_i - aurora_8b10b_gtx1_GLOBAL_LOGIC</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|1000x|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/gt_wrapper_i - aurora_8b10b_gtx1_GT_WRAPPER/aurora_8b10b_gtx1_multi_gt_i - aurora_8b10b_gtx1_multi_gt</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|1000x|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/rx_ll_i - aurora_8b10b_gtx1_RX_LL</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|1000x|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/tx_ll_i - aurora_8b10b_gtx1_TX_LL</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|1000x|in_board|src|top|ncas1000_top.v/u1_gtx_rxtx - gtx_rxtx</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|test_0420|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|test_0420|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/aurora_lane_0_i - aurora_8b10b_gtx1_AURORA_LANE</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|test_0420|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/global_logic_i - aurora_8b10b_gtx1_GLOBAL_LOGIC</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|test_0420|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/rx_ll_i - aurora_8b10b_gtx1_RX_LL</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|test_0420|in_board|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx/u0_aurora_8b10b_gtx1_exdes - aurora_8b10b_gtx1_exdes/aurora_module_i - aurora_8b10b_gtx1/tx_ll_i - aurora_8b10b_gtx1_TX_LL</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|test_0420|in_board|src|top|ncas1000_top.v/u1_gtx_rxtx - gtx_rxtx</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|test_0420|loop|GenRcv|src|top|ncas1000_top.v/u0_gtx_rxtx - gtx_rxtx</ClosedNode>
+         <ClosedNode>/ncas1000_top E:|MyProjects|STV|test_0420|loop|GenRcv|src|top|ncas1000_top.v/u1_gtx_rxtx - gtx_rxtx</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ncas1000_top (E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000368000000020000000000000000000000000200000064ffffffff000000810000000300000002000003680000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>ncas1000_top (E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Analyze Design Using ChipScope</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >10</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000189000000010000000100000000000000000000000064ffffffff000000810000000000000001000001890000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Analyze Design Using ChipScope</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000004dc000000040101000100000000000000000000000064ffffffff0000008100000000000000040000033a0000000100000000000000c000000001000000000000007800000001000000000000006a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>E:\MyProjects\STV\test_0420\loop\GenRcv\par\ncas1000\tx.cdc</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000019a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000019a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000012d0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

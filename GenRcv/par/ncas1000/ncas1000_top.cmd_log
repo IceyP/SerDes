@@ -1,0 +1,66 @@
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.xst" -ofn "E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ncas1000_top_map.ncd ncas1000_top.ngd ncas1000_top.pcf 
+par -w -intstyle ise -ol high -mt off ncas1000_top_map.ncd ncas1000_top.ncd ncas1000_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ncas1000_top.twx ncas1000_top.ncd -o ncas1000_top.twr ncas1000_top.pcf 
+bitgen -intstyle ise -f ncas1000_top.ut ncas1000_top.ncd 

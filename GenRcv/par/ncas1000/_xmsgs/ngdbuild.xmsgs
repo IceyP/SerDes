@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;GT0_GTREFCLK0_COMMON&quot; TNM_NET = GT_REFCLK1;&gt; [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(16)] was not distributed to the output pin QPLLOUTREFCLK of block u0_common_block/gtxe2_common_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;GT0_GTREFCLK0_COMMON&quot; TNM_NET = GT_REFCLK1;&gt; [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(16)] was not distributed to the output pin TXOUTCLK of block u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;GT0_GTREFCLK0_COMMON&quot; TNM_NET = GT_REFCLK1;&gt; [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(16)] was not distributed to the output pin TXOUTCLK of block u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="old" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_GTXQ0_LEFT_I = PERIOD &quot;GT_REFCLK&quot; 125.0 MHz HIGH 50%;&gt; [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(17)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">GT_REFCLK</arg>&apos;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="old" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_TX_OUT_CLK_GTX0 = PERIOD &quot;TX_OUT_CLK&quot; 312.5 MHz HIGH 50%;&gt; [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(20)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">TX_OUT_CLK</arg>&apos;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="old" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_TX_OUT_CLK_GTX1 = PERIOD &quot;TX_OUT_CLK&quot; 312.5 MHz HIGH 50%;&gt; [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(23)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">TX_OUT_CLK</arg>&apos;.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_27m</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_27m</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">u0_pll_27m/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_u0_pll_27m_clkout1 = PERIOD &quot;u0_pll_27m_clkout1&quot; TS_clk_27m / 4.670454545 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_27m</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_27m</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">u0_pll_27m/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_u0_pll_27m_clkout0 = PERIOD &quot;u0_pll_27m_clkout0&quot; TS_clk_27m / 3.702702703 HIGH 50%&gt;</arg>
+</msg>
+
+</messages>
+

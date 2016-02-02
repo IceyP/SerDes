@@ -1,0 +1,13 @@
+# Output products list for <shift_188>
+shift_188.asy
+shift_188.gise
+shift_188.ngc
+shift_188.v
+shift_188.veo
+shift_188.xco
+shift_188.xise
+shift_188\doc\c_shift_ram_v11_0_readme.txt
+shift_188\doc\c_shift_ram_v11_0_vinfo.html
+shift_188\doc\ds228_shift_ram.pdf
+shift_188_flist.txt
+shift_188_xmdf.tcl

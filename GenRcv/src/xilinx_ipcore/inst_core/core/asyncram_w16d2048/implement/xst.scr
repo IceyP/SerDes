@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent asyncram_w16d2048_exdes
+-p xc7k160t-ffg676-2
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn asyncram_w16d2048_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

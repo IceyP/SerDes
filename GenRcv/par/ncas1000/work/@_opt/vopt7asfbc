@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\MyProjects\STV\test_0420\loop\GenRcv\par\ncas1000
+T_opt
+VOQaQQ]Ekagc@[[1R896`P2
+04 8 4 work frame_tb fast 0
+04 4 4 work glbl fast 0
+=1-ac7ba13af921-56aecdd0-1a-1395c
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+n@_opt
+OL;O;10.1c;51
+vaurora_8b10b_v8_3_FRAME_GEN
+IHcFMo_>GM;CIBMBK1dkgk1
+V4mIWdmef8ROik?3aZ@o8h1
+Z1 dE:\MyProjects\STV\test_0420\loop\GenRcv\par\ncas1000
+w1454295083
+8../../src/serdes/aurora_8b10b_v8_3_frame_gen.v
+F../../src/serdes/aurora_8b10b_v8_3_frame_gen.v
+L0 22
+Z2 OL;L;10.1c;51
+r1
+31
+naurora_8b10b_v8_3_@f@r@a@m@e_@g@e@n
+!s100 HcFMo_>GM;CIBMBK1dkgk1
+!s108 1454296524.674000
+!s107 ../../src/serdes/aurora_8b10b_v8_3_frame_gen.v|
+!s90 -reportprogress|300|../../src/serdes/aurora_8b10b_v8_3_frame_gen.v|
+!i10b 1
+!s85 0
+vframe_tb
+IUd8g_1Od5nQG26CZaS`2C3
+VTW9<cH0V:PdC_[ZR2[WoZ2
+R1
+w1454296496
+8frame_tb.v
+Fframe_tb.v
+L0 25
+R2
+r1
+31
+!s100 Ud8g_1Od5nQG26CZaS`2C3
+!s108 1454296524.963000
+!s107 frame_tb.v|
+!s90 -reportprogress|300|frame_tb.v|
+!i10b 1
+!s85 0
+vglbl
+I]N4gKlEPBdlh^9]7jJHIF1
+VM[9mS]S:KA1i4VeCMX35[3
+R1
+w1364341843
+8D:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v
+FD:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v
+L0 5
+R2
+r1
+31
+!i10b 1
+!s100 ]N4gKlEPBdlh^9]7jJHIF1
+!s85 0
+!s108 1454296525.143000
+!s107 D:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v|
+!s90 -reportprogress|300|D:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v|

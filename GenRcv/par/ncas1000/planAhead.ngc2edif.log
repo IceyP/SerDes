@@ -1,0 +1,57 @@
+Release 14.5 - ngc2edif P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design ncas1000_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to ncas1000_top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_i
+   nit_sm_i/counter2_r<15 : 0> on block ncas1000_top is not reconstructed,
+   because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_i
+   nit_sm_i/counter2_r<15 : 0> on block ncas1000_top is not reconstructed,
+   because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_de
+   c_i/rx_cc_r<3 : 1> on block ncas1000_top is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_de
+   c_i/rx_ecp_d_r<2 : 0> on block ncas1000_top is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_de
+   c_i/rx_cc_r<3 : 1> on block ncas1000_top is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_de
+   c_i/rx_ecp_d_r<2 : 0> on block ncas1000_top is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel
+   _init_sm_i/v_count_r<31 : 0> on block ncas1000_top is not reconstructed,
+   because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel
+   _init_sm_i/v_count_r<31 : 0> on block ncas1000_top is not reconstructed,
+   because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/prepare_count_r<9
+   : 0> on block ncas1000_top is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/prepare_count_r<9
+   : 0> on block ncas1000_top is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus frame_gen_i/Result<5 : 0> on block
+   ncas1000_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   frame_gen_i/word_cnt[6]_PWR_49_o_select_42_OUT<15 : 0> on block ncas1000_top
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ncas1000_top.edif ...
+ngc2edif: Total memory usage is 105976 kilobytes
+

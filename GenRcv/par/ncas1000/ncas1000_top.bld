@@ -1,0 +1,94 @@
+Release 14.5 ngdbuild P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc
+E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf -p
+xc7k160t-ffg676-2 ncas1000_top_cs.ngc ncas1000_top.ngd
+
+Reading NGO file
+"E:/MyProjects/STV/test_0420/loop/GenRcv/par/ncas1000/ncas1000_top_cs.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - Constraint <NET "GT0_GTREFCLK0_COMMON" TNM_NET =
+   GT_REFCLK1;>
+   [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(16)] was
+   not distributed to the output pin QPLLOUTREFCLK of block
+   u0_common_block/gtxe2_common_i because the signal path to this output pin
+   depends upon block attribute settings. Constraint distribution does not
+   support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "GT0_GTREFCLK0_COMMON" TNM_NET =
+   GT_REFCLK1;>
+   [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(16)] was
+   not distributed to the output pin TXOUTCLK of block
+   u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b
+   10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path
+   to this output pin depends upon block attribute settings. Constraint
+   distribution does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "GT0_GTREFCLK0_COMMON" TNM_NET =
+   GT_REFCLK1;>
+   [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(16)] was
+   not distributed to the output pin TXOUTCLK of block
+   u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b
+   10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path
+   to this output pin depends upon block attribute settings. Constraint
+   distribution does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_GTXQ0_LEFT_I = PERIOD
+   "GT_REFCLK" 125.0 MHz HIGH 50%;>
+   [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(17)]:
+   Unable to find an active 'TNM' or 'TimeGrp' constraint named 'GT_REFCLK'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_TX_OUT_CLK_GTX0 = PERIOD
+   "TX_OUT_CLK" 312.5 MHz HIGH 50%;>
+   [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(20)]:
+   Unable to find an active 'TNM' or 'TimeGrp' constraint named 'TX_OUT_CLK'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_TX_OUT_CLK_GTX1 = PERIOD
+   "TX_OUT_CLK" 312.5 MHz HIGH 50%;>
+   [E:/MyProjects/STV/test_0420/loop/GenRcv/src/top/ncas1000_top.ucf(23)]:
+   Unable to find an active 'TNM' or 'TimeGrp' constraint named 'TX_OUT_CLK'.
+
+INFO:ConstraintSystem:178 - TNM 'clk_27m', used in period specification
+   'TS_clk_27m', was traced into MMCME2_ADV instance u0_pll_27m/mmcm_adv_inst.
+   The following new TNM groups and period specifications were generated at the
+   MMCME2_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_u0_pll_27m_clkout1 = PERIOD "u0_pll_27m_clkout1"
+   TS_clk_27m / 4.670454545 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_27m', used in period specification
+   'TS_clk_27m', was traced into MMCME2_ADV instance u0_pll_27m/mmcm_adv_inst.
+   The following new TNM groups and period specifications were generated at the
+   MMCME2_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_u0_pll_27m_clkout0 = PERIOD "u0_pll_27m_clkout0"
+   TS_clk_27m / 3.702702703 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   6
+
+Total memory usage is 257868 kilobytes
+
+Writing NGD file "ncas1000_top.ngd" ...
+Total REAL time to NGDBUILD completion:  15 sec
+Total CPU time to NGDBUILD completion:   15 sec
+
+Writing NGDBUILD log file "ncas1000_top.bld"...

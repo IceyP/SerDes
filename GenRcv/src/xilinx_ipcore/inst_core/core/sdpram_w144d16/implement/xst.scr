@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent sdpram_w144d16_exdes
+-p xc7k325t-ffg676-2
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn sdpram_w144d16_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

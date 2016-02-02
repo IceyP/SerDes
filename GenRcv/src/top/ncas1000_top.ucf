@@ -1,0 +1,63 @@
+############################3.3V,bank 14############################
+NET rst_n                       LOC = AF24  | IOSTANDARD = LVCMOS33 | TIG;
+NET clk_27m                     LOC = Y23   | IOSTANDARD = LVCMOS33;
+
+NET gpio_led<0>                 LOC = W21    | IOSTANDARD = LVCMOS33;
+NET gpio_led<1>                 LOC = AA23    | IOSTANDARD = LVCMOS33;
+NET gpio_led<2>                 LOC = Y22    | IOSTANDARD = LVCMOS33;
+NET gpio_led<3>                 LOC = AC24    | IOSTANDARD = LVCMOS33;
+NET gpio_led<4>                 LOC = Y21    | IOSTANDARD = LVCMOS33;
+
+
+NET "clk_27m"      TNM_NET  = "clk_27m";
+TIMESPEC    "TS_clk_27m"  = PERIOD "clk_27m" 37.037 ns HIGH 50 %;
+
+# 125.0MHz GT Reference clock constraint
+NET "GT0_GTREFCLK0_COMMON" TNM_NET = GT_REFCLK1;
+TIMESPEC TS_GTXQ0_LEFT_I = PERIOD "GT_REFCLK" 125.0 MHz HIGH 50%;
+
+NET "u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX0;
+TIMESPEC TS_TX_OUT_CLK_GTX0 = PERIOD "TX_OUT_CLK" 312.5 MHz HIGH 50%;
+
+NET "u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX1;
+TIMESPEC TS_TX_OUT_CLK_GTX1 = PERIOD "TX_OUT_CLK" 312.5 MHz HIGH 50%;
+
+# TXOUTCLK Constraint: Value is selected based on the line rate (3.125 Gbps) and lane width (2-Byte)
+
+#NET "mgt_refclk_p" TNM_NET = GT_REFCLK1;
+#TIMESPEC TS_GTPD1_LEFT_I = PERIOD "GT_REFCLK1" 125.0 MHz HIGH 50%;
+
+
+
+##############################################################################
+#### Clock constraints                                                        
+##############################################################################
+#TIMESPEC "TS_SYS_CLK1" = PERIOD "SYS_CLK1"  3 ns HIGH 50 %;
+##############################################################################
+
+
+#NET "u0_cpu_if/rst_ecm" TIG;
+#NET "u0_cpu_if/rst_emm" TIG;
+#NET "ddr3_sys_rst" TIG;
+##NET "rst_ddr3" TIG;
+#NET "rst_cfg" TIG;
+##NET "rst_cfg_i" TIG;
+#NET "rst_sys" TIG;
+
+#NET "clk_ddr3" TNM_NET = FFS "GRP_A";
+#NET "clk_cfg" TNM_NET = FFS "GRP_B";
+#TIMESPEC TS_Path_A_B = FROM "GRP_A" TO "GRP_B" TIG;
+#TIMESPEC TS_Path_B_A = FROM "GRP_B" TO "GRP_A" TIG;
+#
+#TIMESPEC TS_Path_C_D = FROM "GRP_C" TO "GRP_D" TIG;
+#TIMESPEC TS_Path_D_C = FROM "GRP_D" TO "GRP_C" TIG;
+
+############################### GT Location ###################################
+INST "u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC=GTXE2_CHANNEL_X0Y0;
+INST "u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC=GTXE2_CHANNEL_X0Y1;
+
+#INST u0_gtp_rxtx/u0_aurora_8b10b_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y0;
+#INST u1_gtp_rxtx/u0_aurora_8b10b_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y1;
+
+Net mgt_refclk_p              LOC = H6;  
+Net mgt_refclk_n              LOC = H5;  

@@ -1,0 +1,605 @@
+# do sim.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module triple_mac
+# -- Compiling module glbl
+# -- Compiling module triple_mac_tx_client_fifo
+# -- Compiling module triple_mac_rx_client_fifo
+# -- Compiling module triple_mac_ten_100_1g_eth_fifo
+# -- Compiling module triple_mac_reset_sync
+# -- Compiling module triple_mac_sync_block
+# -- Compiling module triple_mac_address_swap
+# -- Compiling module triple_mac_axi_mux
+# -- Compiling module triple_mac_axi_pat_gen
+# -- Compiling module triple_mac_axi_pat_check
+# -- Compiling module triple_mac_axi_pipe
+# -- Compiling module triple_mac_basic_pat_gen
+# -- Compiling module triple_mac_rgmii_v2_0_if
+# -- Compiling module triple_mac_axi_lite_sm
+# -- Compiling module triple_mac_counter_f
+# -- Compiling module triple_mac_pselect_f
+# -- Compiling module triple_mac_address_decoder
+# -- Compiling module triple_mac_slave_attachment
+# -- Compiling module triple_mac_axi_lite_ipif
+# -- Compiling module triple_mac_axi4_lite_ipif_wrapper
+# -- Compiling module triple_mac_clk_wiz
+# -- Compiling module triple_mac_block
+# -- Compiling module triple_mac_fifo_block
+# -- Compiling module triple_mac_example_design
+# -- Compiling module triple_mac_frame_typ
+# -- Compiling module demo_tb
+# 
+# Top level modules:
+# 	glbl
+# 	demo_tb
+# vsim -L unisims_ver -L unimacro_ver -voptargs=\"+acc+demo_tb+/demo_tb/dut+/demo_tb/dut/trimac_fifo_block\" -t ps work.demo_tb work.glbl 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading C:\modeltech_10.0c\win32/novas.dll
+# //  ModelSim SE 10.0c Jul 21 2011 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.demo_tb(fast)
+# Loading work.triple_mac_frame_typ(fast)
+# Loading work.triple_mac_frame_typ(fast__1)
+# Loading work.triple_mac_frame_typ(fast__2)
+# Loading work.triple_mac_example_design(fast)
+# Loading work.triple_mac_clk_wiz(fast)
+# Loading unisims_ver.IBUFGDS(fast)
+# Loading unisims_ver.MMCME2_ADV(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.triple_mac_reset_sync(fast)
+# Loading unisims_ver.FDPE(fast)
+# Loading work.triple_mac_sync_block(fast)
+# Loading unisims_ver.FD(fast)
+# Loading work.triple_mac_axi_lite_sm(fast)
+# Loading work.triple_mac_fifo_block(fast)
+# Loading work.triple_mac_block(fast)
+# Loading unisims_ver.IDELAYCTRL(fast)
+# Loading work.triple_mac_rgmii_v2_0_if(fast)
+# Loading unisims_ver.IOBUF(fast)
+# Loading unisims_ver.ODDR(fast)
+# Loading unisims_ver.BUFIO(fast)
+# Loading unisims_ver.BUFR(fast)
+# Loading unisims_ver.IODELAYE1(fast)
+# Loading unisims_ver.IDDR(fast)
+# Loading work.triple_mac_axi4_lite_ipif_wrapper(fast)
+# Loading work.triple_mac_axi_lite_ipif(fast)
+# Loading work.triple_mac_slave_attachment(fast)
+# Loading work.triple_mac_address_decoder(fast)
+# Loading work.triple_mac_counter_f(fast)
+# Loading work.triple_mac(fast)
+# Loading unisims_ver.FDRE(fast)
+# Loading unisims_ver.LUT2(fast)
+# Loading unisims_ver.FDE(fast)
+# Loading unisims_ver.SRLC16E(fast)
+# Loading unisims_ver.LUT6(fast)
+# Loading unisims_ver.LUT5(fast)
+# Loading unisims_ver.MUXF7(fast)
+# Loading unisims_ver.LUT4(fast)
+# Loading unisims_ver.INV(fast)
+# Loading unisims_ver.LUT3(fast)
+# Loading unisims_ver.LUT2(fast__1)
+# Loading unisims_ver.LUT2(fast__2)
+# Loading unisims_ver.FD(fast__1)
+# Loading unisims_ver.MUXCY(fast)
+# Loading unisims_ver.FDR(fast)
+# Loading unisims_ver.FDS(fast)
+# Loading unisims_ver.LUT1(fast)
+# Loading unisims_ver.FDS(fast__1)
+# Loading unisims_ver.LUT2(fast__3)
+# Loading unisims_ver.LUT2(fast__4)
+# Loading unisims_ver.LUT2(fast__5)
+# Loading unisims_ver.LUT2(fast__6)
+# Loading unisims_ver.LUT2(fast__7)
+# Loading unisims_ver.LUT2(fast__8)
+# Loading unisims_ver.FDSE(fast)
+# Loading unisims_ver.XORCY(fast)
+# Loading unisims_ver.SRL16E(fast)
+# Loading unisims_ver.MUXCY_L(fast)
+# Loading unisims_ver.AND2(fast)
+# Loading unisims_ver.FDP(fast)
+# Loading unisims_ver.RAM64X1D(fast)
+# Loading unisims_ver.RAM64X1D(fast__1)
+# Loading unisims_ver.RAM64X1D(fast__2)
+# Loading unisims_ver.MUXF5(fast)
+# Loading unisims_ver.GND(fast)
+# Loading unisims_ver.VCC(fast)
+# Loading work.triple_mac_ten_100_1g_eth_fifo(fast)
+# Loading work.triple_mac_tx_client_fifo(fast)
+# Loading unimacro_ver.BRAM_TDP_MACRO(fast)
+# Loading unisims_ver.RAMB18E1(fast)
+# Loading unisims_ver.RB18_INTERNAL_VLOG(fast)
+# Loading work.triple_mac_rx_client_fifo(fast)
+# Loading work.triple_mac_basic_pat_gen(fast)
+# Loading work.triple_mac_axi_pat_gen(fast)
+# Loading work.triple_mac_axi_pat_check(fast)
+# Loading work.triple_mac_axi_mux(fast)
+# Loading work.triple_mac_axi_pipe(fast)
+# Loading work.triple_mac_address_swap(fast)
+# Loading work.glbl(fast)
+# ** Note: Resetting core...
+# Novas FSDB Dumper for ModelSim, Release 5.4v9 (Win95/NT) 05/04/2005
+# Copyright (C) 1996 - 2004 by Novas Software, Inc.
+# *Novas* Create FSDB file 'test_000.fsdb'
+# *Novas* Start dumping the top scope(demo_tb), layer(0).
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_in_bus[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_in_bus[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_in_bus[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_in_bus[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_in_bus[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_in_bus[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_in_bus[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_in_bus[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_bus[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_bus[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_bus[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_bus[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_bus[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_bus[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_bus[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.rxdata_bus[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.txdata_out_bus[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.txdata_out_bus[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.txdata_out_bus[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.txdata_out_bus[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.txdata_out_bus[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.txdata_out_bus[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.txdata_out_bus[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.rgmii_interface.txdata_out_bus[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.GEN_BKEND_CE_REGISTERS[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.GEN_BKEND_CE_REGISTERS[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.MEM_DECODE_GEN[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.MEM_DECODE_GEN[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.MEM_DECODE_GEN[0].PER_CE_GEN[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.MEM_DECODE_GEN[0].PER_CE_GEN[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3680) Value change callback not allowed for automatic variable 'demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.calc_start_ce_index.ce_num_array'.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3680) Value change callback not allowed for automatic variable 'demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.calc_start_ce_index.calc_start_ce_index'.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3680) Value change callback not allowed for automatic variable 'demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.calc_start_ce_index.index'.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3680) Value change callback not allowed for automatic variable 'demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.calc_start_ce_index.ce_num_sum'.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3680) Value change callback not allowed for automatic variable 'demo_tb.dut.trimac_fifo_block.trimac_block.axi4_lite_ipif.axi_lite_top.I_SLAVE_ATTACHMENT.I_DECODER.calc_start_ce_index.CALC_START_INDEX_FOR_CE_GEN.i'.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[7] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[7] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[6] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[6] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[5] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[5] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[4] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[4] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_gen_inst.genblk1[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[7] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[7] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[6] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[6] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[5] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[5] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[4] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[4] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pat_check_inst.genblk1[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[7] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[7] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[6] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[6] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[5] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[5] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[4] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[4] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.axi_pipe_inst.genblk1[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[8] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[8] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[7] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[7] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[6] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[6] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[5] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[5] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[4] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[4] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[3] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[2] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[1] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Warning: Unknown scope type: demo_tb.dut.basic_pat_gen_inst.address_swap_inst.genblk1[0] 722
+#     : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# ** Error: (vsim-PLI-3486) acc_fetch_defname(): The object_handle parameter is not a handle to a module, primitive, or architecture instance.    : ../demo_tb.v(1188)
+#    Time: 0 ps  Iteration: 0  Instance: /demo_tb
+# *Novas* Start dumping the top scope(glbl), layer(0).
+# *Novas* End of dumping.
+# ** Note: Timing checks are valid
+# ** Note: Setting MDC Frequency to 2.5MHZ....
+# ** Note: Programming MAC speed
+# ** Note: Checking for PHY
+# ** Note: Reseting MAC RX
+# ** Note: Reseting MAC TX
+# ** Note: Setting MDC Frequency to 2.5MHZ....
+# ** Note: Disabling Flow control....
+# ** Note: Configuring unicast address(low word)....
+# ** Note: Configuring unicast address(high word)....
+# ** Note: Setting core to promiscuous mode....
+# Rx Stimulus: sending 4 frames at 1G ... 
+# ** Note: Comparing Transmitted Frame with Injected Frame
+# ** Note: Comparing Transmitted Frame with Injected Frame
+# ** ERROR: rgmii_txd incorrect during Source Address at             59337600ps
+# ** ERROR: rgmii_txd incorrect at             59377600ps
+# ** ERROR: rgmii_txd incorrect at             59385600ps
+# ** ERROR: rgmii_txd incorrect at             59417600ps
+# ** ERROR: rgmii_txd incorrect at             59425600ps
+# ** ERROR: rgmii_txd incorrect at             59433600ps
+# ** ERROR: rgmii_txd incorrect at             59441600ps
+# ** ERROR: rgmii_txd incorrect at             59449600ps
+# ** ERROR: rgmii_txd incorrect at             59457600ps
+# ** ERROR: rgmii_txd incorrect at             59465600ps
+# ** ERROR: rgmii_txd incorrect at             59473600ps
+# ** ERROR: rgmii_txd incorrect at             59481600ps
+# ** ERROR: rgmii_txd incorrect at             59489600ps
+# ** ERROR: rgmii_txd incorrect at             59497600ps
+# ** ERROR: rgmii_txd incorrect at             59505600ps
+# ** ERROR: rgmii_txd incorrect at             59513600ps
+# ** ERROR: rgmii_txd incorrect at             59521600ps
+# ** ERROR: rgmii_txd incorrect at             59529600ps
+# ** ERROR: rgmii_txd incorrect at             59537600ps
+# ** ERROR: rgmii_txd incorrect at             59545600ps
+# ** ERROR: rgmii_txd incorrect at             59553600ps
+# ** ERROR: rgmii_txd incorrect at             59561600ps
+# ** ERROR: rgmii_txd incorrect at             59569600ps
+# ** ERROR: rgmii_txd incorrect at             59577600ps
+# ** ERROR: rgmii_txd incorrect at             59585600ps
+# ** ERROR: rgmii_txd incorrect at             59593600ps
+# ** ERROR: rgmii_txd incorrect at             59601600ps
+# ** ERROR: rgmii_txd incorrect at             59609600ps
+# ** ERROR: rgmii_txd incorrect at             59617600ps
+# ** ERROR: rgmii_txd incorrect at             59625600ps
+# ** ERROR: rgmii_txd incorrect at             59633600ps
+# ** ERROR: rgmii_txd incorrect at             59641600ps
+# ** ERROR: rgmii_txd incorrect at             59649600ps
+# ** ERROR: rgmii_txd incorrect at             59657600ps
+# ** ERROR: rgmii_txd incorrect at             59665600ps
+# ** ERROR: rgmii_txd incorrect at             59673600ps
+# ** ERROR: rgmii_txd incorrect at             59681600ps
+# ** ERROR: rgmii_txd incorrect at             59689600ps
+# ** ERROR: rgmii_txd incorrect at             59697600ps
+# ** ERROR: rgmii_txd incorrect at             59705600ps
+# ** ERROR: rgmii_txd incorrect at             59713600ps
+# ** ERROR: rgmii_txd incorrect at             59721600ps
+# ** ERROR: rgmii_txd incorrect at             59729600ps
+# ** ERROR: rgmii_txd incorrect at             59737600ps
+# ** ERROR: rgmii_txd incorrect at             59745600ps
+# ** ERROR: rgmii_txd incorrect at             59753600ps
+# ** ERROR: rgmii_txd incorrect at             59761600ps
+# ** ERROR: rgmii_txd incorrect during FCS field at             59769600ps
+# ** ERROR: rgmii_txd incorrect during FCS field at             59777600ps
+# ** ERROR: rgmii_txd incorrect during FCS field at             59785600ps
+# ** ERROR: rgmii_tx_ctl incorrect during FCS field at             59793600ps
+# ** ERROR: rgmii_txd incorrect during FCS field at             59793600ps
+# ** ERROR: Simulation Running Forever
+# Break in Module demo_tb at ../demo_tb.v line 646
+# Stopped at ../demo_tb.v line 646 
+# Simulation Breakpoint: Break in Module demo_tb at ../demo_tb.v line 646
+# MACRO ./sim.do PAUSED at line 10
+# Break key hit 
+# 
+# <EOF> 

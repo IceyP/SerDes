@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 129: Result of <arg fmt="%d" index="1">29</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">28</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 145: Assignment to <arg fmt="%s" index="1">serdes_rst</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\clk_rst\gen_rst.v" Line 46: Result of <arg fmt="%d" index="1">29</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">28</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 132: Assignment to <arg fmt="%s" index="1">clkfboutb_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 134: Assignment to <arg fmt="%s" index="1">clkout0b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 136: Assignment to <arg fmt="%s" index="1">clkout1b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 137: Assignment to <arg fmt="%s" index="1">clkout2_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 138: Assignment to <arg fmt="%s" index="1">clkout2b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 139: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 140: Assignment to <arg fmt="%s" index="1">clkout3b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 141: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 142: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 143: Assignment to <arg fmt="%s" index="1">clkout6_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 155: Assignment to <arg fmt="%s" index="1">do_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 156: Assignment to <arg fmt="%s" index="1">drdy_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 162: Assignment to <arg fmt="%s" index="1">psdone_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 165: Assignment to <arg fmt="%s" index="1">clkinstopped_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\s6_pll_27m.v" Line 166: Assignment to <arg fmt="%s" index="1">clkfbstopped_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\common_block.v" Line 129: Assignment to <arg fmt="%s" index="1">GT0_QPLLLOCK_OUT</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 209: Assignment to <arg fmt="%s" index="1">gt1_qpllclk_quad2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 210: Assignment to <arg fmt="%s" index="1">gt1_qpllrefclk_quad2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" Line 250: Assignment to <arg fmt="%s" index="1">tied_to_gnd_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" Line 288: Assignment to <arg fmt="%s" index="1">tied_to_gnd_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" Line 290: Assignment to <arg fmt="%s" index="1">tied_to_ground_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" Line 291: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 224: Assignment to <arg fmt="%s" index="1">tied_to_ground_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 225: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 226: Assignment to <arg fmt="%s" index="1">tied_to_vcc_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 230: Assignment to <arg fmt="%s" index="1">chbondi</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 164: Port <arg fmt="%s" index="1">RXDFEAGCHOLD_IN</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 153: Assignment to <arg fmt="%s" index="1">tied_to_ground_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 154: Assignment to <arg fmt="%s" index="1">tied_to_ground_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 155: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 156: Assignment to <arg fmt="%s" index="1">tied_to_vcc_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 201: Assignment to <arg fmt="%s" index="1">tied_to_vcc_vec_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 581: Assignment to <arg fmt="%s" index="1">rxdisperr_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 582: Assignment to <arg fmt="%s" index="1">rxnotintable_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 685: Assignment to <arg fmt="%s" index="1">rxchariscomma_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_gt.v" Line 686: Assignment to <arg fmt="%s" index="1">rxcharisk_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_multi_gt.v" Line 173: Input port <arg fmt="%s" index="1">RXDFEAGCHOLD_IN</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 355: Assignment to <arg fmt="%s" index="1">open_rxbufstatus_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v" Line 363: Assignment to <arg fmt="%s" index="1">open_txbufstatus_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\xilinx_ipcore\aurora_8b10b_gtx1\src\aurora_8b10b_gtx1_tx_ll_control.v" Line 390: Assignment to <arg fmt="%s" index="1">channel_full_c</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v" Line 543: Input port <arg fmt="%s" index="1">AXI4_S_IP_TREADY</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" Line 316: Assignment to <arg fmt="%s" index="1">drdy_out_unused_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v" Line 317: Assignment to <arg fmt="%s" index="1">drpdo_out_unused_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 89: Assignment to <arg fmt="%s" index="1">hard_err</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 90: Assignment to <arg fmt="%s" index="1">soft_err</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 91: Assignment to <arg fmt="%s" index="1">frame_err</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 108: Assignment to <arg fmt="%s" index="1">gtx_rx_rem</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v" Line 101: Net &lt;<arg fmt="%s" index="1">gtx_tx_rem</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 228: Assignment to <arg fmt="%s" index="1">gtp0_rx_sof_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 229: Assignment to <arg fmt="%s" index="1">gtp0_rx_eof_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 230: Assignment to <arg fmt="%s" index="1">gtp0_rx_dvalid_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 259: Assignment to <arg fmt="%s" index="1">gtp1_rx_sof_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 260: Assignment to <arg fmt="%s" index="1">gtp1_rx_eof_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 261: Assignment to <arg fmt="%s" index="1">gtp1_rx_dvalid_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 267: Assignment to <arg fmt="%s" index="1">gtp1_tx_dst_rdy_n_buf</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 84: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 97: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 118: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 127: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_v8_3_frame_gen.v" Line 128: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 363: Result of <arg fmt="%d" index="1">27</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">26</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 96: Net &lt;<arg fmt="%s" index="1">gtp1_tx_data_buf[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 97: Net &lt;<arg fmt="%s" index="1">gtp1_tx_sof_n_buf</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 98: Net &lt;<arg fmt="%s" index="1">gtp1_tx_eof_n_buf</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v" Line 99: Net &lt;<arg fmt="%s" index="1">gtp1_tx_src_rdy_n_buf</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">197</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_QPLLLOCK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_common_block</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">197</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_QPLLREFCLKLOST</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_common_block</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">197</arg>: Output port &lt;<arg fmt="%s" index="3">GT1_QPLLLOCK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_common_block</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">197</arg>: Output port &lt;<arg fmt="%s" index="3">GT1_QPLLCLK_QUAD2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_common_block</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">197</arg>: Output port &lt;<arg fmt="%s" index="3">GT1_QPLLREFCLK_QUAD2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_common_block</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">197</arg>: Output port &lt;<arg fmt="%s" index="3">GT1_QPLLREFCLKLOST</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_common_block</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_rx_data</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">lane_up</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_rx_sof_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_rx_eof_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_rx_dvalid_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">248</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_rx_data</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u1_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">248</arg>: Output port &lt;<arg fmt="%s" index="3">lane_up</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u1_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">248</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_rx_sof_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u1_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">248</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_rx_eof_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u1_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">248</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_rx_dvalid_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u1_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">248</arg>: Output port &lt;<arg fmt="%s" index="3">gtx_tx_dst_rdy_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u1_gtx_rxtx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\top\ncas1000_top.v</arg>&quot; line <arg fmt="%s" index="2">280</arg>: Output port &lt;<arg fmt="%s" index="3">TX_REM</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">frame_gen_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">gtp1_tx_data_buf</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">gtp1_tx_sof_n_buf</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">gtp1_tx_eof_n_buf</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">gtp1_tx_src_rdy_n_buf</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">clk_125m</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">link_reset_gtx&lt;1&gt;</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">GT0_QPLLLOCK</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">HARD_ERR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_aurora_8b10b_gtx1_exdes</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">SOFT_ERR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_aurora_8b10b_gtx1_exdes</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">FRAME_ERR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_aurora_8b10b_gtx1_exdes</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\gtp_rxtx.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">RX_REM</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u0_aurora_8b10b_gtx1_exdes</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">gtx_tx_rem</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v</arg>&quot; line <arg fmt="%s" index="2">264</arg>: Output port &lt;<arg fmt="%s" index="3">DRPDO_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v</arg>&quot; line <arg fmt="%s" index="2">264</arg>: Output port &lt;<arg fmt="%s" index="3">DRPRDY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_exdes.v</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">AXI4_S_IP_TX_TREADY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">frame_chk_axi_to_ll_pdu_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">AXI4_S_IP_TREADY</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">ll_to_axi_pdu_i</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">CHANNEL_BOND_LOAD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_lane_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1.v</arg>&quot; line <arg fmt="%s" index="2">543</arg>: Output port &lt;<arg fmt="%s" index="3">LL_OP_DST_RDY_N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ll_to_axi_pdu_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CHANNEL_UP</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">CHANNEL_BOND_LOAD</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">aurora_8b10b_gtx1_CHBOND_COUNT_DEC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RESET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ENCHANSYNC_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RXRESET_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">TXRESET_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_RXCLKCORCNT_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_CPLLFBCLKLOST_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_CPLLREFCLKLOST_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_EYESCANDATAERROR_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_RXOUTCLK_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_RXCDRLOCK_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_RXELECIDLE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_TXOUTCLKFABRIC_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\MyProjects\STV\test_0420\loop\GenRcv\src\serdes\aurora_8b10b_gtx1_transceiver_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">302</arg>: Output port &lt;<arg fmt="%s" index="3">GT0_TXOUTCLKPCS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_8b10b_gtx1_multi_gt_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">GT0_RXELECIDLE_OUT</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">GOT_A</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CH_BOND_DONE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CHANNEL_BOND_LOAD</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">TX_REM</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">WARN_CC</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">LL_IP_SOF_N</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">PLL_NOT_LOCKED</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">PLL_NOT_LOCKED</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;15&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;14&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;13&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;12&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;11&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;10&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;9&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;8&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TX_D_i&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">chbond_count_dec_i</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">aurora_lane_0_i</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">chbond_count_dec_i</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">aurora_lane_0_i</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_spa_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_0&gt; &lt;prev_beat_v_d_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_spa_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_cc_r_2&gt; &lt;rx_scp_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; &lt;rx_scp_d_r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_cc_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_spa_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_0&gt; &lt;prev_beat_v_d_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_spa_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_cc_r_2&gt; &lt;rx_scp_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; &lt;rx_scp_d_r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_cc_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sym_gen_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">storage_r_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">in_frame_r</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_pe_data_r_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">TX_PE_DATA_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">tx_ll_datapath_i</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">frame_gen_ll_to_axi_pdu_i</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">u0_aurora_8b10b_gtx1_exdes</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_pad_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_3&gt; &lt;rx_spa_d_r_3&gt; &lt;got_a_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_0&gt; &lt;prev_beat_v_d_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_spa_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_cc_r_2&gt; &lt;rx_scp_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;got_a_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; &lt;rx_scp_d_r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_cc_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">LANE_UP</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_gtx1_exdes</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;aurora_module_i/global_logic_i/channel_err_detect_i/lane_up_r&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2716" delta="old" >In unit <arg fmt="%s" index="1">ncas1000_top</arg>, both signals <arg fmt="%s" index="2">clk_cfg</arg> and <arg fmt="%s" index="3">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/init_clk_i</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/init_clk_i</arg> will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="2716" delta="old" >In unit <arg fmt="%s" index="1">ncas1000_top</arg>, both signals <arg fmt="%s" index="2">clk_cfg</arg> and <arg fmt="%s" index="3">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/init_clk_i</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/init_clk_i</arg> will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/in_frame_r</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_r_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/data_eof_1_r</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/data_r</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/sof_r</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/axi_to_ll_pdu_i/new_pkt_r</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/data_eof_2_r</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_r_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_control_i/data_eof_3_r</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_r_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ncas1000_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/soft_err_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/hard_err_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/CHANNEL_SOFT_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/CHANNEL_HARD_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/FRAME_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/HARD_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/SOFT_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/soft_err_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/hard_err_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/CHANNEL_SOFT_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/CHANNEL_HARD_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/FRAME_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/HARD_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/SOFT_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/frame_chk_axi_to_ll_pdu_i/new_pkt_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/frame_chk_axi_to_ll_pdu_i/new_pkt_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/SOFT_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/HARD_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/soft_err_flop_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/SOFT_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/HARD_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/err_detect_i/soft_err_flop_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PAD</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/got_a_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/got_a_d_r_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/GOT_A_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/GOT_A_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/rx_pad_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/RX_PAD</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/got_a_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/got_a_d_r_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/GOT_A_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/GOT_A_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_dec_i/rx_pad_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_REM_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_SOF_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_EOF_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/storage_v_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_SRC_RDY_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/FRAME_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/pad_in_storage_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/sof_in_storage_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_REM_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_SOF_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_EOF_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/storage_v_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/RX_SRC_RDY_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/FRAME_ERR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/pad_in_storage_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/rx_ll_i/rx_ll_pdu_datapath_i/sof_in_storage_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/WARN_CC</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/WARN_CC</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/gen_pad_r</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/tx_pe_data_v_r&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_pad_r</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/storage_v_r&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/tx_pe_data_v_r</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_pad_r&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_0&gt; &lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_1&gt; &lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_2&gt; &lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter2_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_spa_data_r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_0&gt; &lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_1&gt; &lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_spa_cir_fifo_i/wr_ptr_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_sp_cir_fifo_i/wr_ptr_2&gt; &lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/aurora_8b10b_gtx1_hotplug_i/rx_cc_cir_fifo_i/wr_ptr_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/reset_logic_i/debounce_gt_rst_r_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/GEN_PAD</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/tx_ll_i/tx_ll_datapath_i/TX_PE_DATA_V&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/lane_init_sm_i/counter2_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/aurora_lane_0_i/sym_gen_i/gen_spa_data_r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/RESET_CHANNEL</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/lane_up_r2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/global_logic_i/channel_err_detect_i/RESET_CHANNEL</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ncas1000_top</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/lane_up_r2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">gtp0_tx_eof_n_buf</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">gtp0_tx_src_rdy_n_buf</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">15</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_16d_srl_r_14</arg>&gt; and currently occupies <arg fmt="%d" index="3">15</arg> logic cells (<arg fmt="%d" index="4">7</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">23</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">u1_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_24d_srl_r_22</arg>&gt; and currently occupies <arg fmt="%d" index="3">23</arg> logic cells (<arg fmt="%d" index="4">11</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">15</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_16d_srl_r_14</arg>&gt; and currently occupies <arg fmt="%d" index="3">15</arg> logic cells (<arg fmt="%d" index="4">7</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">23</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/standard_cc_module_i/count_24d_srl_r_22</arg>&gt; and currently occupies <arg fmt="%d" index="3">23</arg> logic cells (<arg fmt="%d" index="4">11</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

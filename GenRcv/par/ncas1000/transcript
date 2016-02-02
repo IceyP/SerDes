@@ -1,0 +1,41 @@
+# Reading D:/Program Files/Modelsim/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {frame_tb.fdo} 
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module aurora_8b10b_v8_3_FRAME_GEN
+# ** Warning: ../../src/serdes/aurora_8b10b_v8_3_frame_gen.v(160): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	aurora_8b10b_v8_3_FRAME_GEN
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module frame_tb
+# 
+# Top level modules:
+# 	frame_tb
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.frame_tb glbl 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.frame_tb(fast)
+# Loading work.aurora_8b10b_v8_3_FRAME_GEN(fast)
+# Loading work.glbl(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Causality operation skipped due to absense of debug database file
+run
+run
+run

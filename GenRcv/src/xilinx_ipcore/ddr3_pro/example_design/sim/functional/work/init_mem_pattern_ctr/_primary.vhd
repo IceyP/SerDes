@@ -1,0 +1,65 @@
+library verilog;
+use verilog.vl_types.all;
+entity init_mem_pattern_ctr is
+    generic(
+        TCQ             : integer := 100;
+        FAMILY          : string  := "SPARTAN6";
+        TST_MEM_INSTR_MODE: string  := "R_W_INSTR_MODE";
+        MEM_BURST_LEN   : integer := 8;
+        CMD_PATTERN     : string  := "CGEN_ALL";
+        BEGIN_ADDRESS   : integer := 0;
+        END_ADDRESS     : integer := 4095;
+        ADDR_WIDTH      : integer := 30;
+        DWIDTH          : integer := 32;
+        CMD_SEED_VALUE  : integer := 305419896;
+        DATA_SEED_VALUE : vl_logic_vector(31 downto 0) := (Hi1, Hi1, Hi0, Hi0, Hi1, Hi0, Hi1, Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi1, Hi0, Hi0, Hi0, Hi1, Hi0, Hi1, Hi0, Hi1, Hi1, Hi0, Hi0, Hi1, Hi1, Hi1, Hi0, Hi1, Hi0, Hi1);
+        DATA_MODE       : vl_logic_vector(0 to 3) := (Hi0, Hi0, Hi1, Hi0);
+        PORT_MODE       : string  := "BI_MODE";
+        EYE_TEST        : string  := "FALSE"
+    );
+    port(
+        clk_i           : in     vl_logic;
+        rst_i           : in     vl_logic;
+        mcb_cmd_addr_i  : in     vl_logic_vector;
+        mcb_cmd_bl_i    : in     vl_logic_vector(5 downto 0);
+        mcb_cmd_en_i    : in     vl_logic;
+        mcb_cmd_instr_i : in     vl_logic_vector(2 downto 0);
+        mcb_wr_en_i     : in     vl_logic;
+        vio_modify_enable: in     vl_logic;
+        vio_data_mode_value: in     vl_logic_vector(2 downto 0);
+        vio_addr_mode_value: in     vl_logic_vector(2 downto 0);
+        vio_bl_mode_value: in     vl_logic_vector(1 downto 0);
+        vio_fixed_bl_value: in     vl_logic_vector(5 downto 0);
+        mcb_init_done_i : in     vl_logic;
+        cmp_error       : in     vl_logic;
+        run_traffic_o   : out    vl_logic;
+        start_addr_o    : out    vl_logic_vector(31 downto 0);
+        end_addr_o      : out    vl_logic_vector(31 downto 0);
+        cmd_seed_o      : out    vl_logic_vector(31 downto 0);
+        data_seed_o     : out    vl_logic_vector(31 downto 0);
+        load_seed_o     : out    vl_logic;
+        addr_mode_o     : out    vl_logic_vector(2 downto 0);
+        instr_mode_o    : out    vl_logic_vector(3 downto 0);
+        bl_mode_o       : out    vl_logic_vector(1 downto 0);
+        data_mode_o     : out    vl_logic_vector(3 downto 0);
+        mode_load_o     : out    vl_logic;
+        fixed_bl_o      : out    vl_logic_vector(5 downto 0);
+        fixed_instr_o   : out    vl_logic_vector(2 downto 0);
+        fixed_addr_o    : out    vl_logic_vector(31 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of TCQ : constant is 1;
+    attribute mti_svvh_generic_type of FAMILY : constant is 1;
+    attribute mti_svvh_generic_type of TST_MEM_INSTR_MODE : constant is 1;
+    attribute mti_svvh_generic_type of MEM_BURST_LEN : constant is 1;
+    attribute mti_svvh_generic_type of CMD_PATTERN : constant is 1;
+    attribute mti_svvh_generic_type of BEGIN_ADDRESS : constant is 1;
+    attribute mti_svvh_generic_type of END_ADDRESS : constant is 1;
+    attribute mti_svvh_generic_type of ADDR_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of DWIDTH : constant is 1;
+    attribute mti_svvh_generic_type of CMD_SEED_VALUE : constant is 1;
+    attribute mti_svvh_generic_type of DATA_SEED_VALUE : constant is 1;
+    attribute mti_svvh_generic_type of DATA_MODE : constant is 1;
+    attribute mti_svvh_generic_type of PORT_MODE : constant is 1;
+    attribute mti_svvh_generic_type of EYE_TEST : constant is 1;
+end init_mem_pattern_ctr;

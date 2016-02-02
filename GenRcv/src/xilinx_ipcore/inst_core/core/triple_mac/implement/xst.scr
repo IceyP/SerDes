@@ -1,0 +1,9 @@
+run
+-ifn xst.prj
+-ifmt mixed
+-ofn triple_mac_example_design
+-top triple_mac_example_design
+-sd ../../
+-p kintex7
+-keep_hierarchy no
+

@@ -1,0 +1,68 @@
+library verilog;
+use verilog.vl_types.all;
+entity cmd_gen is
+    generic(
+        TCQ             : integer := 100;
+        FAMILY          : string  := "SPARTAN6";
+        MEM_BURST_LEN   : integer := 8;
+        PORT_MODE       : string  := "BI_MODE";
+        NUM_DQ_PINS     : integer := 8;
+        DATA_PATTERN    : string  := "DGEN_ALL";
+        CMD_PATTERN     : string  := "CGEN_ALL";
+        ADDR_WIDTH      : integer := 30;
+        DWIDTH          : integer := 32;
+        PIPE_STAGES     : integer := 0;
+        MEM_COL_WIDTH   : integer := 10;
+        PRBS_EADDR_MASK_POS: vl_logic_vector(31 downto 0) := (Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        PRBS_SADDR_MASK_POS: integer := 8192;
+        PRBS_EADDR      : integer := 8192;
+        PRBS_SADDR      : integer := 8192
+    );
+    port(
+        clk_i           : in     vl_logic;
+        rst_i           : in     vl_logic_vector(9 downto 0);
+        run_traffic_i   : in     vl_logic;
+        rd_buff_avail_i : in     vl_logic_vector(6 downto 0);
+        force_wrcmd_gen_i: in     vl_logic;
+        start_addr_i    : in     vl_logic_vector(31 downto 0);
+        end_addr_i      : in     vl_logic_vector(31 downto 0);
+        cmd_seed_i      : in     vl_logic_vector(31 downto 0);
+        data_seed_i     : in     vl_logic_vector(31 downto 0);
+        load_seed_i     : in     vl_logic;
+        addr_mode_i     : in     vl_logic_vector(2 downto 0);
+        data_mode_i     : in     vl_logic_vector(3 downto 0);
+        instr_mode_i    : in     vl_logic_vector(3 downto 0);
+        bl_mode_i       : in     vl_logic_vector(1 downto 0);
+        mode_load_i     : in     vl_logic;
+        fixed_bl_i      : in     vl_logic_vector(5 downto 0);
+        fixed_instr_i   : in     vl_logic_vector(2 downto 0);
+        fixed_addr_i    : in     vl_logic_vector(31 downto 0);
+        bram_addr_i     : in     vl_logic_vector(31 downto 0);
+        bram_instr_i    : in     vl_logic_vector(2 downto 0);
+        bram_bl_i       : in     vl_logic_vector(5 downto 0);
+        bram_valid_i    : in     vl_logic;
+        bram_rdy_o      : out    vl_logic;
+        reading_rd_data_i: in     vl_logic;
+        rdy_i           : in     vl_logic;
+        addr_o          : out    vl_logic_vector(31 downto 0);
+        instr_o         : out    vl_logic_vector(2 downto 0);
+        bl_o            : out    vl_logic_vector(5 downto 0);
+        cmd_o_vld       : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of TCQ : constant is 1;
+    attribute mti_svvh_generic_type of FAMILY : constant is 1;
+    attribute mti_svvh_generic_type of MEM_BURST_LEN : constant is 1;
+    attribute mti_svvh_generic_type of PORT_MODE : constant is 1;
+    attribute mti_svvh_generic_type of NUM_DQ_PINS : constant is 1;
+    attribute mti_svvh_generic_type of DATA_PATTERN : constant is 1;
+    attribute mti_svvh_generic_type of CMD_PATTERN : constant is 1;
+    attribute mti_svvh_generic_type of ADDR_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of DWIDTH : constant is 1;
+    attribute mti_svvh_generic_type of PIPE_STAGES : constant is 1;
+    attribute mti_svvh_generic_type of MEM_COL_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of PRBS_EADDR_MASK_POS : constant is 1;
+    attribute mti_svvh_generic_type of PRBS_SADDR_MASK_POS : constant is 1;
+    attribute mti_svvh_generic_type of PRBS_EADDR : constant is 1;
+    attribute mti_svvh_generic_type of PRBS_SADDR : constant is 1;
+end cmd_gen;

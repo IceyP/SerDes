@@ -1,0 +1,16 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Feb 01 18:23:37 2016
+
+drc -z ncas1000_top.ncd ncas1000_top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:2381 - Issue with pin connections and/or configuration
+   on block:<u0_common_block/gtxe2_common_lane1_i>:<GTXE2_COMMON_GTXE2_COMMON>. 
+   The output clock pins QPLLOUTCLK and QPLLOUTREFCLK should be connected
+   (unless this is just for access to the DRP).
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

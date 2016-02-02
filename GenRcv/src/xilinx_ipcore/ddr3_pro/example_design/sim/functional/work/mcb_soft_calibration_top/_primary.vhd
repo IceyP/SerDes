@@ -1,0 +1,64 @@
+library verilog;
+use verilog.vl_types.all;
+entity mcb_soft_calibration_top is
+    generic(
+        C_MEM_TZQINIT_MAXCNT: vl_logic_vector(0 to 9) := (Hi0, Hi1, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi1, Hi0);
+        C_MC_CALIBRATION_MODE: string  := "CALIBRATION";
+        SKIP_IN_TERM_CAL: vl_logic := Hi0;
+        SKIP_DYNAMIC_CAL: vl_logic := Hi0;
+        SKIP_DYN_IN_TERM: vl_logic := Hi0;
+        C_SIMULATION    : string  := "FALSE";
+        C_MEM_TYPE      : string  := "DDR"
+    );
+    port(
+        UI_CLK          : in     vl_logic;
+        RST             : in     vl_logic;
+        IOCLK           : in     vl_logic;
+        DONE_SOFTANDHARD_CAL: out    vl_logic;
+        PLL_LOCK        : in     vl_logic;
+        SELFREFRESH_REQ : in     vl_logic;
+        SELFREFRESH_MCB_MODE: in     vl_logic;
+        SELFREFRESH_MCB_REQ: out    vl_logic;
+        SELFREFRESH_MODE: out    vl_logic;
+        MCB_UIADD       : out    vl_logic;
+        MCB_UISDI       : out    vl_logic;
+        MCB_UOSDO       : in     vl_logic;
+        MCB_UODONECAL   : in     vl_logic;
+        MCB_UOREFRSHFLAG: in     vl_logic;
+        MCB_UICS        : out    vl_logic;
+        MCB_UIDRPUPDATE : out    vl_logic;
+        MCB_UIBROADCAST : out    vl_logic;
+        MCB_UIADDR      : out    vl_logic_vector(4 downto 0);
+        MCB_UICMDEN     : out    vl_logic;
+        MCB_UIDONECAL   : out    vl_logic;
+        MCB_UIDQLOWERDEC: out    vl_logic;
+        MCB_UIDQLOWERINC: out    vl_logic;
+        MCB_UIDQUPPERDEC: out    vl_logic;
+        MCB_UIDQUPPERINC: out    vl_logic;
+        MCB_UILDQSDEC   : out    vl_logic;
+        MCB_UILDQSINC   : out    vl_logic;
+        MCB_UIREAD      : out    vl_logic;
+        MCB_UIUDQSDEC   : out    vl_logic;
+        MCB_UIUDQSINC   : out    vl_logic;
+        MCB_RECAL       : out    vl_logic;
+        MCB_SYSRST      : out    vl_logic;
+        MCB_UICMD       : out    vl_logic;
+        MCB_UICMDIN     : out    vl_logic;
+        MCB_UIDQCOUNT   : out    vl_logic_vector(3 downto 0);
+        MCB_UODATA      : in     vl_logic_vector(7 downto 0);
+        MCB_UODATAVALID : in     vl_logic;
+        MCB_UOCMDREADY  : in     vl_logic;
+        MCB_UO_CAL_START: in     vl_logic;
+        RZQ_Pin         : inout  vl_logic;
+        ZIO_Pin         : inout  vl_logic;
+        CKE_Train       : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of C_MEM_TZQINIT_MAXCNT : constant is 1;
+    attribute mti_svvh_generic_type of C_MC_CALIBRATION_MODE : constant is 1;
+    attribute mti_svvh_generic_type of SKIP_IN_TERM_CAL : constant is 1;
+    attribute mti_svvh_generic_type of SKIP_DYNAMIC_CAL : constant is 1;
+    attribute mti_svvh_generic_type of SKIP_DYN_IN_TERM : constant is 1;
+    attribute mti_svvh_generic_type of C_SIMULATION : constant is 1;
+    attribute mti_svvh_generic_type of C_MEM_TYPE : constant is 1;
+end mcb_soft_calibration_top;
