@@ -1,0 +1,649 @@
+/*************************************************************************************\
+    Copyright(c) 2012, China Digital TV Holding Co., Ltd,All right reserved
+    Department   :   New Media,R&D Hardware Department
+    Filename     :   test_ad9739a.v
+    Author       :   huangrui/1480
+    ==================================================================================
+    Description  :
+    
+    ==================================================================================
+    Modification History:
+    Date        By                  Rev.        Prj.        Change Description
+    ----------------------------------------------------------------------------------
+    2012-06-15  huangrui/1480       1.0         IPQAM       Create
+    ==================================================================================
+    Called by    :   test_ad9739a.v
+    File tree    :   test_ad9739a.v
+\************************************************************************************/
+
+`timescale 1ns/100ps
+module TS_Gen(
+	clk,
+	rst,
+	ce,
+	frame,
+	data
+);
+input clk,rst,ce,frame;
+output [7:0] data;
+reg [7:0] data;
+
+reg [7:0] cnt;
+
+always @(posedge clk or posedge frame)
+begin
+	if(frame==1'b1)
+		cnt<=0;
+	else
+	begin
+		if (ce==1'b1)
+		begin
+			cnt<=cnt+1'b1;
+		end
+	end
+end
+
+always @(cnt)
+begin
+	case (cnt)
+	0: data=8'h47;
+	1: data=8'h01;
+	2: data=8'h20;
+	3: data=8'h10;
+	default: data=cnt;
+	endcase
+end
+
+endmodule
+
+module test_ad9739a(
+    rst                         ,
+    
+    CLK_P                       ,                                       //200MHz
+    CLK_N                       ,
+    
+    dac_clk_in_p                ,                                       //512MHz
+    dac_clk_in_n                ,
+    dac_clk_out_p               ,
+    dac_clk_out_n               ,
+    dac_data_out_a_p            ,
+    dac_data_out_a_n            ,
+    dac_data_out_b_p            ,
+    dac_data_out_b_n            ,
+    
+    spi_csn                     ,
+    spi_clk                     ,
+    spi_mosi                    ,
+    spi_miso                    ,
+    
+    gpio_led
+    );
+
+parameter       U_DLY                       = 1                     ;
+parameter       NOT_ENABLE                  = 1'b1                  ;
+parameter       CH_ENABLE                      = 1'b0                  ;
+parameter       rf_lo =476;
+
+input                                   rst                         ;
+input                                   CLK_P                       ;
+input                                   CLK_N                       ;
+
+input                                   dac_clk_in_p                ;
+input                                   dac_clk_in_n                ;
+output                                  dac_clk_out_p               ;
+output                                  dac_clk_out_n               ;
+output  [13:0]                          dac_data_out_a_p            ;
+output  [13:0]                          dac_data_out_a_n            ;
+output  [13:0]                          dac_data_out_b_p            ;
+output  [13:0]                          dac_data_out_b_n            ;
+                                        
+output  [1:0]                           spi_csn                     ;   //spi_csn[0]:AD9739a;spi_csn[1]:ADF4350
+output                                  spi_clk                     ;
+output                                  spi_mosi                    ;
+input                                   spi_miso                    ;
+
+output  [3:0]                           gpio_led                    ;
+    
+reg    [13:0]                          dds_data_00                 ;
+reg    [13:0]                          dds_data_01                 ;
+reg    [13:0]                          dds_data_02                 ;
+reg    [13:0]                          dds_data_03                 ;
+reg    [13:0]                          dds_data_04                 ;
+reg    [13:0]                          dds_data_05                 ;
+reg    [13:0]                          dds_data_06                 ;
+reg    [13:0]                          dds_data_07                 ;
+reg    [13:0]                          dds_data_08                 ;
+reg    [13:0]                          dds_data_09                 ;
+reg    [13:0]                          dds_data_10                 ;
+reg    [13:0]                          dds_data_11                 ;
+
+
+wire                                    dac_div3_clk                ;
+
+wire                                    spi_clk                     ;   //10M
+wire                                    pll_lock                    ;
+wire                                    clk_10m                     ;
+wire                                    clk_341m                    ;
+
+wire                                    cfg_we                      ;
+wire    [6:0]                           cfg_wa                      ;
+wire    [31:0]                          cfg_di                      ;
+wire                                    cfg_bb0_we                  ;
+wire                                    cfg_gain0_we                ;
+wire                                    cfg_mixbb0_we               ;
+wire    [17:0]                          cfg_gain0_di                ;
+
+wire    [9:0]                           bb_sym0_iq                  ;
+wire                                    bb_sym0_vi                  ;
+
+wire                                    bb0_re                      ;
+wire    [3:0]                           bb0_ch                      ;
+wire    [31:0]                          bb0_doa                     ;
+wire                                    bb0_voa                     ;
+
+wire    [31:0]                          gain0_dout                  ;
+wire                                    gain0_vout                  ;
+reg     [31:0]                          gain0_dout_1dly             ;
+reg                                     gain0_vo_1dly               ;
+
+wire    [31:0]                          mixbb0_out                  ;
+wire                                    mixbb0_vo                   ;
+reg     [31:0]                          mixbb0_out_1dly             ;
+reg                                     mixbb0_vo_1dly              ;
+
+wire    [13:0]                          iout_00                 ;
+wire    [13:0]                          iout_01                 ;
+wire    [13:0]                          iout_02                 ;
+wire    [13:0]                          iout_03                 ;
+wire    [13:0]                          iout_04                 ;
+wire    [13:0]                          iout_05                 ;
+wire    [13:0]                          iout_06                 ;
+wire    [13:0]                          iout_07                 ;
+wire    [13:0]                          iout_08                 ;
+wire    [13:0]                          iout_09                 ;
+wire    [13:0]                          iout_10                 ;
+wire    [13:0]                          iout_11                 ;
+
+
+reg     [13:0]                          iout_reg_00;
+reg     [13:0]                          iout_reg_02;
+reg     [13:0]                          iout_reg_04;
+reg     [13:0]                          iout_reg_06;
+reg     [13:0]                          iout_reg_08;
+reg     [13:0]                          iout_reg_10;
+
+wire                                    clk_102m                    ;
+
+wire [9:0] j83_iq [15:0];
+wire [9:0] j83_iq_mux;
+
+wire [15:0] j83_ren;
+
+assign  spi_clk =   ~clk_10m;
+
+pll200m u0_pll200m(
+    .CLK_IN1_P                          ( CLK_P                     ),
+	.CLK_IN1_N							( CLK_N						),
+    .CLK_OUT1                           ( clk_10m                   ),
+    .RESET                              ( rst                       ),
+    .LOCKED                             ( pll_lock                  )
+    );
+
+spi_if u0_spi_if(
+    .rst                                ( rst                       ),
+    .clk                                ( clk_10m                   ),
+    .spi_miso                           ( spi_miso                  ),
+    .spi_csn                            ( spi_csn                   ),
+    .spi_mosi                           ( spi_mosi                  )    
+    );
+     
+cf_dac_if u0_dac_if(
+    .rst                                ( rst                       ),
+    .clk_341m                           ( clk_341m                  ),
+    .clk_102m                           ( clk_102m                  ),
+    
+    .dac_clk_in_p                       ( dac_clk_in_p              ),
+    .dac_clk_in_n                       ( dac_clk_in_n              ),
+    .dac_clk_out_p                      ( dac_clk_out_p             ),
+    .dac_clk_out_n                      ( dac_clk_out_n             ),
+    .dac_data_out_a_p                   ( dac_data_out_a_p          ),
+    .dac_data_out_a_n                   ( dac_data_out_a_n          ),
+    .dac_data_out_b_p                   ( dac_data_out_b_p          ),
+    .dac_data_out_b_n                   ( dac_data_out_b_n          ),
+    
+    .dac_div3_clk                       ( dac_div3_clk              ),
+    .dds_data_00                        ( dds_data_00               ),
+    .dds_data_01                        ( dds_data_01               ),
+    .dds_data_02                        ( dds_data_02               ),
+    .dds_data_03                        ( dds_data_03               ),
+    .dds_data_04                        ( dds_data_04               ),
+    .dds_data_05                        ( dds_data_05               ),
+    .dds_data_06                        ( dds_data_06               ),
+    .dds_data_07                        ( dds_data_07               ),
+    .dds_data_08                        ( dds_data_08               ),
+    .dds_data_09                        ( dds_data_09               ),
+    .dds_data_10                        ( dds_data_10               ),
+    .dds_data_11                        ( dds_data_11               ),
+    
+    .up_dds_enable                      ( 1'b1                      )
+    );
+
+assign  cfg_bb0_we      =   ((cfg_we==1'b1) && (cfg_wa[6:4]==3'b000))  ?   1'b1    :   1'b0;
+assign  cfg_gain0_we    =   ((cfg_we==1'b1) && (cfg_wa[6:4]==3'b001))  ?   1'b1    :   1'b0;
+assign  cfg_mixbb0_we   =   ((cfg_we==1'b1) && (cfg_wa[6:4]==3'b010))  ?   1'b1    :   1'b0;
+assign  cfg_gain0_di    =   {2'b00,cfg_di[15:0]};
+
+bb_sym u0_bb_sym(
+    .rst                                ( rst                       ),
+    .clk                                ( clk_341m                  ),
+    .clk_cfg                            ( clk_10m                  ),
+    .bb_sym_iq                          ( bb_sym0_iq                ),
+    .bb_sym_vi                          ( bb_sym0_vi                ),
+    .cfg_we                             ( cfg_we                    ),
+    .cfg_wa                             ( cfg_wa                    ),
+    .cfg_di                             ( cfg_di                    )
+    );
+
+assign j83_iq_mux = j83_iq[bb0_ch];
+
+//always@(bb0_ch)
+//begin
+//	case( bb0_ch)
+//	0: j83_iq_mux<=j83_iq[0];
+//	1: j83_iq_mux<=j83_iq[1];
+//	2: j83_iq_mux<=j83_iq[2];
+//	3: j83_iq_mux<=j83_iq[3];
+//	4: j83_iq_mux<=j83_iq[4];
+//	5: j83_iq_mux<=j83_iq[5];
+//	6: j83_iq_mux<=j83_iq[6];
+//	7: j83_iq_mux<=j83_iq[7];
+//	8: j83_iq_mux<=j83_iq[8];
+//	9: j83_iq_mux<=j83_iq[9];
+//	10: j83_iq_mux<=j83_iq[10];
+//	11: j83_iq_mux<=j83_iq[11];
+//	12: j83_iq_mux<=j83_iq[12];
+//	13: j83_iq_mux<=j83_iq[13];
+//	14: j83_iq_mux<=j83_iq[14];
+//	15: j83_iq_mux<=j83_iq[15];
+//	
+//	endcase
+//end
+    
+bb u0_bb(
+    .PCLK                               ( clk_10m                  ),
+    .WA                                 ( cfg_wa[3:0]               ),  //channel:0-15
+    .DI                                 ( cfg_di                    ),
+    .WE                                 ( cfg_bb0_we                ),
+    .CLK                                ( clk_341m                  ),
+    .CSET                               ( 1'b0                      ),
+    .RE                                 ( bb0_re                    ),
+    .CH                                 ( bb0_ch                    ),
+    .I                                  ( j83_iq_mux               ),
+    .VI                                 ( bb_sym0_vi                ),
+    .O                                  ( bb0_doa                   ),
+    .VO                                 ( bb0_voa                   )
+    );		
+
+GAIN #(
+    .CHANNELS                           ( 16                        ),
+    .WAWIDTH                            ( 4                         )
+    )
+u0_gain(
+    .PCLK                               ( clk_10m                  ),
+    .WA                                 ( cfg_wa[3:0]               ),
+    .WE                                 ( cfg_gain0_we              ),
+    .DI                                 ( cfg_gain0_di              ),
+    .CLK                                ( clk_341m                  ),
+    .I                                  ( bb0_doa                   ),
+    .VI                                 ( bb0_voa                   ),
+    .O                                  ( gain0_dout                ),
+    .VO                                 ( gain0_vo                  )
+    );
+
+always@(posedge clk_341m or posedge rst)
+begin
+    if(rst==1'b1)
+    begin
+        gain0_dout_1dly <=  {32{1'b0}};
+        gain0_vo_1dly   <=  1'b0;
+    end
+    else
+    begin
+        gain0_dout_1dly <=  gain0_dout;
+        gain0_vo_1dly   <=  gain0_vo;
+    end
+end
+
+MIXBB #(
+    .CHANNELS                           ( 16                        ),
+    .LUT_SIZE                           ( 12                        ),
+    .WAWIDTH                            ( 4                         )
+    )
+u0_mixbb(
+    .PCLK                               ( clk_10m                  ),
+    .WA                                 ( cfg_wa[3:0]               ),
+    .WE                                 ( cfg_mixbb0_we             ),
+    .DI                                 ( cfg_di                    ),
+    .CLK                                ( clk_341m                  ),
+    .I                                  ( gain0_dout_1dly           ),
+    .VI                                 ( gain0_vo_1dly             ),
+    .O                                  ( mixbb0_out                ),
+    .VO                                 ( mixbb0_vo                 )
+    );
+    
+always@(posedge clk_341m or posedge rst)
+begin
+    if(rst==1'b1)
+    begin
+        mixbb0_out_1dly <=  {32{1'b0}};
+        mixbb0_vo_1dly  <=  1'b0;
+    end
+    else
+    begin
+        mixbb0_out_1dly <=  mixbb0_out;
+        mixbb0_vo_1dly  <=  mixbb0_vo;
+    end
+end
+
+//reorder u0_reorder(
+//    .clk                                ( clk_341m                  ),
+//    .rst                                ( rst                       ),
+//    .vi                                 (),
+//    .iq                                 (),
+//    .dout                               (),
+//    .vo                                 ()
+//    );
+  	          
+duc_341mhz_cw u0_duc(   
+    .clk                                ( clk_341m                  ), //341MHz        
+    .ce                                 ( mixbb0_vo_1dly                 ), //????????????  
+    .din1                               ( mixbb0_out[15:0]     ), //in2 in hbf1
+    .din2                               ( 16'h0000                  ), //in3 in hbf1
+    .din5                               ( mixbb0_out[31:16]    ), //in1 in hbf1
+            
+    .ena_b0c0                           ( CH_ENABLE                 ),
+    .ena_b0c1                           ( NOT_ENABLE                ),
+    .ena_b0c2                           ( NOT_ENABLE                ),
+    .ena_b0c3                           ( NOT_ENABLE                ),
+    .ena_b0c4                           ( NOT_ENABLE                ),
+    .ena_b0c5                           ( NOT_ENABLE                ),
+    .ena_b0c6                           ( NOT_ENABLE                ),
+    .ena_b0c7                           ( NOT_ENABLE                ),
+    .ena_b0c8                           ( NOT_ENABLE                ),
+    .ena_b0c9                           ( NOT_ENABLE                ),
+    .ena_b0c10                          ( NOT_ENABLE                ),
+    .ena_b0c11                          ( NOT_ENABLE                ),
+    .ena_b0c12                          ( NOT_ENABLE                ),
+    .ena_b0c13                          ( NOT_ENABLE                ),
+    .ena_b0c14                          ( NOT_ENABLE                ),
+    .ena_b0c15                          ( NOT_ENABLE                ),
+    .ena_b0c16                          ( NOT_ENABLE                ),
+    .ena_b0c17                          ( NOT_ENABLE                ),
+    .ena_b0c18                          ( NOT_ENABLE                ),
+    .ena_b0c19                          ( NOT_ENABLE                ),
+    .ena_b0c20                          ( NOT_ENABLE                ),
+    .ena_b0c21                          ( NOT_ENABLE                ),
+    .ena_b0c22                          ( NOT_ENABLE                ),
+    .ena_b0c23                          ( NOT_ENABLE                ),
+       
+    .ena_b1c0                           ( NOT_ENABLE                ),
+    .ena_b1c1                           ( CH_ENABLE                 ),
+    .ena_b1c2                           ( NOT_ENABLE                ),
+    .ena_b1c3                           ( NOT_ENABLE                ),
+    .ena_b1c4                           ( NOT_ENABLE                ),
+    .ena_b1c5                           ( NOT_ENABLE                ),
+    .ena_b1c6                           ( NOT_ENABLE                ),
+    .ena_b1c7                           ( NOT_ENABLE                ),
+    .ena_b1c8                           ( NOT_ENABLE                ),
+    .ena_b1c9                           ( NOT_ENABLE                ),
+    .ena_b1c10                          ( NOT_ENABLE                ),
+    .ena_b1c11                          ( NOT_ENABLE                ),
+    .ena_b1c12                          ( NOT_ENABLE                ),
+    .ena_b1c13                          ( NOT_ENABLE                ),
+    .ena_b1c14                          ( NOT_ENABLE                ),
+    .ena_b1c15                          ( NOT_ENABLE                ),
+    .ena_b1c16                          ( NOT_ENABLE                ),
+    .ena_b1c17                          ( NOT_ENABLE                ),
+    .ena_b1c18                          ( NOT_ENABLE                ),
+    .ena_b1c19                          ( NOT_ENABLE                ),
+    .ena_b1c20                          ( NOT_ENABLE                ),
+    .ena_b1c21                          ( NOT_ENABLE                ),
+    .ena_b1c22                          ( NOT_ENABLE                ),
+    .ena_b1c23                          ( NOT_ENABLE                ),
+    
+    .ena_b2c0                           ( NOT_ENABLE                ),
+    .ena_b2c1                           ( NOT_ENABLE                ),
+    .ena_b2c2                           ( CH_ENABLE                 ),
+    .ena_b2c3                           ( NOT_ENABLE                ),
+    .ena_b2c4                           ( NOT_ENABLE                ),
+    .ena_b2c5                           ( NOT_ENABLE                ),
+    .ena_b2c6                           ( NOT_ENABLE                ),
+    .ena_b2c7                           ( NOT_ENABLE                ),
+    .ena_b2c8                           ( NOT_ENABLE                ),
+    .ena_b2c9                           ( NOT_ENABLE                ),
+    .ena_b2c10                          ( NOT_ENABLE                ),
+    .ena_b2c11                          ( NOT_ENABLE                ),
+    .ena_b2c12                          ( NOT_ENABLE                ),
+    .ena_b2c13                          ( NOT_ENABLE                ),
+    .ena_b2c14                          ( NOT_ENABLE                ),
+    .ena_b2c15                          ( NOT_ENABLE                ),
+    .ena_b2c16                          ( NOT_ENABLE                ),
+    .ena_b2c17                          ( NOT_ENABLE                ),
+    .ena_b2c18                          ( NOT_ENABLE                ),
+    .ena_b2c19                          ( NOT_ENABLE                ),
+    .ena_b2c20                          ( NOT_ENABLE                ),
+    .ena_b2c21                          ( NOT_ENABLE                ),
+    .ena_b2c22                          ( NOT_ENABLE                ),
+    .ena_b2c23                          ( NOT_ENABLE                ),
+     
+    .freq_word0                         ( 10'd965                   ),  //200.2MHz  
+    .freq_word1                         ( 10'd796                   ),  //400.1MHz
+    .freq_word2                         ( 10'd55                    ),  //750.4MHz
+    .freq_word3                         ( 10'd0                     ), 
+    .freq_word4                         ( 10'd0                     ),  
+    .freq_word5                         ( 10'd0                     ),  
+    .freq_word6                         ( 10'd0                     ),  
+    .freq_word7                         ( 10'd0                     ),  
+    .freq_word8                         ( 10'd0                     ),  
+    .freq_word9                         ( 10'd0                     ),  
+    .freq_word10                        ( 10'd0                     ), 
+    .freq_word11                        ( 10'd0                     ), 
+    .freq_word12                        ( 10'd0                     ), 
+    .freq_word13                        ( 10'd0                     ), 
+    .freq_word14                        ( 10'd0                     ), 
+    .freq_word15                        ( 10'd0                     ), 
+    .freq_word16                        ( 10'd0                     ), 
+    .freq_word17                        ( 10'd0                     ), 
+    .freq_word18                        ( 10'd0                     ), 
+    .freq_word19                        ( 10'd0                     ),       
+    .freq_word20                        ( 10'd0                     ), 
+    .freq_word21                        ( 10'd0                     ), 
+    .freq_word22                        ( 10'd0                     ), 
+    .freq_word23                        ( 10'd0                     ), 
+
+    .freq_word24                        ( rf_lo/4                     ),  //1
+    .freq_word25                        ( rf_lo/4*9                     ),   //10
+    .freq_word26                        ( rf_lo/4*10%1024                     ), //11 
+    .freq_word27                        ( rf_lo/4*11%1024                     ), //12
+    .freq_word28                        ( rf_lo/4                     ), //2
+    .freq_word29                        ( rf_lo/4*2%1024                     ), //3    
+    .freq_word30                        ( rf_lo/4*3%1024                     ), 
+    .freq_word31                        ( rf_lo/4*4%1024                     ), 
+    .freq_word32                        ( rf_lo/4*5%1024                     ), 
+    .freq_word33                        ( rf_lo/4*6%1024                     ), 
+    .freq_word34                        ( rf_lo/4*7%1024                     ), 
+    .freq_word35                        ( rf_lo/4*8%1024                     ), 
+    
+    .iout0                              ( iout_00               ),       
+    .iout1                              ( iout_01               ),       
+    .iout2                              ( iout_02               ),      
+    .iout3                              ( iout_03               ),      
+    .iout4                              ( iout_04               ),       
+    .iout5                              ( iout_05               ),       
+    .iout6                              ( iout_06               ),       
+    .iout7                              ( iout_07               ),       
+    .iout8                              ( iout_08               ),       
+    .iout9                              ( iout_09               ),       
+    .iout10                             ( iout_10               ),       
+    .iout11                             ( iout_11               ),       
+    .rst                                ( rst                       )              
+    );  
+
+reg [31:0]  clk_cnt;
+reg         ms_led;
+always@(posedge spi_clk or posedge rst)
+begin
+    if(rst==1'b1)
+    begin
+        clk_cnt <=  {32{1'b0}};
+    end
+    else if(clk_cnt>=5000000)
+    begin
+        clk_cnt <=  {32{1'b0}};
+    end
+    else
+    begin
+        clk_cnt <=  clk_cnt + 32'h1;
+    end
+end
+
+always@(posedge spi_clk or posedge rst)
+begin
+    if(rst==1'b1)
+    begin
+        ms_led  <=  1'b0;
+    end
+    else if(clk_cnt>=5000000)
+    begin
+        ms_led  <=  ~ms_led;
+    end
+end
+
+always@(posedge clk_341m or posedge rst)
+begin
+  if(rst==1'b1)
+    begin
+      iout_reg_00<=14'b0;
+      iout_reg_02<=14'b0;
+      iout_reg_04<=14'b0;
+      iout_reg_06<=14'b0;
+      iout_reg_08<=14'b0;
+      iout_reg_10<=14'b0;
+    end
+  else 
+    begin
+      iout_reg_00<=iout_00;
+      iout_reg_02<=iout_02;
+      iout_reg_04<=iout_04;
+      iout_reg_06<=iout_06;
+      iout_reg_08<=iout_08;
+      iout_reg_10<=iout_10;
+    end
+end
+
+//assign dds_data_00 = iout_reg_00;
+//assign dds_data_01 = iout_reg_02;
+//assign dds_data_02 = iout_reg_04;
+//assign dds_data_03 = iout_reg_06;
+//assign dds_data_04 = iout_reg_08;
+//assign dds_data_05 = iout_reg_10;
+//assign dds_data_06 = iout_00;
+//assign dds_data_07 = iout_02;
+//assign dds_data_08 = iout_04;
+//assign dds_data_09 = iout_06;
+//assign dds_data_10 = iout_08;
+//assign dds_data_11 = iout_10;
+
+reg ld_dds_data;
+
+always@(posedge clk_341m or posedge rst)
+begin
+	if(rst==1'b1)
+		ld_dds_data<=1'b0;
+	else
+	begin
+		ld_dds_data<=~ld_dds_data;
+		if (ld_dds_data==1'b1 )
+		begin
+
+			dds_data_00<=iout_reg_00;
+			dds_data_01<=iout_reg_02;
+			dds_data_02<=iout_reg_04;
+			dds_data_03<=iout_reg_06;
+			dds_data_04<=iout_reg_08;
+			dds_data_05<=iout_reg_10;
+			dds_data_06<=iout_00;
+			dds_data_07<=iout_02;
+			dds_data_08<=iout_04;
+			dds_data_09<=iout_06;
+			dds_data_10<=iout_08;
+			dds_data_11<=iout_10;
+
+//			dds_data_00<={iout_reg_00[9:0], 4'b0}; //to test span
+//			dds_data_01<={iout_reg_02[9:0], 4'b0};
+//			dds_data_02<={iout_reg_04[9:0], 4'b0};
+//			dds_data_03<={iout_reg_06[9:0], 4'b0};
+//			dds_data_04<={iout_reg_08[9:0], 4'b0};
+//			dds_data_05<={iout_reg_10[9:0], 4'b0};
+//			dds_data_06<={iout_00[9:0], 4'b0};
+//			dds_data_07<={iout_02[9:0], 4'b0};
+//			dds_data_08<={iout_04[9:0], 4'b0};
+//			dds_data_09<={iout_06[9:0], 4'b0};
+//			dds_data_10<={iout_08[9:0], 4'b0};
+//			dds_data_11<={iout_10[9:0], 4'b0};
+		end
+	end
+end 
+
+assign  gpio_led    =   {pll_lock,ms_led,1'b1,1'b0};
+
+//entity J83Top is
+//	 port(
+//		 clk : in STD_LOGIC;
+//		 rst : in std_logic;				   
+//		 ren : in STD_LOGIC;
+//		 D : in STD_LOGIC_VECTOR(7 downto 0);
+//		 mode : in std_logic_vector( 3 downto 0 );
+//		 ce : out STD_LOGIC;
+//		 systemce : out std_logic;
+//		 frame : out STD_LOGIC;
+//		 IQ : out STD_LOGIC_VECTOR(9 downto 0)
+//	     );
+//end J83Top;
+
+
+genvar j;
+generate 
+for(j=0;j<16;j=j+1)
+begin: j83
+
+wire [7:0] ts_data;
+wire ts_ce;
+wire ts_frame;
+assign j83_ren[j]= bb0_ch==j ? bb0_re : 0;
+J83Top mod
+(.clk(clk_341m),
+.rst(rst),
+.ren(j83_ren[j]),
+.D(ts_data),
+.mode(4'b0110),
+.ce(ts_ce),
+.systemce(),
+.frame(ts_frame),
+.IQ(j83_iq[j])
+);
+
+TS_Gen gen
+(
+.clk(clk_341m),
+.rst(rst),
+.data(ts_data),
+.ce(ts_ce),
+.frame(ts_frame)
+);
+
+end
+
+endgenerate
+      
+endmodule

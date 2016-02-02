@@ -1,0 +1,1 @@
+D:/Xilinx/14.5/ISE_DS/ISE/sysgen/bin/nt64/saferun.exe -a E:/Data/Design/duc_note/duc_16ch_sg/duc_16ch_341_cw_import.log -- d:/xilinx/14.5/ise_ds/ise//bin/nt64/xtclsh.exe ProjectGeneration.tcl

@@ -1,0 +1,247 @@
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/1000x/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/1000x/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.xst" -ofn "E:/MyProjects/STV/test_0420/out_board/par/test_serdes/test_serdes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/MyProjects/STV/test_0420/out_board/src/top/test_serdes.ucf -p xc7k160t-ffg676-2 test_serdes_cs.ngc test_serdes.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_serdes_map.ncd test_serdes.ngd test_serdes.pcf 
+par -w -intstyle ise -ol high -mt off test_serdes_map.ncd test_serdes.ncd test_serdes.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test_serdes.twx test_serdes.ncd -o test_serdes.twr test_serdes.pcf 
+bitgen -intstyle ise -f test_serdes.ut test_serdes.ncd 

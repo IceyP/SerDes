@@ -1,0 +1,1963 @@
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 18
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 18
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 18
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_0e0e0a285ef7a16d
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 17
+CSET Add_Mode = Subtract
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 17
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 17
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_1ae7fcb63c340449
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 25
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 25
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 25
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_27308e86a0ce55d1
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 27
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 27
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 27
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_315e1457f99dae5e
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 14
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 14
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 14
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_3abe85fcf1017fed
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 17
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 17
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 17
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_3b5cfe2278dc7df8
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 26
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 26
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 26
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_3cbd55626510ca57
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 29
+CSET Add_Mode = Subtract
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 29
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 29
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_45f8b994267d2451
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 19
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 19
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 19
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_490e4beeb7992ef4
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Unsigned
+CSET A_Width = 11
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Unsigned
+CSET B_Value = 0
+CSET B_Width = 11
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 11
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_49467494b87e75c7
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 11
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 11
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 11
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_6623adedd12a938a
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 21
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 21
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 21
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_750c6c8a22bc78ba
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 22
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 22
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 22
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_82f1c5fd59d21ea0
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 13
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 13
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 13
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_8747e77bb511337e
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 17
+CSET Add_Mode = Add_Subtract
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 17
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 17
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_9196f8ffd2db8ce4
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 19
+CSET Add_Mode = Subtract
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 19
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 19
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_a5337ca1a964fead
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 21
+CSET Add_Mode = Subtract
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 21
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 21
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_c70c61eff7bb7aeb
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 23
+CSET Add_Mode = Subtract
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 23
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 23
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_ccf4ef11a52a233f
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 20
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 20
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 20
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_cfbd5258ba626a7a
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 22
+CSET Add_Mode = Subtract
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 22
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 22
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_d0318fcf26b3c272
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 31
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 31
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 31
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_f1b619e12671c199
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 16
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 16
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 16
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_f392a1f2f071bf23
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Structural
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Adder_Subtracter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 33
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 33
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 33
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+SET simulationfiles = Structural
+CSET component_name = addsb_11_0_fc66294023431638
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_0b6075e08c22268d.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_0b6075e08c22268d
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_2f2b227d5258d685.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 44
+CSET read_width_b = 44
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 512
+CSET write_width_a = 44
+CSET write_width_b = 44
+CSET component_name = bmg_72_2f2b227d5258d685
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = true
+CSET byte_size = 9
+CSET coe_file = bmg_72_5fc6d969158b1ced.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Use_ENB_Pin
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = True_Dual_Port_RAM
+CSET operating_mode_a = NO_CHANGE
+CSET operating_mode_b = NO_CHANGE
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = true
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_5fc6d969158b1ced
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_88bd69a7e506f2a2.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 27
+CSET read_width_b = 27
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 27
+CSET write_width_b = 27
+CSET component_name = bmg_72_88bd69a7e506f2a2
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_9cba7eb6526fc26f.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 39
+CSET read_width_b = 39
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 512
+CSET write_width_a = 39
+CSET write_width_b = 39
+CSET component_name = bmg_72_9cba7eb6526fc26f
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_a3b5d83d934b45b5.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 56
+CSET read_width_b = 56
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 512
+CSET write_width_a = 56
+CSET write_width_b = 56
+CSET component_name = bmg_72_a3b5d83d934b45b5
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_b297e10d233cb875.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 50
+CSET read_width_b = 50
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 512
+CSET write_width_a = 50
+CSET write_width_b = 50
+CSET component_name = bmg_72_b297e10d233cb875
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_c0e7027c8d56f068.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 18
+CSET read_width_b = 18
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 1024
+CSET write_width_a = 18
+CSET write_width_b = 18
+CSET component_name = bmg_72_c0e7027c8d56f068
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Block_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_72_e18a8bcda58a41cd.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 52
+CSET read_width_b = 52
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 512
+CSET write_width_a = 52
+CSET write_width_b = 52
+CSET component_name = bmg_72_e18a8bcda58a41cd
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Binary_Counter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 3
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_6da79292a37693ee
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Binary_Counter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 2
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_76451075d188e63f
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Binary_Counter kintex7 Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 4
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_7a9f00e1c86c8fba
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_1c9994abe91d1da0.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 32
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 16
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = dual_port_ram
+CSET output_options = non_registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = false
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_1c9994abe91d1da0
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_2828f053f6c73e1f.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 17
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 128
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = rom
+CSET output_options = registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = true
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_2828f053f6c73e1f
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_53c8fda674a6c63d.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 23
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 128
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = rom
+CSET output_options = registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = true
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_53c8fda674a6c63d
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_85ef246b9b71061d.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 4
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 16
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = rom
+CSET output_options = registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = true
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_85ef246b9b71061d
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_903d17a1900ee539.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 32
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 16
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = dual_port_ram
+CSET output_options = non_registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = false
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_903d17a1900ee539
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_9651f078ad2c9f1b.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 29
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 128
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = rom
+CSET output_options = registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = true
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_9651f078ad2c9f1b
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_9ec52875c6eb4958.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 3
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 16
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = rom
+CSET output_options = registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = true
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_9ec52875c6eb4958
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_b01799b9bf71bdc0.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 12
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 64
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = rom
+CSET output_options = registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = true
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_b01799b9bf71bdc0
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_e9661fc0e9eb3e90.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 25
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 128
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = rom
+CSET output_options = registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = true
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_e9661fc0e9eb3e90
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = kintex7
+SET simulationfiles = Behavioral
+SET devicefamily = kintex7
+SET device = xc7k160t
+SET package = ffg676
+SET speedgrade = -2
+SET VerilogSim = true
+SET VHDLSim = false
+SELECT Distributed_Memory_Generator kintex7 Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE kintex7
+# VERILOG
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_f25cd80cb6ee82df.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 12
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 128
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = rom
+CSET output_options = registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = true
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_f25cd80cb6ee82df
+GENERATE

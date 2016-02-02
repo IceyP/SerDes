@@ -1,0 +1,294 @@
+# Compile of ts_j83_buf.v was successful.
+# Compile of scram_cfg.v was successful.
+# Compile of scrambler_tb.v was successful.
+# Compile of scrambler_ts_gen.v was successful.
+# Compile of ts_scrambler.v was successful.
+# Compile of BLOCK_CIPHER2.vhdl was successful.
+# Compile of SCRAMBLER.vhdl was successful.
+# Compile of STREAM_CIPHER.vhdl was successful.
+# Compile of keybuff.v was successful.
+# Compile of ramb2_1clk.v was successful.
+# Compile of sbox_mem.v was successful.
+# Compile of scram_datram.v was successful.
+# Compile of scram_pidram.v was successful.
+# Compile of sk_ram.v was successful.
+# Compile of ts_j83_sdpram.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -L C:/Xilinx/14.3/LIB/xilinxcorelib_ver -L C:/Xilinx/14.3/LIB/secureip -L C:/Xilinx/14.3/LIB/unimacro_ver -L C:/Xilinx/14.3/LIB/unisims_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/secureip -Lf C:/Xilinx/14.3/LIB/unimacro_ver -Lf C:/Xilinx/14.3/LIB/unisims_ver {-voptargs=+acc -L C:/Xilinx/14.3/LIB/unisims_ver -L C:/Xilinx/14.3/LIB/xilinxcorelib_ver -L C:/Xilinx/14.3/LIB/secureip -L C:/Xilinx/14.3/LIB/unimacro_ver -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/unisims_ver -Lf C:/Xilinx/14.3/LIB/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/secureip -Lf C:/Xilinx/14.3/LIB/unimacro_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver} work.scrambler_tb
+# vsim -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -L C:/Xilinx/14.3/LIB/xilinxcorelib_ver -L C:/Xilinx/14.3/LIB/secureip -L C:/Xilinx/14.3/LIB/unimacro_ver -L C:/Xilinx/14.3/LIB/unisims_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/secureip -Lf C:/Xilinx/14.3/LIB/unimacro_ver -Lf C:/Xilinx/14.3/LIB/unisims_ver {-voptargs=+acc -L C:/Xilinx/14.3/LIB/unisims_ver -L C:/Xilinx/14.3/LIB/xilinxcorelib_ver -L C:/Xilinx/14.3/LIB/secureip -L C:/Xilinx/14.3/LIB/unimacro_ver -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/unisims_ver -Lf C:/Xilinx/14.3/LIB/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/secureip -Lf C:/Xilinx/14.3/LIB/unimacro_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver} work.scrambler_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+###### C:\Xilinx\14.3\ISE_DS\ISE\verilog\src\XilinxCoreLib\BLK_MEM_GEN_V7_3.v(183):     output aw_ready_r;
+# ** Error: C:\Xilinx\14.3\ISE_DS\ISE\verilog\src\XilinxCoreLib\BLK_MEM_GEN_V7_3.v(184): Internal error: ../../../src/vlog/vtokfile.c(2986) nr == 1
+# ** Error: Bad file format for C:\Xilinx\14.3\LIB\xilinxcorelib_ver/@b@l@k_@m@e@m_@g@e@n_@v7_3_output_stage/_primary.dat.
+# ** Error: C:\Xilinx\14.3\ISE_DS\ISE\verilog\src\XilinxCoreLib\BLK_MEM_GEN_V7_3.v(184): Internal error: ../../../src/vlog/vtree_dt2.c(11313)
+###### C:\Xilinx\14.3\ISE_DS\ISE\verilog\src\XilinxCoreLib\BLK_MEM_GEN_V7_3.v(1872):   endgenerate
+# ** Error: C:\Xilinx\14.3\ISE_DS\ISE\verilog\src\XilinxCoreLib\BLK_MEM_GEN_V7_3.v(1873): Vopt Compiler exiting
+# Error loading design
+vsim -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver {-voptargs=+acc -L C:/Xilinx/14.3/LIB/unisims_ver -L C:/Xilinx/14.3/LIB/xilinxcorelib_ver -L C:/Xilinx/14.3/LIB/secureip -L C:/Xilinx/14.3/LIB/unimacro_ver -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/unisims_ver -Lf C:/Xilinx/14.3/LIB/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/secureip -Lf C:/Xilinx/14.3/LIB/unimacro_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver} work.scrambler_tb
+# vsim -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver {-voptargs=+acc -L C:/Xilinx/14.3/LIB/unisims_ver -L C:/Xilinx/14.3/LIB/xilinxcorelib_ver -L C:/Xilinx/14.3/LIB/secureip -L C:/Xilinx/14.3/LIB/unimacro_ver -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/unisims_ver -Lf C:/Xilinx/14.3/LIB/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/secureip -Lf C:/Xilinx/14.3/LIB/unimacro_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver} work.scrambler_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unisims_ver' at "C:/Xilinx/14.3/LIB/unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/unisims_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unisims_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver' at "C:/Xilinx/14.3/LIB/xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/xilinxcorelib_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/xilinxcorelib_ver'.
+# ** Error: (vopt-19) Failed to access library 'C:/Xilinx/14.3/LIB/unimacro_ver' at "C:/Xilinx/14.3/LIB/unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): Library C:/Xilinx/14.3/LIB/unimacro_ver not found.
+# ** Warning: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(1): (vopt-2669) Unable to find library 'C:/Xilinx/14.3/LIB/unimacro_ver'.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl(24): Vopt Compiler exiting
+# Error loading design
+vsim -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver {-voptargs=+acc -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver} work.scrambler_tb
+# vsim -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver {-voptargs=+acc -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver} work.scrambler_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl(24): Vopt Compiler exiting
+# Error loading design
+vsim -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver {-voptargs=+acc -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver} work.scrambler_tb
+# vsim -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver {-voptargs=+acc -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver} work.scrambler_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v(180): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# ** Error: C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl(24): Vopt Compiler exiting
+# Error loading design

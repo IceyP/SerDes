@@ -1,0 +1,75 @@
+m255
+K3
+cModel Technology Builtin Library
+13
+Z0 d/u/qa/buildsites/10.0c/builds/linux/modeltech
+Pvl_resolve
+Z1 OL;C;10.0c;49
+31
+b1
+Z2 OP;C;10.0c;49
+Z3 w1311307325
+Z4 d$MODEL_TECH/..
+Z5 8vhdl_src/verilog/vlresolve.vhd
+Z6 Fvhdl_src/verilog/vlresolve.vhd
+l0
+L9
+V;MUVQ:gNoB`KDBojSWMb=2
+Z7 OE;C;10.0c;49
+Z8 !s108 1311310255.093182
+Z9 !s90 -93|-work|verilog|-dirpath|$MODEL_TECH/..|vhdl_src/verilog/vlresolve.vhd|
+Z10 !s107 vhdl_src/verilog/vlresolve.vhd|
+Z11 o-93 -work verilog -dirpath {$MODEL_TECH/..}
+Z12 tExplicit 1
+!s100 Dz6RP8^1=94XZ4Dm0Xlb30
+Bbody
+DPx4 work 10 vl_resolve 0 22 ;MUVQ:gNoB`KDBojSWMb=2
+R1
+31
+R2
+l0
+L16
+VVnF^d^cJdN9CIz_1miiLG0
+R7
+R8
+R9
+R10
+R11
+R12
+nbody
+!s100 MmL^ZnoiM7hM`ZfH0A5gG1
+Pvl_types
+R1
+31
+b1
+R2
+R3
+R4
+Z13 8vhdl_src/verilog/vltypes.vhd
+Z14 Fvhdl_src/verilog/vltypes.vhd
+l0
+L9
+V]G>2izW1V4dcRR@F[keS10
+R7
+Z15 !s108 1311310254.886571
+Z16 !s90 -93|-work|verilog|-dirpath|$MODEL_TECH/..|vhdl_src/verilog/vltypes.vhd|
+Z17 !s107 vhdl_src/verilog/vltypes.vhd|
+R11
+R12
+!s100 WCf=zLFW=NmRo=iRNciMW1
+Bbody
+DPx4 work 8 vl_types 0 22 ]G>2izW1V4dcRR@F[keS10
+R1
+31
+R2
+l0
+L104
+VQbKR276X<RPhfbHg[XlPb3
+R7
+R15
+R16
+R17
+R11
+R12
+nbody
+!s100 b90GRVJJAob2>WGQWbW9[0

@@ -1,0 +1,1 @@
+`define TOTAL_CHN_NUM 16

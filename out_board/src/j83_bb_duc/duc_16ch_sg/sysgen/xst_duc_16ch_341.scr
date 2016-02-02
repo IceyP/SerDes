@@ -1,0 +1,1 @@
+run -ifn xst_duc_16ch_341.prj -ifmt mixed -ofn duc_16ch_341_cw.ngc -ofmt NGC -p xc7k160t-2ffg676 -ent duc_16ch_341_cw -keep_hierarchy NO -iobuf YES -bus_delimiter [] -top duc_16ch_341_cw -hierarchy_separator / -report_timing_constraint_problems warning -register_balancing no -iob Auto -uc duc_16ch_341_cw.xcf -write_timing_constraints yes

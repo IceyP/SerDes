@@ -1,0 +1,336 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\huangrui\Desktop\pcr_cor\src_160t_scrambler_0228\scram_tb\modelsim
+T_opt
+V>Mm8`?L3Uo<eMNHdN[d?D3
+Z1 04 12 4 work scrambler_tb fast 0
+Z2 =34-7845c401e908-513836c7-3c9-1228
+Z3 o-quiet +acc -auto_acc_if_foreign -work work -L C:/Xilinx/14.3/LIB/secureip -L C:/Xilinx/14.3/LIB/unimacro_ver -L C:/Xilinx/14.3/LIB/unisims_ver -L C:/Xilinx/14.3/LIB/xilinxcorelib_ver -L C:/Xilinx/14.2/lib/secureip -L C:/Xilinx/14.2/lib/unimacro_ver -L C:/Xilinx/14.2/lib/unisims_ver -L C:/Xilinx/14.2/lib/xilinxcorelib_ver -Lf C:/Xilinx/14.3/LIB/secureip -Lf C:/Xilinx/14.3/LIB/unimacro_ver -Lf C:/Xilinx/14.3/LIB/unisims_ver -Lf C:/Xilinx/14.3/LIB/xilinxcorelib_ver -Lf C:/Xilinx/14.2/lib/secureip -Lf C:/Xilinx/14.2/lib/unimacro_ver -Lf C:/Xilinx/14.2/lib/unisims_ver -Lf C:/Xilinx/14.2/lib/xilinxcorelib_ver
+Z4 n@_opt
+Z5 OE;O;10.0c;49
+Z6 dC:\Users\huangrui\Desktop\pcr_cor\src_160t_scrambler_0228\scram_tb\modelsim
+Eblock_cipher2
+Z7 w1362557383
+Z8 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z9 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z10 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z11 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z12 dC:\Users\huangrui\Desktop\pcr_cor\src_160t_scrambler_0228\scram_tb\sim_2
+Z13 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/BLOCK_CIPHER2.vhdl
+Z14 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/BLOCK_CIPHER2.vhdl
+l0
+L6
+Z15 Ve?`J>z:cb2;GlC:YGi@`V1
+Z16 OE;C;10.0c;49
+32
+Z17 !s108 1362557511.735000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/BLOCK_CIPHER2.vhdl|
+Z19 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/BLOCK_CIPHER2.vhdl|
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1
+Z22 !s100 o1^V_Oa5hamNnLD2co;_j1
+Ablock_cipher2_arch
+R8
+R9
+R10
+R11
+Z23 DEx4 work 13 block_cipher2 0 22 e?`J>z:cb2;GlC:YGi@`V1
+l98
+L30
+Z24 ViE1aB8Qk@hoj2EfkH_AhQ2
+R16
+32
+R17
+R18
+R19
+R20
+R21
+Z25 !s100 f`_Mf1ce>:YcfeJWUF;;V0
+vkeybuff
+Z26 IXPU;JYi@RC:Um2L5GEW4^2
+Z27 VL`ogIRhzz0H2KfPF@8omE3
+R12
+Z28 w1362012416
+Z29 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/keybuff.v
+Z30 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/keybuff.v
+L0 39
+Z31 OE;L;10.0c;49
+r1
+31
+Z32 !s102 -nocovercells
+Z33 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z34 !s100 @[gRWcHiFK4=_jIZL]_]41
+Z35 !s108 1362463018.861000
+Z36 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/keybuff.v|
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/keybuff.v|
+!s85 0
+vramb2_1clk
+Z38 I_gN5B7AMKOLD[[D:Uo79^0
+Z39 Vb:6e8;D^nFWb[TzXU0zN20
+R12
+Z40 w1362012397
+Z41 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ramb2_1clk.v
+Z42 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ramb2_1clk.v
+L0 39
+R31
+r1
+31
+R32
+R33
+Z43 !s100 HZi^YbMQk5XR1J]gNVnZe1
+Z44 !s108 1362463018.970000
+Z45 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ramb2_1clk.v|
+Z46 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ramb2_1clk.v|
+!s85 0
+vsbox_mem
+Z47 INBdh=HihVfScV:ciUJIUX2
+Z48 V4Z[UnYOI8m<N9R?G<;kPh1
+R12
+Z49 w1362535334
+Z50 8C:\Users\huangrui\Desktop\pcr_cor\src_160t_scrambler_0228\xilinx_ipcore\inst_core\core\sbox_mem.v
+Z51 FC:\Users\huangrui\Desktop\pcr_cor\src_160t_scrambler_0228\xilinx_ipcore\inst_core\core\sbox_mem.v
+L0 39
+R31
+r1
+31
+R32
+R33
+Z52 !s100 3h;X9^EzDn>4z>jbEIH[>1
+Z53 !s108 1362535453.308000
+Z54 !s107 C:\Users\huangrui\Desktop\pcr_cor\src_160t_scrambler_0228\xilinx_ipcore\inst_core\core\sbox_mem.v|
+Z55 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:\Users\huangrui\Desktop\pcr_cor\src_160t_scrambler_0228\xilinx_ipcore\inst_core\core\sbox_mem.v|
+!s85 0
+vscram_cfg
+Z56 I8TjRgjF;SzclfbP2VHamA1
+Z57 VXV^`cSEJBk36VcGLPdQef0
+R12
+Z58 w1362389838
+Z59 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v
+Z60 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v
+L0 26
+R31
+r1
+31
+R32
+R33
+Z61 !s100 3jdjM4[T:0ba838o7QokI1
+Z62 !s108 1362463017.675000
+Z63 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v|
+Z64 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v|
+!s85 0
+vscram_datram
+Z65 IG=njg<LdkR?;e=7mJj6Cc3
+Z66 Voo]Rkk5<R;b1MCe9lkWB60
+R12
+Z67 w1361954983
+Z68 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v
+Z69 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v
+L0 39
+R31
+r1
+31
+R32
+R33
+Z70 !s100 JTbzAG^CAC2S^;`V44o@F3
+Z71 !s108 1362463019.298000
+Z72 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v|
+Z73 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v|
+!s85 0
+vscram_pidram
+Z74 I8TZ`iiJDEbe`WCFaTM2fF2
+Z75 V6ck5nbgbf22:nMA8bc4cS2
+R12
+Z76 w1361955191
+Z77 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v
+Z78 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v
+L0 39
+R31
+r1
+31
+R32
+R33
+Z79 !s100 jUI9V]UDNc_7Uj;3BEh2P0
+Z80 !s108 1362463019.422000
+Z81 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v|
+Z82 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v|
+!s85 0
+Escrambler
+Z83 w1362626055
+R10
+R11
+R12
+Z84 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl
+Z85 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl
+l0
+L4
+Z86 VL`aeUTg^>UYC=8nkIFkcA1
+R16
+32
+Z87 !s108 1362626062.945000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl|
+Z89 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl|
+R20
+R21
+Z90 !s100 iCflPB^ClZ`P`^D[D^F`b0
+Ascrambler_arch
+R10
+R11
+Z91 DEx4 work 9 scrambler 0 22 L`aeUTg^>UYC=8nkIFkcA1
+l97
+L24
+Z92 V;iz7Wd[K9L3E^7;N]CJVd3
+R16
+32
+R87
+R88
+R89
+R20
+R21
+Z93 !s100 5`F86g2@`3;CP<[BHaS933
+vscrambler_tb
+Z94 IZ5LN5foi;G7TkJIA7aT9C0
+Z95 VaYjdOKRiGX>08S60d2bKk2
+R12
+Z96 w1362634493
+Z97 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v
+Z98 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v
+L0 21
+R31
+r1
+31
+R32
+R33
+Z99 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v|
+Z100 !s100 T:Wdh]c5U:cnWNB4@P5lo2
+Z101 !s108 1362634502.673000
+Z102 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v|
+!s85 0
+vscrambler_ts_gen
+Z103 I2i4HV>nNQ=m=@[Y3I=BSm1
+Z104 VoW5PNLazaeJ:0BQJkA^GW3
+R12
+Z105 w1362548519
+Z106 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v
+Z107 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v
+L0 21
+R31
+r1
+31
+R32
+R33
+Z108 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v|
+Z109 !s100 U0JAU[;Mcm[iTV_OS4nni0
+Z110 !s108 1362548532.737000
+Z111 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v|
+!s85 0
+vsk_ram
+Z112 I?hi[;1S@943BbdF1JzaKn2
+Z113 Vd`@OE76Oa:kl=dX>oWJ>Z2
+R12
+Z114 w1361959139
+Z115 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v
+Z116 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v
+L0 39
+R31
+r1
+31
+R32
+R33
+Z117 !s100 S^PJ2>g`>GQ`=>NPQf?Ij2
+Z118 !s108 1362463019.516000
+Z119 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v|
+Z120 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v|
+!s85 0
+Estream_cipher
+Z121 w1362625692
+R9
+R8
+R10
+R11
+R12
+Z122 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/STREAM_CIPHER.vhdl
+Z123 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/STREAM_CIPHER.vhdl
+l0
+L5
+Z124 VbiGMQQheRS_BJPWE31zK?2
+R16
+32
+Z125 !s108 1362625723.623000
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/STREAM_CIPHER.vhdl|
+Z127 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/STREAM_CIPHER.vhdl|
+R20
+R21
+Z128 !s100 A?bP=hXO_akbgJfWEjc:M3
+Astream_cipher_arch
+R9
+R8
+R10
+R11
+Z129 DEx4 work 13 stream_cipher 0 22 biGMQQheRS_BJPWE31zK?2
+l43
+L23
+Z130 V?EPNaL=<lSC6VommB739J2
+R16
+32
+R125
+R126
+R127
+R20
+R21
+Z131 !s100 lLRA[[kieJT>T62]`o3Q[2
+vts_j83_buf
+Z132 I0^7^K3l0`?PP:ddg[mc8H1
+Z133 VY657?z?^@^?L3ao@O6[kU3
+R12
+Z134 w1362637378
+Z135 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/pcr_correct/ts_j83_buf.v
+Z136 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/pcr_correct/ts_j83_buf.v
+L0 21
+R31
+r1
+31
+R32
+R33
+Z137 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/pcr_correct/ts_j83_buf.v|
+Z138 !s100 8VbYDP0b8J>T3PoSTQCMA3
+Z139 !s108 1362638520.979000
+Z140 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/pcr_correct/ts_j83_buf.v|
+!s85 0
+vts_j83_sdpram
+Z141 IAa=GUj1dWJi>7c1QWd7nG2
+Z142 V;MQU3_mWeN?4?blLWF;df2
+R12
+Z143 w1362638498
+Z144 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ts_j83_sdpram.v
+Z145 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ts_j83_sdpram.v
+L0 39
+R31
+r1
+31
+R32
+R33
+Z146 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ts_j83_sdpram.v|
+Z147 !s100 U9@6U]XiL5Vi=a_D5c_ZI2
+!s85 0
+Z148 !s108 1362638521.079000
+Z149 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ts_j83_sdpram.v|
+vts_scrambler
+Z150 ION]_l28zGVn50FWOPJPaB1
+Z151 V3QFW1?YHfX0VXIb]_M=8o1
+R12
+Z152 w1362625712
+Z153 8C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v
+Z154 FC:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v
+L0 21
+R31
+r1
+31
+R32
+R33
+Z155 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v|
+Z156 !s100 G_O1:>@f^85UIiDJDPRS[2
+Z157 !s108 1362625723.498000
+Z158 !s107 C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v|
+!s85 0

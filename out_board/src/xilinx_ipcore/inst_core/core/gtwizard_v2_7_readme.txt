@@ -1,0 +1,107 @@
+The following files were generated for 'gtwizard_v2_7' in directory
+C:\Users\huangrui\Desktop\0530\nCAS1000_FPGA\debug_scram\src_v4.1.0_scram_duc16ch_ddr78m_ise147_PSIinject\xilinx_ipcore\inst_core\core\
+
+Generate XCO file:
+   CORE Generator input file containing the parameters used to generate a core.
+
+   * gtwizard_v2_7.xco
+
+Associated Files Generator:
+   Please see the core data sheet.
+
+   * gtwizard_v2_7/doc/gtwizard_v2_7_vinfo.html
+   * gtwizard_v2_7/doc/ug769_gtwizard.pdf
+   * gtwizard_v2_7/example_design/chipscope_icon.ngc
+   * gtwizard_v2_7/example_design/chipscope_ila.ngc
+   * gtwizard_v2_7/example_design/chipscope_vio.ngc
+   * gtwizard_v2_7/example_design/data_vio.ngc
+   * gtwizard_v2_7/example_design/gtz_icon.ngc
+   * gtwizard_v2_7/example_design/gtz_ila.ngc
+   * gtwizard_v2_7/example_design/gtz_vio.ngc
+   * gtwizard_v2_7/example_design/icon.ngc
+   * gtwizard_v2_7/example_design/ila.ngc
+   * gtwizard_v2_7/gtwizard_v2_7_readme.txt
+   * gtwizard_v2_7/implement/v7ht.tcl
+   * gtwizard_v2_7/src/gtwizard_v2_7_beachfront.v
+
+Generate EJava outputs:
+   Please see the core data sheet.
+
+   * gtwizard_v2_7/example_design/gt_rom_init_rx.dat
+   * gtwizard_v2_7/example_design/gt_rom_init_tx.dat
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_adapt_starter.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_adapt_top_dfe.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_agc_loop_fsm.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_ctle_agc_comp.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_exdes.ucf
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_exdes.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_exdes.xcf
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_exdes.xdc
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_exdes_synplify.sdc
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_gt_frame_check.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_gt_frame_gen.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_gt_usrclk_source.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_init.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_recclk_monitor.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_rx_startup_fsm.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_sync_block.v
+   * gtwizard_v2_7/example_design/gtwizard_v2_7_tx_startup_fsm.v
+   * gtwizard_v2_7/gtwizard_v2_7.pf
+   * gtwizard_v2_7/implement/chipscope_project.cpj
+   * gtwizard_v2_7/implement/implement.bat
+   * gtwizard_v2_7/implement/implement.sh
+   * gtwizard_v2_7/implement/implement_synplify.bat
+   * gtwizard_v2_7/implement/implement_synplify.sh
+   * gtwizard_v2_7/implement/synplify.prj
+   * gtwizard_v2_7/implement/xst.prj
+   * gtwizard_v2_7/implement/xst.scr
+   * gtwizard_v2_7/simulation/functional/gt_rom_init_rx.dat
+   * gtwizard_v2_7/simulation/functional/gt_rom_init_tx.dat
+   * gtwizard_v2_7/simulation/functional/simulate_isim.bat
+   * gtwizard_v2_7/simulation/functional/simulate_isim.sh
+   * gtwizard_v2_7/simulation/functional/simulate_mti.bat
+   * gtwizard_v2_7/simulation/functional/simulate_mti.do
+   * gtwizard_v2_7/simulation/functional/simulate_mti.sh
+   * gtwizard_v2_7/simulation/functional/simulate_ncsim.bat
+   * gtwizard_v2_7/simulation/functional/simulate_ncsim.sh
+   * gtwizard_v2_7/simulation/functional/simulate_vcs.sh
+   * gtwizard_v2_7/simulation/functional/simulate_xsim.bat
+   * gtwizard_v2_7/simulation/functional/simulate_xsim.sh
+   * gtwizard_v2_7/simulation/functional/ucli_commands.key
+   * gtwizard_v2_7/simulation/functional/vcs_session.tcl
+   * gtwizard_v2_7/simulation/functional/wave_isim.tcl
+   * gtwizard_v2_7/simulation/functional/wave_mti.do
+   * gtwizard_v2_7/simulation/functional/wave_ncsim.sv
+   * gtwizard_v2_7/simulation/functional/wave_xsim.tcl
+   * gtwizard_v2_7/simulation/gtwizard_v2_7_tb.v
+   * gtwizard_v2_7/simulation/gtwizard_v2_7_tb_imp.v
+   * gtwizard_v2_7/simulation/timing/simulate_mti.bat
+   * gtwizard_v2_7/simulation/timing/simulate_mti.do
+   * gtwizard_v2_7/simulation/timing/simulate_mti.sh
+   * gtwizard_v2_7.v
+   * gtwizard_v2_7.veo
+   * gtwizard_v2_7.xdc
+   * gtwizard_v2_7_gt.v
+   * gtwizard_v2_7_xmdf.tcl
+
+Generate ISE project file:
+   ISE Project Navigator support files. These are generated files and should not
+   be edited directly.
+
+   * gtwizard_v2_7.gise
+   * gtwizard_v2_7.xise
+
+Deliver Readme:
+   Readme file for the IP.
+
+   * gtwizard_v2_7_readme.txt
+
+Generate FLIST file:
+   Text file listing all of the output files produced when a customized core was
+   generated in the CORE Generator.
+
+   * gtwizard_v2_7_flist.txt
+
+Please see the Xilinx CORE Generator online help for further details on
+generated files and how to use them.
+

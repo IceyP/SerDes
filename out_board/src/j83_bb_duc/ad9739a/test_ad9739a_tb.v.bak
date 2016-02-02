@@ -1,0 +1,256 @@
+`timescale 1ns / 1ps
+
+////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer:
+//
+// Create Date:   15:26:01 07/23/2012
+// Design Name:   test_ad9739a
+// Module Name:   E:/projects/ipqam/test_ad9739a/src/ad9739a/test_ad9739a_tb.v
+// Project Name:  test_ad9739a
+// Target Device:  
+// Tool versions:  
+// Description: 
+//
+// Verilog Test Fixture created by ISE for module: test_ad9739a
+//
+// Dependencies:
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+////////////////////////////////////////////////////////////////////////////////
+
+module test_ad9739a_tb;
+
+	// Inputs
+	reg rst;
+	reg CLK_P;
+	reg CLK_N;
+	reg dac_clk_in_p;
+	reg dac_clk_in_n;
+	reg spi_miso;
+
+	// Outputs
+	wire dac_clk_out_p;
+	wire dac_clk_out_n;
+	wire [13:0] dac_data_out_a_p;
+	wire [13:0] dac_data_out_a_n;
+	wire [13:0] dac_data_out_b_p;
+	wire [13:0] dac_data_out_b_n;
+	wire [1:0] spi_csn;
+	wire spi_clk;
+	wire spi_mosi;
+	wire [3:0] gpio_led;
+  reg dac_clk_delay;
+  reg [13:0] data_out;
+  wire [13:0] dac_out, dac_out_t;
+ 
+	// Instantiate the Unit Under Test (UUT)
+	test_ad9739a uut (
+		.rst(rst), 
+		.CLK_P(CLK_P), 
+		.CLK_N(CLK_N), 
+		.dac_clk_in_p(dac_clk_in_p), 
+		.dac_clk_in_n(dac_clk_in_n), 
+		.dac_clk_out_p(dac_clk_out_p), 
+		.dac_clk_out_n(dac_clk_out_n), 
+		.dac_data_out_a_p(dac_data_out_a_p), 
+		.dac_data_out_a_n(dac_data_out_a_n), 
+		.dac_data_out_b_p(dac_data_out_b_p), 
+		.dac_data_out_b_n(dac_data_out_b_n), 
+		.spi_csn(spi_csn), 
+		.spi_clk(spi_clk), 
+		.spi_mosi(spi_mosi), 
+		.spi_miso(spi_miso), 
+		.gpio_led(gpio_led)
+	);
+
+	initial begin
+		// Initialize Inputs
+		rst = 1;
+		CLK_P = 0;
+		CLK_N = 1;
+		dac_clk_in_p = 0;
+		dac_clk_in_n = 1;
+		spi_miso = 0;
+		dac_clk_delay = 0;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+      rst = 0;
+		
+		// Add stimulus here
+
+	end
+   
+	always  CLK_P=#2.5 ~CLK_P;
+	always 	CLK_N=#2.5 ~CLK_N;
+  always  dac_clk_in_p=#1 ~dac_clk_in_p;
+  always  dac_clk_in_n=#1 ~dac_clk_in_n;
+  
+  always@(dac_clk_out_p) dac_clk_delay=#0.5 dac_clk_out_p;
+  
+  assign  dac_out_t= dac_clk_delay^dac_clk_out_p ? dac_data_out_a_p : dac_data_out_b_p;
+  assign  dac_out={~dac_out_t[13], dac_out_t[12:00]};
+
+	reg [3:0] select;
+	
+	reg [13:0] out_reg1;
+	reg [13:0] out_reg2;
+	reg [13:0] out_reg3;
+	reg [13:0] out_reg4;
+	reg [13:0] out_reg5;
+	reg [13:0] out_reg6;
+	reg [13:0] out_reg7;
+	reg [13:0] out_reg8;
+	reg [13:0] out_reg9;
+	reg [13:0] out_reg10;
+	reg [13:0] out_reg11;
+	reg [13:0] out_reg12;
+
+  reg [17:0] rf_i;
+	reg [17:0] i_reg1;
+	reg [17:0] i_reg2;
+	reg [17:0] i_reg3;
+	reg [17:0] i_reg4;
+	reg [17:0] i_reg5;
+	reg [17:0] i_reg6;
+	reg [17:0] i_reg7;
+	reg [17:0] i_reg8;
+	reg [17:0] i_reg9;
+	reg [17:0] i_reg10;
+	reg [17:0] i_reg11;
+	reg [17:0] i_reg12;
+
+	reg [13:0] rf_o;         
+	reg [13:0] o_reg1; 
+	reg [13:0] o_reg2; 
+	reg [13:0] o_reg3; 
+	reg [13:0] o_reg4; 
+	reg [13:0] o_reg5; 
+	reg [13:0] o_reg6; 
+	reg [13:0] o_reg7; 
+	reg [13:0] o_reg8; 
+	reg [13:0] o_reg9; 
+	reg [13:0] o_reg10;
+	reg [13:0] o_reg11;
+	reg [13:0] o_reg12;
+
+	always @(select)
+	begin
+	
+		case( select )
+		0: data_out<=out_reg1;
+		1: data_out<=out_reg2;
+		2: data_out<=out_reg3;
+		3: data_out<=out_reg4;
+		4: data_out<=out_reg5;
+		5: data_out<=out_reg6;
+		6: data_out<=out_reg7;
+		7: data_out<=out_reg8;
+		8: data_out<=out_reg9;
+		9: data_out<=out_reg10;
+		10: data_out<=out_reg11;
+		11: data_out<=out_reg12;
+		default:  data_out<=out_reg1;
+		endcase
+	end
+
+	always @(select)
+	begin
+	
+		case( select )
+		0: rf_i<=i_reg1;
+		1: rf_i<=i_reg2;
+		2: rf_i<=i_reg3;
+		3: rf_i<=i_reg4;
+		4: rf_i<=i_reg5;
+		5: rf_i<=i_reg6;
+		6: rf_i<=i_reg7;
+		7: rf_i<=i_reg8;
+		8: rf_i<=i_reg9;
+		9: rf_i<=i_reg10;
+		10: rf_i<=i_reg11;
+		11: rf_i<=i_reg12;
+		default:  rf_i<=i_reg1;
+		endcase
+	end
+	always @(select)               	
+	begin                          
+	                               
+		case( select )         
+		0: rf_o<=o_reg1;       
+		1: rf_o<=o_reg2;       
+		2: rf_o<=o_reg3;       
+		3: rf_o<=o_reg4;       
+		4: rf_o<=o_reg5;       
+		5: rf_o<=o_reg6;       
+		6: rf_o<=o_reg7;       
+		7: rf_o<=o_reg8;       
+		8: rf_o<=o_reg9;       
+		9: rf_o<=o_reg10;      
+		10: rf_o<=o_reg11;     
+		11: rf_o<=o_reg12;     
+		default:  rf_o<=o_reg1;
+		endcase                
+	end                            
+	
+	always @(posedge uut.clk_341m)
+	begin
+	  out_reg1<=uut.dds_data_00;
+	  out_reg2<=uut.dds_data_01;
+	  out_reg3<=uut.dds_data_02;
+	  out_reg4<=uut.dds_data_03;
+	  out_reg5<=uut.dds_data_04;
+	  out_reg6<=uut.dds_data_05;
+	  out_reg7<=uut.dds_data_06;
+	  out_reg8<=uut.dds_data_07;
+	  out_reg9<=uut.dds_data_08;
+	  out_reg10<=uut.dds_data_09;
+	  out_reg11<=uut.dds_data_10;
+	  out_reg12<=uut.dds_data_11;
+
+	  i_reg1<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i1;
+	  i_reg2<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i2;
+	  i_reg3<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i3;
+	  i_reg4<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i4;
+	  i_reg5<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i5;
+	  i_reg6<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i6;
+	  i_reg7<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i7;
+	  i_reg8<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i8;
+	  i_reg9<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i9;
+	  i_reg10<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i10;
+	  i_reg11<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i11;
+	  i_reg12<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.i12;
+
+                                                                         
+	  o_reg1<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out1;  	 
+	  o_reg2<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out2;     
+	  o_reg3<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out3;     
+	  o_reg4<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out4;     
+	  o_reg5<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out5;     
+	  o_reg6<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out6;     
+	  o_reg7<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out7;     
+	  o_reg8<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out8;     
+	  o_reg9<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out9;     
+	  o_reg10<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out10;   
+	  o_reg11<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out11;   
+	  o_reg12<=uut.u0_duc.duc_341mhz_x0.rf_mixer_089a594eba.out12;   
+
+	  #0.05 select=0;
+	  #0.25 select=1;
+	  #0.25 select=2;
+	  #0.25 select=3;
+	  #0.25 select=4;
+	  #0.25 select=5;
+	  #0.25 select=6;
+	  #0.25 select=7;
+	  #0.25 select=8;
+	  #0.25 select=9;
+	  #0.25 select=10;
+	  #0.25 select=11;
+	end
+endmodule
+

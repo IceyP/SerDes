@@ -1,0 +1,113 @@
+C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ramb2_1clk.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ramb2_1clk.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ramb2_1clk
+
+Top level modules:
+	ramb2_1clk
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/STREAM_CIPHER.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/STREAM_CIPHER.vhdl
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity stream_cipher
+-- Compiling architecture stream_cipher_arch of stream_cipher
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/BLOCK_CIPHER2.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/BLOCK_CIPHER2.vhdl
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BLOCK_CIPHER2
+-- Compiling architecture BLOCK_CIPHER2_arch of BLOCK_CIPHER2
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ts_j83_sdpram.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/ts_j83_sdpram.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ts_j83_sdpram
+
+Top level modules:
+	ts_j83_sdpram
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_tb.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module scrambler_tb
+
+Top level modules:
+	scrambler_tb
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/ts_scrambler.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ts_scrambler
+
+Top level modules:
+	ts_scrambler
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl {1 {vcom -work work -2002 -explicit -vopt C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scrambler/SCRAMBLER.vhdl
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SCRAMBLER
+-- Compiling architecture SCRAMBLER_arch of SCRAMBLER
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/keybuff.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/keybuff.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module keybuff
+
+Top level modules:
+	keybuff
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sk_ram.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module sk_ram
+
+Top level modules:
+	sk_ram
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scram_cfg.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module scram_cfg
+
+Top level modules:
+	scram_cfg
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_datram.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module scram_datram
+
+Top level modules:
+	scram_datram
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sbox_mem.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/sbox_mem.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module sbox_mem
+
+Top level modules:
+	sbox_mem
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/xilinx_ipcore/inst_core/core/scram_pidram.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module scram_pidram
+
+Top level modules:
+	scram_pidram
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/pcr_correct/ts_j83_buf.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/pcr_correct/ts_j83_buf.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ts_j83_buf
+
+Top level modules:
+	ts_j83_buf
+
+} {} {}} C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v {1 {vlog -work work -vopt -nocovercells C:/Users/huangrui/Desktop/pcr_cor/src_160t_scrambler_0228/scram_tb/scrambler_ts_gen.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module scrambler_ts_gen
+
+Top level modules:
+	scrambler_ts_gen
+
+} {} {}}

@@ -1,0 +1,9 @@
+run
+-ifmt MIXED
+-top triple_mac_clk_wiz_exdes
+-p xc7k325t-ffg676-2
+-ifn xst.prj
+-ofn triple_mac_clk_wiz_exdes
+-keep_hierarchy soft 
+-equivalent_register_removal no 
+-max_fanout 65535

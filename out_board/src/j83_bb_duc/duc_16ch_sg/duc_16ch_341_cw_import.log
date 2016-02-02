@@ -1,0 +1,10 @@
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/Data/Design/duc_note/duc_16ch_sg/duc_16ch_341_cw.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/Data/Design/duc_note/duc_16ch_sg/duc_16ch_341.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.

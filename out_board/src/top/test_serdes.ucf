@@ -1,0 +1,28 @@
+# part selected is kintex7 xc7k325tffg676
+# CONFIG PART =  xc7k325tffg676-2;
+
+############################3.3V,bank 12############################
+Net rstn_sys                    LOC = G22   | IOSTANDARD = LVCMOS33 | TIG;
+Net clk_27m                     LOC = F22   | IOSTANDARD = LVCMOS33;
+
+
+NET gpio_led[0] LOC=G26 | IOSTANDARD = LVCMOS33;
+NET gpio_led[1] LOC=F25 | IOSTANDARD = LVCMOS33;
+NET gpio_led[2] LOC=E26 | IOSTANDARD = LVCMOS33;
+NET gpio_led[3] LOC=J26 | IOSTANDARD = LVCMOS33;
+NET gpio_led[4] LOC=H26 | IOSTANDARD = LVCMOS33;
+
+
+
+NET mgt_refclk0_n               LOC = F5;
+NET mgt_refclk0_p               LOC = F6;
+
+# 125.0MHz GT Reference clock constraint
+NET "GT0_GTREFCLK0_COMMON" TNM_NET = GT_REFCLK1;
+TIMESPEC TS_GTXQ0_LEFT_I = PERIOD "GT_REFCLK" 125.0 MHz HIGH 50%;
+
+# TXOUTCLK Constraint: Value is selected based on the line rate (2.5 Gbps) and lane width (2-Byte)
+NET "u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK;
+TIMESPEC TS_TX_OUT_CLK_I = PERIOD "TX_OUT_CLK" 312.5 MHz HIGH 50%;
+
+INST u0_gtx_rxtx/u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y7;
