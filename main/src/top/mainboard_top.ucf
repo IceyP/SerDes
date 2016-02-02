@@ -1,0 +1,93 @@
+############################3.3V,bank 14############################
+NET rst_n                       LOC = E26   | IOSTANDARD = LVCMOS33 | TIG;
+NET clk_27m                     LOC = F22   | IOSTANDARD = LVCMOS33;
+
+NET led_out<0>                  LOC = D25   | IOSTANDARD = LVCMOS33;
+NET led_out<1>                  LOC = E25   | IOSTANDARD = LVCMOS33;
+NET led_out<2>                  LOC = C24   | IOSTANDARD = LVCMOS33;
+NET led_out<3>                  LOC = D24   | IOSTANDARD = LVCMOS33;
+NET led_out<4>                  LOC = D23   | IOSTANDARD = LVCMOS33;
+NET led_out<5>                  LOC = E23   | IOSTANDARD = LVCMOS33;
+NET led_out<6>                  LOC = E22   | IOSTANDARD = LVCMOS33;
+NET led_out<7>                  LOC = C21   | IOSTANDARD = LVCMOS33;
+
+NET led_state<0>					  LOC = B20   | IOSTANDARD = LVCMOS33;
+NET led_state<1>					  LOC = B21   | IOSTANDARD = LVCMOS33;
+
+
+NET sb_signal<0>                LOC = A17   | IOSTANDARD = LVCMOS33;
+NET sb_signal<1>                LOC = B17   | IOSTANDARD = LVCMOS33;
+NET sb_signal<2>                LOC = C17   | IOSTANDARD = LVCMOS33;
+NET sb_signal<3>                LOC = D16   | IOSTANDARD = LVCMOS33;
+NET sb_signal<4>                LOC = C9    | IOSTANDARD = LVCMOS33;
+NET sb_signal<5>                LOC = B16   | IOSTANDARD = LVCMOS33;
+NET sb_signal<6>                LOC = A13   | IOSTANDARD = LVCMOS33;
+NET sb_signal<7>                LOC = A12   | IOSTANDARD = LVCMOS33;
+NET sb_signal<8>                LOC = D11   | IOSTANDARD = LVCMOS33;
+NET sb_signal<9>                LOC = D10   | IOSTANDARD = LVCMOS33;
+NET sb_signal<10>               LOC = B9    | IOSTANDARD = LVCMOS33;
+NET sb_signal<11>               LOC = A8    | IOSTANDARD = LVCMOS33;
+
+NET front_panel_led<0>          LOC = P24   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<1>          LOC = P23   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<2>          LOC = R22   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<3>          LOC = N22   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<4>          LOC = R23   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<5>          LOC = N23   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<6>          LOC = T24   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<7>          LOC = M22   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<8>          LOC = T23   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<9>          LOC = M24   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<10>         LOC = T22   | IOSTANDARD = LVCMOS33;
+NET front_panel_led<11>         LOC = L24   | IOSTANDARD = LVCMOS33;
+
+NET ss_i                  		LOC = A23   | IOSTANDARD = LVCMOS33;
+NET sclk_i                      LOC = A24   | IOSTANDARD = LVCMOS33;
+NET mosi_i                      LOC = D26   | IOSTANDARD = LVCMOS33;
+NET miso_o                      LOC = C26   | IOSTANDARD = LVCMOS33;
+
+NET mgt_refclk_n                LOC = H5;
+NET mgt_refclk_p                LOC = H6;
+
+NET "clk_27m"      TNM_NET  = "clk_27m";
+TIMESPEC    "TS_clk_27m"  = PERIOD "clk_27m" 37.037 ns HIGH 50 %;
+
+# 125.0MHz GT Reference clock constraint
+NET "gt0_gtrefclk0_common" TNM_NET = GT_REFCLK;
+TIMESPEC TS_GTXQ0_LEFT_I = PERIOD "GT_REFCLK" 125.0 MHz HIGH 50%;
+
+# TXOUTCLK Constraint: Value is selected based on the line rate (3.125 Gbps) and lane width (2-Byte)
+NET "u0_aurora_8b10b_gtx1_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX1;
+TIMESPEC TS_TX_OUT_CLK_GTX1 = PERIOD "TX_OUT_CLK_GTX1" 312.5 MHz HIGH 50%;
+
+NET "u0_aurora_8b10b_gtx2_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX2;
+TIMESPEC TS_TX_OUT_CLK_GTX2 = PERIOD "TX_OUT_CLK_GTX2" 312.5 MHz HIGH 50%;
+
+NET "u0_aurora_8b10b_gtx3_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX3;
+TIMESPEC TS_TX_OUT_CLK_GTX3 = PERIOD "TX_OUT_CLK_GTX3" 312.5 MHz HIGH 50%;
+
+NET "u0_aurora_8b10b_gtx4_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX4;
+TIMESPEC TS_TX_OUT_CLK_GTX4 = PERIOD "TX_OUT_CLK_GTX4" 312.5 MHz HIGH 50%;
+
+NET "u0_aurora_8b10b_gtx5_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX5;
+TIMESPEC TS_TX_OUT_CLK_GTX5 = PERIOD "TX_OUT_CLK_GTX5" 312.5 MHz HIGH 50%;
+
+NET "u0_aurora_8b10b_gtx6_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX6;
+TIMESPEC TS_TX_OUT_CLK_GTX6 = PERIOD "TX_OUT_CLK_GTX6" 312.5 MHz HIGH 50%;
+
+NET "u0_aurora_8b10b_gtx7_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX7;
+TIMESPEC TS_TX_OUT_CLK_GTX7 = PERIOD "TX_OUT_CLK_GTX7" 312.5 MHz HIGH 50%;
+
+NET "u0_aurora_8b10b_gtx8_exdes/tx_out_clk_i" TNM_NET = TX_OUT_CLK_GTX8;
+TIMESPEC TS_TX_OUT_CLK_GTX8 = PERIOD "TX_OUT_CLK_GTX8" 312.5 MHz HIGH 50%;
+ 
+INST u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y4;#1-1
+INST u0_aurora_8b10b_gtx2_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y5;#1-2
+INST u0_aurora_8b10b_gtx3_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y7;#2-1
+INST u0_aurora_8b10b_gtx4_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y6;#2-2
+INST u0_aurora_8b10b_gtx5_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y2;#3
+INST u0_aurora_8b10b_gtx6_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y1;#4
+
+INST u0_aurora_8b10b_gtx7_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y3;#5
+INST u0_aurora_8b10b_gtx8_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i LOC=GTXE2_CHANNEL_X0Y0;#6
+#NET "rst_sys" TIG;

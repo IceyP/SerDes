@@ -1,0 +1,131 @@
+Release 14.5 ngdbuild P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc
+E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2
+mainboard_top_cs.ngc mainboard_top.ngd
+
+Reading NGO file
+"E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top_cs.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin QPLLOUTREFCLK of block
+   u0_common_block/gtxe2_common_i because the signal path to this output pin
+   depends upon block attribute settings. Constraint distribution does not
+   support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin QPLLOUTREFCLK of block
+   u0_common_block/gtxe2_common_lane1_i because the signal path to this output
+   pin depends upon block attribute settings. Constraint distribution does not
+   support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin TXOUTCLK of block
+   u0_aurora_8b10b_gtx8_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_mul
+   ti_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this
+   output pin depends upon block attribute settings. Constraint distribution
+   does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin TXOUTCLK of block
+   u0_aurora_8b10b_gtx7_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_mul
+   ti_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this
+   output pin depends upon block attribute settings. Constraint distribution
+   does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin TXOUTCLK of block
+   u0_aurora_8b10b_gtx6_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_mul
+   ti_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this
+   output pin depends upon block attribute settings. Constraint distribution
+   does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin TXOUTCLK of block
+   u0_aurora_8b10b_gtx5_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_mul
+   ti_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this
+   output pin depends upon block attribute settings. Constraint distribution
+   does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin TXOUTCLK of block
+   u0_aurora_8b10b_gtx4_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_mul
+   ti_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this
+   output pin depends upon block attribute settings. Constraint distribution
+   does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin TXOUTCLK of block
+   u0_aurora_8b10b_gtx3_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_mul
+   ti_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this
+   output pin depends upon block attribute settings. Constraint distribution
+   does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin TXOUTCLK of block
+   u0_aurora_8b10b_gtx2_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_mul
+   ti_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this
+   output pin depends upon block attribute settings. Constraint distribution
+   does not support attribute dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "gt0_gtrefclk0_common" TNM_NET =
+   GT_REFCLK;> [E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf(56)]
+   was not distributed to the output pin TXOUTCLK of block
+   u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_mul
+   ti_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i because the signal path to this
+   output pin depends upon block attribute settings. Constraint distribution
+   does not support attribute dependent distribution.
+
+INFO:ConstraintSystem:178 - TNM 'clk_27m', used in period specification
+   'TS_clk_27m', was traced into PLLE2_ADV instance u0_pll_27m/plle2_adv_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLLE2_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_u0_pll_27m_clkout0 = PERIOD "u0_pll_27m_clkout0"
+   TS_clk_27m / 4.666666667 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_27m', used in period specification
+   'TS_clk_27m', was traced into PLLE2_ADV instance u0_pll_27m/plle2_adv_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLLE2_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_u0_pll_27m_clkout1 = PERIOD "u0_pll_27m_clkout1"
+   TS_clk_27m / 11.2 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  10
+
+Total memory usage is 382676 kilobytes
+
+Writing NGD file "mainboard_top.ngd" ...
+Total REAL time to NGDBUILD completion: 1 min  32 sec
+Total CPU time to NGDBUILD completion:  1 min  25 sec
+
+Writing NGDBUILD log file "mainboard_top.bld"...

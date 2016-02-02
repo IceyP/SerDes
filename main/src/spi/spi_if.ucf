@@ -1,0 +1,8 @@
+############################3.3V,bank 14############################
+NET rst_n                       LOC = E26   | IOSTANDARD = LVCMOS33 | TIG;
+NET clk_27m                     LOC = F22   | IOSTANDARD = LVCMOS33 | TIG;
+
+NET ss_i                  		  LOC = A23   | IOSTANDARD = LVCMOS33;
+NET sclk_i                      LOC = A24   | IOSTANDARD = LVCMOS33;
+NET mosi_i                      LOC = D26   | IOSTANDARD = LVCMOS33;
+NET miso_o                      LOC = C26   | IOSTANDARD = LVCMOS33;

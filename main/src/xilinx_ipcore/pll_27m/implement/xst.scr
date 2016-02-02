@@ -1,0 +1,9 @@
+run
+-ifmt MIXED
+-top pll_27m_exdes
+-p xc7k70t-fbg676-2
+-ifn xst.prj
+-ofn pll_27m_exdes
+-keep_hierarchy soft 
+-equivalent_register_removal no 
+-max_fanout 65535

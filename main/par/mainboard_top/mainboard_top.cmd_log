@@ -1,0 +1,481 @@
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k160t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/1000x/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/1000x/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.xst" -ofn "E:/MyProjects/STV/test_0420/main/par/mainboard_top/mainboard_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/test_0420/main/src/top/mainboard_top.ucf -p xc7k70t-fbg676-2 mainboard_top_cs.ngc mainboard_top.ngd  
+map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off mainboard_top_map.ncd mainboard_top.ncd mainboard_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mainboard_top.twx mainboard_top.ncd -o mainboard_top.twr mainboard_top.pcf 
+bitgen -intstyle ise -f mainboard_top.ut mainboard_top.ncd 

@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent asynfifo_w24d64_exdes 
+-p xc7k70t-fbg676-2
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn asynfifo_w24d64_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

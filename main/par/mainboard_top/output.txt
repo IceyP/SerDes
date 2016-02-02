@@ -1,0 +1,8 @@
+Storage Target: SPI Flash Single FPGA
+128M
+FF
+20140306
+C:\Users\huangrui\Desktop\0530\nCAS1000_FPGA\masterboard_fpga\par\mainboard_top\
+
+MCS
+No

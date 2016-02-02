@@ -1,0 +1,236 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Feb 02 17:28:20 2016
+
+drc -z mainboard_top.ncd mainboard_top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><15>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><14>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><13>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><12>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><11>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><10>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><9>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><8>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><7>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><6>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><5>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><4>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><3>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><2>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><1>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><0>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><15>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><14>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><13>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><12>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><11>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><10>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><9>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><8>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><7>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><6>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><5>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><4>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><3>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><2>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><1>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><0>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><15>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><14>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><13>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><12>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><11>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><10>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><9>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><8>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><7>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><6>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><5>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><4>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><3>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><2>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><1>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><0>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><15>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><14>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><13>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><12>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><11>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><10>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><9>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><8>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><7>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><6>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><5>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><4>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><3>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><2>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><1>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><0>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><15>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><14>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><13>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><12>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><11>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><10>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><9>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><8>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><7>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><6>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><5>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><4>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><3>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><2>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><1>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><0>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><15>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><14>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><13>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><12>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><11>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><10>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><9>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><8>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><7>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><6>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><5>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><4>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><3>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><2>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><1>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><0>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><15>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><14>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><13>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><12>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><11>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><10>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><9>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><8>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><7>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><6>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><5>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><4>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><3>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><2>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><1>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><0>> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 113 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

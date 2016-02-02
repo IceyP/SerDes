@@ -1,0 +1,718 @@
+Release 14.5 Map P.58f (nt64)
+Xilinx Map Application Log File for Design 'mainboard_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k70t-fbg676-2 -w -logic_opt on -ol high
+-xe n -t 2 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o mainboard_top_map.ncd mainboard_top.ngd mainboard_top.pcf 
+Target Device  : xc7k70t
+Target Package : fbg676
+Target Speed   : -2
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Tue Feb 02 17:18:10 2016
+
+WARNING:LIT:701 - PAD symbol "mgt_rxp<7>" has an undefined IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "mgt_rxp<7>" is not constrained (LOC) to a specific
+   location.
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 1 mins 36 secs 
+Total CPU  time at the beginning of Placer: 1 mins 29 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:98477923) REAL time: 1 mins 47 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:98477923) REAL time: 1 mins 49 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:d44ec6c3) REAL time: 1 mins 49 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:ae1dce50) REAL time: 2 mins 13 secs 
+
+........................................
+........
+....................................................
+Phase 5.30  Global Clock Region Assignment
+
+
+######################################################################################
+# GLOBAL CLOCK NET DISTRIBUTION UCF REPORT:
+#
+# Number of Global Clock Regions : 8
+# Number of Global Clock Networks: 13
+#
+# Clock Region Assignment: SUCCESSFUL
+
+# Location of Clock Components
+INST "u0_aurora_8b10b_gtx3_exdes/clock_module_i/user_clk_buf_i" LOC = "BUFGCTRL_X0Y24" ;
+INST "u0_pll_27m/clkout1_buf" LOC = "BUFGCTRL_X0Y1" ;
+INST "u0_aurora_8b10b_gtx6_exdes/clock_module_i/user_clk_buf_i" LOC = "BUFGCTRL_X0Y28" ;
+INST "u0_pll_27m/clkf_buf" LOC = "BUFGCTRL_X0Y2" ;
+INST "u0_clk27m_bg" LOC = "BUFGCTRL_X0Y0" ;
+INST "u0_aurora_8b10b_gtx2_exdes/clock_module_i/user_clk_buf_i" LOC = "BUFGCTRL_X0Y25" ;
+INST "u0_aurora_8b10b_gtx5_exdes/clock_module_i/user_clk_buf_i" LOC = "BUFGCTRL_X0Y31" ;
+INST "u0_aurora_8b10b_gtx8_exdes/clock_module_i/user_clk_buf_i" LOC = "BUFGCTRL_X0Y30" ;
+INST "u0_pll_27m/clkout2_buf" LOC = "BUFGCTRL_X0Y3" ;
+INST "U_icon_pro/U0/U_ICON/I_YES_BSCAN.U_BS/I_USE_SOFTBSCAN_EQ0.I_USE_XST_TCK_WORKAROUND_EQ1.U_ICON_BSCAN_BUFG/U_BUFG" LOC = "BUFGCTRL_X0Y4" ;
+INST "u0_aurora_8b10b_gtx1_exdes/clock_module_i/user_clk_buf_i" LOC = "BUFGCTRL_X0Y26" ;
+INST "u0_aurora_8b10b_gtx7_exdes/clock_module_i/user_clk_buf_i" LOC = "BUFGCTRL_X0Y27" ;
+INST "u0_aurora_8b10b_gtx4_exdes/clock_module_i/user_clk_buf_i" LOC = "BUFGCTRL_X0Y29" ;
+INST "clk_27m" LOC = "F22" ;
+INST "u0_pll_27m/plle2_adv_inst" LOC = "PLLE2_ADV_X0Y0" ;
+INST "IBUFDS_GTE2_CLK1" LOC = "IBUFDS_GTE2_X0Y0" ;
+INST "u0_common_block/gtxe2_common_lane1_i" LOC = "GTXE2_COMMON_X0Y1" ;
+INST "u0_common_block/gtxe2_common_i" LOC = "GTXE2_COMMON_X0Y0" ;
+INST "u0_aurora_8b10b_gtx5_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y2" ;
+INST "u0_aurora_8b10b_gtx8_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y0" ;
+INST "u0_aurora_8b10b_gtx4_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y6" ;
+INST "u0_aurora_8b10b_gtx6_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y1" ;
+INST "u0_aurora_8b10b_gtx7_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y3" ;
+INST "u0_aurora_8b10b_gtx1_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y4" ;
+INST "u0_aurora_8b10b_gtx2_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y5" ;
+INST "u0_aurora_8b10b_gtx3_exdes/aurora_module_i/gt_wrapper_i/aurora_8b10b_gtx1_multi_gt_i/gt0_aurora_8b10b_gtx1_i/gtxe2_i" LOC = "GTXE2_CHANNEL_X0Y7" ;
+
+# clk_156m<2> driven by BUFGCTRL_X0Y24
+NET "clk_156m<2>" TNM_NET = "TN_clk_156m<2>" ;
+TIMEGRP "TN_clk_156m<2>" AREA_GROUP = "CLKAG_clk_156m<2>" ;
+AREA_GROUP "CLKAG_clk_156m<2>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# u0_aurora_8b10b_gtx1_exdes/init_clk_i driven by BUFGCTRL_X0Y1
+NET "u0_aurora_8b10b_gtx1_exdes/init_clk_i" TNM_NET = "TN_u0_aurora_8b10b_gtx1_exdes/init_clk_i" ;
+TIMEGRP "TN_u0_aurora_8b10b_gtx1_exdes/init_clk_i" AREA_GROUP = "CLKAG_u0_aurora_8b10b_gtx1_exdes/init_clk_i" ;
+AREA_GROUP "CLKAG_u0_aurora_8b10b_gtx1_exdes/init_clk_i" RANGE =   CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# clk_156m<5> driven by BUFGCTRL_X0Y28
+NET "clk_156m<5>" TNM_NET = "TN_clk_156m<5>" ;
+TIMEGRP "TN_clk_156m<5>" AREA_GROUP = "CLKAG_clk_156m<5>" ;
+AREA_GROUP "CLKAG_clk_156m<5>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# u0_pll_27m/clkfbout_buf driven by BUFGCTRL_X0Y2
+NET "u0_pll_27m/clkfbout_buf" TNM_NET = "TN_u0_pll_27m/clkfbout_buf" ;
+TIMEGRP "TN_u0_pll_27m/clkfbout_buf" AREA_GROUP = "CLKAG_u0_pll_27m/clkfbout_buf" ;
+AREA_GROUP "CLKAG_u0_pll_27m/clkfbout_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0 ;
+
+# clk27m_bufg driven by BUFGCTRL_X0Y0
+NET "clk27m_bufg" TNM_NET = "TN_clk27m_bufg" ;
+TIMEGRP "TN_clk27m_bufg" AREA_GROUP = "CLKAG_clk27m_bufg" ;
+AREA_GROUP "CLKAG_clk27m_bufg" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# clk_156m<1> driven by BUFGCTRL_X0Y25
+NET "clk_156m<1>" TNM_NET = "TN_clk_156m<1>" ;
+TIMEGRP "TN_clk_156m<1>" AREA_GROUP = "CLKAG_clk_156m<1>" ;
+AREA_GROUP "CLKAG_clk_156m<1>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# clk_156m<4> driven by BUFGCTRL_X0Y31
+NET "clk_156m<4>" TNM_NET = "TN_clk_156m<4>" ;
+TIMEGRP "TN_clk_156m<4>" AREA_GROUP = "CLKAG_clk_156m<4>" ;
+AREA_GROUP "CLKAG_clk_156m<4>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# clk_156m<7> driven by BUFGCTRL_X0Y30
+NET "clk_156m<7>" TNM_NET = "TN_clk_156m<7>" ;
+TIMEGRP "TN_clk_156m<7>" AREA_GROUP = "CLKAG_clk_156m<7>" ;
+AREA_GROUP "CLKAG_clk_156m<7>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# clk_200m driven by BUFGCTRL_X0Y3
+NET "clk_200m" TNM_NET = "TN_clk_200m" ;
+TIMEGRP "TN_clk_200m" AREA_GROUP = "CLKAG_clk_200m" ;
+AREA_GROUP "CLKAG_clk_200m" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# icon_control0<0> driven by BUFGCTRL_X0Y4
+NET "icon_control0<0>" TNM_NET = "TN_icon_control0<0>" ;
+TIMEGRP "TN_icon_control0<0>" AREA_GROUP = "CLKAG_icon_control0<0>" ;
+AREA_GROUP "CLKAG_icon_control0<0>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# clk_156m<0> driven by BUFGCTRL_X0Y26
+NET "clk_156m<0>" TNM_NET = "TN_clk_156m<0>" ;
+TIMEGRP "TN_clk_156m<0>" AREA_GROUP = "CLKAG_clk_156m<0>" ;
+AREA_GROUP "CLKAG_clk_156m<0>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# clk_156m<6> driven by BUFGCTRL_X0Y27
+NET "clk_156m<6>" TNM_NET = "TN_clk_156m<6>" ;
+TIMEGRP "TN_clk_156m<6>" AREA_GROUP = "CLKAG_clk_156m<6>" ;
+AREA_GROUP "CLKAG_clk_156m<6>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# clk_156m<3> driven by BUFGCTRL_X0Y29
+NET "clk_156m<3>" TNM_NET = "TN_clk_156m<3>" ;
+TIMEGRP "TN_clk_156m<3>" AREA_GROUP = "CLKAG_clk_156m<3>" ;
+AREA_GROUP "CLKAG_clk_156m<3>" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
+
+# NOTE: 
+# This report is provided to help reproduce successful clock-region 
+# assignments. The report provides range constraints for all global 
+# clock networks, in a format that is directly usable in ucf files. 
+#
+#END of Global Clock Net Distribution UCF Constraints
+######################################################################################
+
+
+######################################################################################
+GLOBAL CLOCK NET LOADS DISTRIBUTION REPORT:
+
+Number of Global Clock Regions : 8
+Number of Global Clock Networks: 13
+
+Clock Region Assignment: SUCCESSFUL
+
+Clock-Region: <CLOCKREGION_X0Y0> 
+ key resource utilizations (used/available): global-clocks - 6/12 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |   MMCM |     GT |    IOB | ILOGIC | OLOGIC |   MULT |   BUFG |    PS7 |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     60 |      0 |      0 |      0 |      0 |      0 |     40 |      0 |      0 |      0 |      1 |   4000 |  14400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    406 |clk_156m<3>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     50 |clk_156m<4>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    250 |clk_156m<5>
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    348 |clk_156m<6>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    177 |clk_156m<7>
+     11 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   1603 |clk_200m
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     22 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   2834 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y0> 
+ key resource utilizations (used/available): global-clocks - 7/12 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |   MMCM |     GT |    IOB | ILOGIC | OLOGIC |   MULT |   BUFG |    PS7 |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     60 |      0 |      0 |      0 |      0 |      0 |     20 |      0 |      0 |      0 |      1 |   3200 |  10400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     98 |clk_156m<2>
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    100 |clk_156m<3>
+      7 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    484 |clk_156m<4>
+      7 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    321 |clk_156m<5>
+      5 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    184 |clk_156m<6>
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    105 |clk_156m<7>
+     23 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   1104 |clk_200m
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     46 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   2396 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y1> 
+ key resource utilizations (used/available): global-clocks - 9/12 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |   MMCM |     GT |    IOB | ILOGIC | OLOGIC |   MULT |   BUFG |    PS7 |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     60 |      0 |      0 |      0 |      0 |      0 |     40 |     16 |      0 |      0 |      1 |   4000 |   9600 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     29 |clk27m_bufg
+      9 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     36 |    537 |clk_156m<0>
+      8 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    398 |clk_156m<1>
+      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    339 |clk_156m<2>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     26 |clk_156m<5>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |clk_156m<7>
+     23 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   1037 |clk_200m
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     92 |     68 |icon_control0<0>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     69 |u0_aurora_8b10b_gtx1_exdes/init_clk_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     48 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    128 |   2509 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y1> 
+ key resource utilizations (used/available): global-clocks - 11/12 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |   MMCM |     GT |    IOB | ILOGIC | OLOGIC |   MULT |   BUFG |    PS7 |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     60 |      0 |      0 |      0 |      0 |      0 |     20 |      0 |      0 |      0 |      1 |   3200 |  10400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    267 |clk_156m<0>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    228 |clk_156m<1>
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    100 |clk_156m<2>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    123 |clk_156m<3>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    115 |clk_156m<4>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     46 |    220 |clk_156m<5>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    104 |clk_156m<6>
+      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     68 |    615 |clk_156m<7>
+     21 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    629 |clk_200m
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     64 |      0 |icon_control0<0>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |u0_aurora_8b10b_gtx1_exdes/init_clk_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     42 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    178 |   2407 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2> 
+ key resource utilizations (used/available): global-clocks - 8/12 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |   MMCM |     GT |    IOB | ILOGIC | OLOGIC |   MULT |   BUFG |    PS7 |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     60 |      0 |      0 |      0 |      0 |      0 |     40 |     16 |      0 |      0 |      1 |   4000 |   9600 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      5 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    104 |    373 |clk_156m<0>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |     74 |clk_156m<1>
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    118 |clk_156m<2>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |     64 |clk_156m<3>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     86 |    162 |clk_156m<4>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |     67 |clk_156m<6>
+      5 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    111 |clk_200m
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |     12 |icon_control0<0>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    212 |    981 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y2> 
+ key resource utilizations (used/available): global-clocks - 8/12 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |   MMCM |     GT |    IOB | ILOGIC | OLOGIC |   MULT |   BUFG |    PS7 |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     15 |      0 |      0 |      0 |      0 |      0 |     20 |      0 |      0 |      0 |      0 |   2000 |   6000 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |    163 |clk_156m<0>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     36 |     81 |clk_156m<1>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     32 |     38 |clk_156m<3>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     48 |    184 |clk_156m<4>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     28 |    159 |clk_156m<5>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     70 |    253 |clk_156m<6>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |     53 |clk_156m<7>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     10 |    157 |u0_aurora_8b10b_gtx1_exdes/init_clk_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    236 |   1088 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y3> 
+ key resource utilizations (used/available): global-clocks - 5/12 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |   MMCM |     GT |    IOB | ILOGIC | OLOGIC |   MULT |   BUFG |    PS7 |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     60 |      0 |      0 |      0 |      0 |      0 |     40 |      0 |      0 |      0 |      1 |   4000 |  14400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      3 |clk_156m<0>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |     47 |clk_156m<1>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     56 |    203 |clk_156m<2>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     56 |clk_156m<3>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     79 |u0_aurora_8b10b_gtx1_exdes/init_clk_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     66 |    388 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y3> 
+ key resource utilizations (used/available): global-clocks - 5/12 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |   MMCM |     GT |    IOB | ILOGIC | OLOGIC |   MULT |   BUFG |    PS7 |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     30 |      0 |      0 |      0 |      0 |      0 |     20 |      0 |      0 |      0 |      0 |   2400 |   7200 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     12 |     81 |clk_156m<0>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     24 |    128 |clk_156m<1>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     18 |     98 |clk_156m<2>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     38 |    169 |clk_156m<3>
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |     10 |u0_aurora_8b10b_gtx1_exdes/init_clk_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     98 |    486 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+NOTE:
+The above detailed report is the initial placement of the logic after the clock region assignment. The final placement
+may be significantly different because of the various optimization steps which will follow. Specifically, logic blocks
+maybe moved to adjacent clock-regions as long as the "number of clocks per region" constraint is not violated.
+
+
+# END of Global Clock Net Loads Distribution Report:
+######################################################################################
+
+
+Phase 5.30  Global Clock Region Assignment (Checksum:ae1dce50) REAL time: 3 mins 40 secs 
+
+Phase 6.3  Local Placement Optimization
+Phase 6.3  Local Placement Optimization (Checksum:ae1dce50) REAL time: 3 mins 40 secs 
+
+Phase 7.5  Local Placement Optimization
+Phase 7.5  Local Placement Optimization (Checksum:ae1dce50) REAL time: 3 mins 41 secs 
+
+Phase 8.8  Global Placement
+..............................
+...........................................................................................................................................
+...................................................................................................................................................
+.............................................................................................................................................
+Phase 8.8  Global Placement (Checksum:3f8234a5) REAL time: 5 mins 7 secs 
+
+Phase 9.5  Local Placement Optimization
+Phase 9.5  Local Placement Optimization (Checksum:3f8234a5) REAL time: 5 mins 8 secs 
+
+Phase 10.18  Placement Optimization
+Phase 10.18  Placement Optimization (Checksum:2af37521) REAL time: 5 mins 58 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:2af37521) REAL time: 5 mins 58 secs 
+
+Phase 12.34  Placement Validation
+Phase 12.34  Placement Validation (Checksum:2af37521) REAL time: 5 mins 59 secs 
+
+Total REAL time to Placer completion: 6 mins 
+Total CPU  time to Placer completion: 5 mins 41 secs 
+Running physical synthesis...
+............
+Physical synthesis completed.
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><15>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><14>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><13>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><12>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><11>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><10>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><9>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><8>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><7>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><6>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><5>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><4>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><3>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><2>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><1>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out7_in<0><0>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><15>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><14>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><13>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><12>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><11>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><10>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><9>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><8>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><7>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><6>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><5>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><4>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><3>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><2>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><1>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out4_in<0><0>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><15>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><14>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><13>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><12>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><11>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><10>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><9>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><8>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><7>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><6>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><5>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><4>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><3>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><2>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><1>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out1_in<0><0>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><15>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><14>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><13>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><12>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><11>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><10>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><9>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><8>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><7>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><6>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><5>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><4>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><3>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><2>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><1>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out3_in<0><0>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><15>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><14>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><13>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><12>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><11>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><10>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><9>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><8>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><7>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><6>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><5>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><4>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><3>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><2>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><1>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out5_in<0><0>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><15>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><14>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><13>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><12>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><11>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><10>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><9>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><8>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><7>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><6>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><5>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><4>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><3>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><2>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><1>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out2_in<0><0>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><15>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><14>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><13>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><12>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><11>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><10>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><9>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><8>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><7>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><6>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><5>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><4>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><3>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><2>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><1>> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <u0_pkt_tm/ram_dout_out6_in<0><0>> is incomplete. The signal does not drive any
+   load pins in the design.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  115
+Slice Logic Utilization:
+  Number of Slice Registers:                13,111 out of  82,000   15%
+    Number used as Flip Flops:              13,110
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                     10,198 out of  41,000   24%
+    Number used as logic:                    9,019 out of  41,000   21%
+      Number using O6 output only:           6,178
+      Number using O5 output only:             550
+      Number using O5 and O6:                2,291
+      Number used as ROM:                        0
+    Number used as Memory:                     446 out of  13,400    3%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           446
+        Number using O6 output only:           418
+        Number using O5 output only:             1
+        Number using O5 and O6:                 27
+    Number used exclusively as route-thrus:    733
+      Number with same-slice register load:    682
+      Number with same-slice carry load:        51
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 5,228 out of  10,250   51%
+  Number of LUT Flip Flop pairs used:       14,213
+    Number with an unused Flip Flop:         3,356 out of  14,213   23%
+    Number with an unused LUT:               4,015 out of  14,213   28%
+    Number of fully used LUT-FF pairs:       6,842 out of  14,213   48%
+    Number of unique control sets:           1,158
+    Number of slice register sites lost
+      to control set restrictions:           4,848 out of  82,000    5%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        40 out of     300   13%
+    Number of LOCed IOBs:                       40 out of      40  100%
+    Number of bonded IPADs:                     18
+      Number of LOCed IPADs:                     2 out of      18   11%
+    Number of bonded OPADs:                     16
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                 21 out of     135   15%
+    Number using RAMB36E1 only:                 21
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                 64 out of     270   23%
+    Number using RAMB18E1 only:                 64
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                     13 out of      32   40%
+    Number used as BUFGs:                       13
+    Number used as BUFGCTRLs:                    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     300    0%
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     300    0%
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0 out of     100    0%
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        0 out of     300    0%
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      24    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      24    0%
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHCEs:                             0 out of      96    0%
+  Number of BUFRs:                               0 out of      24    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of     240    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE2_CHANNELs:                      8 out of       8  100%
+    Number of LOCed GTXE2_CHANNELs:              8 out of       8  100%
+  Number of GTXE2_COMMONs:                       2 out of       2  100%
+  Number of IBUFDS_GTE2s:                        1 out of       4   25%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of       6    0%
+  Number of IN_FIFOs:                            0 out of      24    0%
+  Number of MMCME2_ADVs:                         0 out of       6    0%
+  Number of OUT_FIFOs:                           0 out of      24    0%
+  Number of PCIE_2_1s:                           0 out of       1    0%
+  Number of PHASER_REFs:                         0 out of       6    0%
+  Number of PHY_CONTROLs:                        0 out of       6    0%
+  Number of PLLE2_ADVs:                          1 out of       6   16%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               0 out of       1    0%
+
+  Number of RPM macros:            9
+Average Fanout of Non-Clock Nets:                3.28
+
+Peak Memory Usage:  1114 MB
+Total REAL time to MAP completion:  6 mins 35 secs 
+Total CPU time to MAP completion:   6 mins 15 secs 
+
+Mapping completed.
+See MAP report file "mainboard_top_map.mrp" for details.

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\huangrui\Desktop\0530\nCAS1000_FPGA\masterboard_fpga\par\mainboard_top\impact.xsl
+OUTFILE=C:\Users\huangrui\Desktop\0530\nCAS1000_FPGA\masterboard_fpga\par\mainboard_top\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=C:\Users\huangrui\Desktop\0530\nCAS1000_FPGA\masterboard_fpga\par\mainboard_top
+LICENSE=iMPACT
+USER_INFO=iMPACT
